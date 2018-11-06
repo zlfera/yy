@@ -1,0 +1,10 @@
+2018-11-06 09:06:45.400 CST [24351] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2018-11-06 09:06:45.408 CST [24351] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2018-11-06 09:06:45.460 CST [24355] LOG:  database system was interrupted; last known up at 2018-11-06 07:26:00 CST
+2018-11-06 09:06:45.822 CST [24355] LOG:  database system was not properly shut down; automatic recovery in progress
+2018-11-06 09:06:45.837 CST [24355] LOG:  redo starts at 0/186BE58
+2018-11-06 09:06:45.837 CST [24355] LOG:  invalid record length at 0/186BF38: wanted 24, got 0
+2018-11-06 09:06:45.837 CST [24355] LOG:  redo done at 0/186BF00
+2018-11-06 09:06:45.876 CST [24351] LOG:  database system is ready to accept connections
+2018-11-06 09:06:50.970 CST [24421] ERROR:  database "zz_dev" already exists
+2018-11-06 09:06:50.970 CST [24421] STATEMENT:  CREATE DATABASE "zz_dev" ENCODING 'UTF8'
