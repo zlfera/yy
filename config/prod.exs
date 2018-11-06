@@ -11,8 +11,15 @@ use Mix.Config
 # before starting your production server.
 config :zz, ZzWeb.Endpoint,
   http: [:inet6, port: System.get_env("PORT") || 4000],
+  secret_key_base: "${SECRET_KEY_BASE}",
+  server: true,
   url: [host: "example.com", port: 80],
   cache_static_manifest: "priv/static/cache_manifest.json"
+
+config :zz, Zz.Repo,
+  url: "${DATABASE_URL}",
+  ssl: true,
+  pool_size: 1
 
 # Do not print debug messages in production
 config :logger, level: :info
@@ -68,4 +75,4 @@ config :logger, level: :info
 
 # Finally import the config/prod.secret.exs which should be versioned
 # separately.
-import_config "prod.secret.exs"
+# import_config "prod.secret.exs"
