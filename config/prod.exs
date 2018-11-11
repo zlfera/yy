@@ -19,7 +19,7 @@ config :zz, ZzWeb.Endpoint,
 config :zz, Zz.Repo,
   url: "${DATABASE_URL}",
   ssl: true,
-  pool_size: 1
+  pool_size: 2
 
 # Do not print debug messages in production
 config :logger, level: :info
