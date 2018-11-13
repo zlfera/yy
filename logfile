@@ -24,3 +24,51 @@
 2018-11-07 08:25:38.405 CST [9692] LOG:  invalid record length at 0/186C0A0: wanted 24, got 0
 2018-11-07 08:25:38.405 CST [9692] LOG:  redo done at 0/186C068
 2018-11-07 08:25:38.469 CST [9688] LOG:  database system is ready to accept connections
+2018-11-13 06:33:47.799 CST [25208] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2018-11-13 06:33:47.804 CST [25208] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2018-11-13 06:33:47.879 CST [25212] LOG:  database system was interrupted; last known up at 2018-11-12 18:33:05 CST
+2018-11-13 06:33:48.460 CST [25212] LOG:  database system was not properly shut down; automatic recovery in progress
+2018-11-13 06:33:48.463 CST [25212] LOG:  redo starts at 0/189D7C8
+2018-11-13 06:33:48.463 CST [25212] LOG:  invalid record length at 0/189D800: wanted 24, got 0
+2018-11-13 06:33:48.463 CST [25212] LOG:  redo done at 0/189D7C8
+2018-11-13 06:33:48.483 CST [25208] LOG:  database system is ready to accept connections
+2018-11-13 06:53:26.230 CST [25289] LOG:  could not receive data from client: Software caused connection abort
+2018-11-13 06:53:26.230 CST [25283] LOG:  could not receive data from client: Connection reset by peer
+2018-11-13 06:53:26.230 CST [25279] LOG:  could not receive data from client: Connection reset by peer
+2018-11-13 06:53:26.230 CST [25285] LOG:  could not receive data from client: Connection reset by peer
+2018-11-13 06:53:26.230 CST [25281] LOG:  could not receive data from client: Software caused connection abort
+2018-11-13 06:53:26.230 CST [25287] LOG:  could not receive data from client: Connection reset by peer
+2018-11-13 06:53:26.230 CST [25284] LOG:  could not receive data from client: Connection reset by peer
+2018-11-13 06:53:26.231 CST [25288] LOG:  could not receive data from client: Connection reset by peer
+2018-11-13 06:53:26.232 CST [25286] LOG:  could not receive data from client: Connection reset by peer
+2018-11-13 06:53:26.233 CST [25280] LOG:  could not receive data from client: Software caused connection abort
+2018-11-13 06:53:27.857 CST [1203] LOG:  PID 25286 in cancel request did not match any process
+2018-11-13 06:53:29.816 CST [1228] LOG:  PID 25287 in cancel request did not match any process
+2018-11-13 06:53:31.820 CST [1285] LOG:  PID 25289 in cancel request did not match any process
+2018-11-13 06:53:33.813 CST [1487] LOG:  PID 25279 in cancel request did not match any process
+2018-11-13 06:53:35.816 CST [1523] LOG:  PID 25281 in cancel request did not match any process
+2018-11-13 06:53:37.819 CST [1529] LOG:  PID 25284 in cancel request did not match any process
+2018-11-13 06:53:39.826 CST [1546] LOG:  PID 25283 in cancel request did not match any process
+2018-11-13 06:53:41.818 CST [1594] LOG:  PID 25285 in cancel request did not match any process
+2018-11-13 06:53:43.823 CST [1606] LOG:  PID 25280 in cancel request did not match any process
+2018-11-13 06:53:45.823 CST [1639] LOG:  PID 25288 in cancel request did not match any process
+2018-11-13 06:56:00.257 CST [1489] LOG:  could not receive data from client: Software caused connection abort
+2018-11-13 06:56:00.257 CST [1234] LOG:  could not receive data from client: Connection reset by peer
+2018-11-13 06:56:00.258 CST [1649] LOG:  could not receive data from client: Connection reset by peer
+2018-11-13 06:56:00.258 CST [1205] LOG:  could not receive data from client: Connection reset by peer
+2018-11-13 06:56:00.258 CST [1608] LOG:  could not receive data from client: Connection reset by peer
+2018-11-13 06:56:00.258 CST [1525] LOG:  could not receive data from client: Connection reset by peer
+2018-11-13 06:56:00.258 CST [1531] LOG:  could not receive data from client: Connection reset by peer
+2018-11-13 06:56:00.259 CST [1548] LOG:  could not receive data from client: Software caused connection abort
+2018-11-13 06:56:00.261 CST [1294] LOG:  could not receive data from client: Software caused connection abort
+2018-11-13 06:56:00.262 CST [1602] LOG:  could not receive data from client: Software caused connection abort
+2018-11-13 06:56:01.819 CST [2838] LOG:  PID 1602 in cancel request did not match any process
+2018-11-13 06:56:03.820 CST [2868] LOG:  PID 1608 in cancel request did not match any process
+2018-11-13 06:56:05.820 CST [2892] LOG:  PID 1649 in cancel request did not match any process
+2018-11-13 06:56:07.815 CST [2918] LOG:  PID 1205 in cancel request did not match any process
+2018-11-13 06:56:09.819 CST [2929] LOG:  PID 1234 in cancel request did not match any process
+2018-11-13 06:56:11.820 CST [2934] LOG:  PID 1294 in cancel request did not match any process
+2018-11-13 06:56:13.817 CST [3017] LOG:  PID 1489 in cancel request did not match any process
+2018-11-13 06:56:15.816 CST [3030] LOG:  PID 1525 in cancel request did not match any process
+2018-11-13 06:56:17.821 CST [3035] LOG:  PID 1531 in cancel request did not match any process
+2018-11-13 06:56:19.819 CST [3040] LOG:  PID 1548 in cancel request did not match any process
