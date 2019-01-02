@@ -72,3 +72,13 @@
 2018-11-13 06:56:15.816 CST [3030] LOG:  PID 1525 in cancel request did not match any process
 2018-11-13 06:56:17.821 CST [3035] LOG:  PID 1531 in cancel request did not match any process
 2018-11-13 06:56:19.819 CST [3040] LOG:  PID 1548 in cancel request did not match any process
+2019-01-02 17:52:27.093 CST [29401] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-01-02 17:52:27.099 CST [29401] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2019-01-02 17:52:27.196 CST [29405] LOG:  database system was interrupted; last known up at 2019-01-02 16:05:40 CST
+2019-01-02 17:52:27.685 CST [29405] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-01-02 17:52:27.691 CST [29405] LOG:  redo starts at 0/AD489D8
+2019-01-02 17:52:27.691 CST [29405] LOG:  invalid record length at 0/AD48A10: wanted 24, got 0
+2019-01-02 17:52:27.691 CST [29405] LOG:  redo done at 0/AD489D8
+2019-01-02 17:52:27.737 CST [29401] LOG:  database system is ready to accept connections
+2019-01-02 18:02:50.082 CST [3941] FATAL:  lock file "postmaster.pid" already exists
+2019-01-02 18:02:50.082 CST [3941] HINT:  Is another postmaster (PID 29401) running in data directory "/data/data/com.termux/files/home/data"?
