@@ -3,9 +3,9 @@ defmodule ZzWeb.ErrorView do
 
   # If you want to customize a particular status code
   # for a certain format, you may uncomment below.
-  # def render("500.html", _assigns) do
-  #   "Internal Server Error"
-  # end
+  def render("500.html", _assigns) do
+    "网站正在开发中,联系电话：13581243756"
+  end
 
   # By default, Phoenix returns the status message from
   # the template name. For example, "404.html" becomes
