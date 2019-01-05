@@ -7,6 +7,10 @@ defmodule ZzWeb.ErrorView do
     "网站正在开发中,联系电话：13581243756"
   end
 
+  def render("404.html", _assigns) do
+    "网站正在开发中,联系电话：13581243756"
+  end
+
   # By default, Phoenix returns the status message from
   # the template name. For example, "404.html" becomes
   # "Not Found".
