@@ -1,3 +1,25 @@
 /* This file is for your main application css. */
 
-@import "./user.css";
+/*@import "./user.css";*/
+@import "normalize.css";
+/*@import "./grain.css";
+@import "./home.css";*/
+@import "./page.css";
+* {
+  border-sizing: border-box;
+}
+body{
+  width: max-content;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+main{
+  margin: 0 20px;
+  footer {
+    p {
+      text-align: center;
+      font-size: 30px;
+    }
+  }
+}
