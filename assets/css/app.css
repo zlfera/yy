@@ -9,6 +9,7 @@
   border-sizing: border-box;
 }
 body{
+  margin: auto;
   width: max-content;
   background-repeat: no-repeat;
   background-size: cover;

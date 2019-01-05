@@ -21,7 +21,8 @@ var _hmt = _hmt || [];
       <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
       <%= render @view_module, @view_template, assigns %>
     <footer>
-      <p>copyright 长虹米厂 <%= DateTime.utc_now.year %></p>
+      
+      <p>copyright <a href="https://www.youmile.vip/index" target="_blank">长虹米厂</a> <%= DateTime.utc_now.year %></p>
     </footer>
     </main>
     <script type="text/javascript" src="<%= Routes.static_path(@conn, "/js/app.js") %>"></script>

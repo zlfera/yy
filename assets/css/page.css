@@ -1,23 +1,28 @@
 #page {
   margin: 150px 0;
   form {
-    margin: 0 0 30px 0;
+    margin: 0 0 60px 0;
     table {margin: auto;
     }
   }
-  nav {
-    text-align: center;
-    font-size: 35px;
-    a {                                                              text-align: left;
-      display: inline-block;
-      width: 185px;
-      margin: 0 0 30px 0;
-      text-decoration: none;
+  header {
+    border-radius: 8px;
+    box-shadow: #666 0px 0px 10px;
+    background: rgb(245,245,245,0.9);
+    nav {
+      text-align: center;
+      font-size: 35px;
+      a {                                                              text-align: left;
+        display: inline-block;
+        width: 185px;
+        margin: 0 0 30px 0;
+        text-decoration: none;
+      }
+      a:link {color:green;}
+      a:visited {color:black;}
+      a:hover {color:#FF00FF;}
+      a:active {color:blue;}
     }
-    a:link {color:green;}
-    a:visited {color:black;}
-    a:hover {color:#FF00FF;}
-    a:active {color:blue;}
+    #a_red,#q_red,#w_red {color:red;}
   }
-  #a_red,#q_red,#w_red {color:red;}
 }
