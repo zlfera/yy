@@ -27,6 +27,10 @@ var _hmt = _hmt || [];
       <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
       <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
       <%= render @view_module, @view_template, assigns %>
+      <section>
+        <p><%= get_text().content %></p>
+        <p><%= get_text().text_authors %></p>
+      </section>
     <footer>
       
       <p>copyright <a href="https://www.youmile.vip/index" target="_blank">长虹米厂</a> <%= DateTime.utc_now.year %></p>
