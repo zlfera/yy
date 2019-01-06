@@ -14,7 +14,7 @@ var _hmt = _hmt || [];
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>黄梅县长虹米厂</title>
     <link rel="stylesheet" href="<%= Routes.static_path(@conn, "/css/app.css") %>"/>
-    <script type="text/javascript" src="http://cdn.webfont.youziku.com/wwwroot/js/wf/youziku.api.min.js"></script>
+    <script type="text/javascript" src="https://cdn.webfont.youziku.com/wwwroot/js/wf/youziku.api.min.js"></script>
 <script type="text/javascript">
    $youziku.load("body", "e45dd28bfe694cef92959676e7309d53", "stfzjjgangbikaishu");
    /*$youziku.load("#id1,.class1,h1", "e45dd28bfe694cef92959676e7309d53", "stfzjjgangbikaishu");*/
