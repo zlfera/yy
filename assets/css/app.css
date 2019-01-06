@@ -21,7 +21,6 @@ main{
     p {
       margin: auto;
       width: 600px;
-      text-align: center;
       font-size: 27px;
       small {
         display: block;
