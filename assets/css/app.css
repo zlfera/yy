@@ -20,9 +20,13 @@ main{
   section {
     p {
       margin: auto;
-      width: 800px;
+      width: 600px;
       text-align: center;
       font-size: 27px;
+      small {
+        display: block;
+        text-align: right;
+      }
     }
   }
   footer {
