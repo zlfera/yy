@@ -28,7 +28,7 @@ var _hmt = _hmt || [];
       <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
       <%= render @view_module, @view_template, assigns %>
       <section>
-        <p><%= get_text().content %><cite>--<%= get_text().text_authors %></cite></p>
+        <p><%= get_text().content %><small>--<%= get_text().text_authors %></small></p>
       </section>
     <footer>
       
