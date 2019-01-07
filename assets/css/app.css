@@ -21,7 +21,7 @@ main{
     p {
       margin: auto;
       width: 600px;
-      font-size: 27px;
+      font-size: 22px;
       small {
         display: block;
         text-align: right;
@@ -32,7 +32,7 @@ main{
 footer {
   p {
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
     a {
       text-decoration: none;
     }
