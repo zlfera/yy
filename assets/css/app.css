@@ -28,10 +28,10 @@ main{
       }
     }
   }
-  footer {
-    p {
-      text-align: center;
-      font-size: 30px;
-    }
+}
+footer {
+  p {
+    text-align: center;
+    font-size: 30px;
   }
 }
