@@ -10,7 +10,7 @@
 }
 body{
   margin: auto;
-  width: max-content;
+  width: auto;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
