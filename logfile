@@ -126,3 +126,11 @@
 2019-01-08 13:58:44.887 CST [14482] LOG:  could not receive data from client: Connection reset by peer
 2019-01-08 13:58:44.888 CST [14475] LOG:  could not receive data from client: Software caused connection abort
 2019-01-08 13:58:44.888 CST [14477] LOG:  could not receive data from client: Software caused connection abort
+2019-01-08 15:19:12.547 CST [31865] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-01-08 15:19:12.554 CST [31865] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2019-01-08 15:19:12.643 CST [31869] LOG:  database system was interrupted; last known up at 2019-01-08 12:49:19 CST
+2019-01-08 15:19:13.089 CST [31869] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-01-08 15:19:13.093 CST [31869] LOG:  redo starts at 0/ADD6660
+2019-01-08 15:19:13.093 CST [31869] LOG:  invalid record length at 0/ADD6698: wanted 24, got 0
+2019-01-08 15:19:13.093 CST [31869] LOG:  redo done at 0/ADD6660
+2019-01-08 15:19:13.116 CST [31865] LOG:  database system is ready to accept connections
