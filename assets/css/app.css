@@ -6,11 +6,9 @@
 @import "./home.css";*/
 @import "./page.css";
 * {
-  border-sizing: border-box;
+  box-sizing: border-box;
 }
 body{
-  margin: auto;
-  width: auto;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
