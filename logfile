@@ -116,3 +116,13 @@
 2019-01-08 12:49:19.519 CST [14399] LOG:  invalid record length at 0/ADD65F0: wanted 24, got 0
 2019-01-08 12:49:19.519 CST [14399] LOG:  redo done at 0/ADD65B8
 2019-01-08 12:49:19.567 CST [14395] LOG:  database system is ready to accept connections
+2019-01-08 13:58:44.886 CST [14480] LOG:  could not receive data from client: Software caused connection abort
+2019-01-08 13:58:44.886 CST [14478] LOG:  could not receive data from client: Software caused connection abort
+2019-01-08 13:58:44.886 CST [14474] LOG:  could not receive data from client: Connection reset by peer
+2019-01-08 13:58:44.886 CST [14481] LOG:  could not receive data from client: Connection reset by peer
+2019-01-08 13:58:44.887 CST [14479] LOG:  could not receive data from client: Connection reset by peer
+2019-01-08 13:58:44.887 CST [14476] LOG:  could not receive data from client: Software caused connection abort
+2019-01-08 13:58:44.887 CST [14473] LOG:  could not receive data from client: Connection reset by peer
+2019-01-08 13:58:44.887 CST [14482] LOG:  could not receive data from client: Connection reset by peer
+2019-01-08 13:58:44.888 CST [14475] LOG:  could not receive data from client: Software caused connection abort
+2019-01-08 13:58:44.888 CST [14477] LOG:  could not receive data from client: Software caused connection abort
