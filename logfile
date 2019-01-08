@@ -150,3 +150,5 @@
 2019-01-08 20:36:04.449 CST [26530] LOG:  invalid record length at 0/ADD67E8: wanted 24, got 0
 2019-01-08 20:36:04.449 CST [26530] LOG:  redo done at 0/ADD67B0
 2019-01-08 20:36:04.468 CST [26526] LOG:  database system is ready to accept connections
+2019-01-08 21:24:50.330 CST [32431] FATAL:  lock file "postmaster.pid" already exists
+2019-01-08 21:24:50.330 CST [32431] HINT:  Is another postmaster (PID 26526) running in data directory "/data/data/com.termux/files/home/data"?
