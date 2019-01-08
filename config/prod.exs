@@ -10,10 +10,10 @@ use Mix.Config
 # which you should run after static files are built and
 # before starting your production server.
 config :zz, ZzWeb.Endpoint,
-  http: [:inet6, port: System.get_env("PORT") || 4000],
+  http: [:inet6, port: System.get_env("PORT") || 5000, compress: true],
   secret_key_base: "${SECRET_KEY_BASE}",
   server: true,
-  url: [host: "example.com", port: 80],
+  url: [host: "https://www.youmile.vip", port: 80],
   cache_static_manifest: "priv/static/cache_manifest.json"
 
 config :zz, Zz.Repo,
