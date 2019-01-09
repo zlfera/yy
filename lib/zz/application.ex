@@ -11,7 +11,8 @@ defmodule Zz.Application do
       # Start the Ecto repository
       Zz.Repo,
       # Start the endpoint when the application starts
-      ZzWeb.Endpoint
+      ZzWeb.Endpoint,
+      Zz.Scheduler
       # Starts a worker by calling: Zz.Worker.start_link(arg)
       # {Zz.Worker, arg},
     ]
