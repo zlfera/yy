@@ -45,7 +45,8 @@ defmodule Zz.MixProject do
       {:httpoison, "~> 1.5"},
       {:plug_cowboy, "~> 2.0"},
       {:distillery, "~> 2.0", runtime: false},
-      {:floki, "~> 0.20.4"}
+      {:floki, "~> 0.20.4"},
+      {:quantum, "~> 2.3"}
     ]
   end
 
