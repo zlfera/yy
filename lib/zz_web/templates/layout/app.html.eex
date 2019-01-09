@@ -21,7 +21,7 @@ var _hmt = _hmt || [];
    $youziku.draw();
 </script> -->
   </head>
-  <body style="background-image: <%= Routes.static_path(@conn, "/static/images/background.jpg") %>">
+  <body style="<%= get_img() %>">
     <main role="main" class="container">
       <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
       <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
