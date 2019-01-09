@@ -152,3 +152,27 @@
 2019-01-08 20:36:04.468 CST [26526] LOG:  database system is ready to accept connections
 2019-01-08 21:24:50.330 CST [32431] FATAL:  lock file "postmaster.pid" already exists
 2019-01-08 21:24:50.330 CST [32431] HINT:  Is another postmaster (PID 26526) running in data directory "/data/data/com.termux/files/home/data"?
+2019-01-09 08:26:58.123 CST [16160] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-01-09 08:26:58.128 CST [16160] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2019-01-09 08:26:58.205 CST [16164] LOG:  database system was interrupted; last known up at 2019-01-08 21:33:29 CST
+2019-01-09 08:26:58.734 CST [16164] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-01-09 08:26:58.737 CST [16164] LOG:  redo starts at 0/ADD6900
+2019-01-09 08:26:58.737 CST [16164] LOG:  invalid record length at 0/ADD6938: wanted 24, got 0
+2019-01-09 08:26:58.737 CST [16164] LOG:  redo done at 0/ADD6900
+2019-01-09 08:26:58.780 CST [16160] LOG:  database system is ready to accept connections
+2019-01-09 09:04:26.700 CST [22155] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-01-09 09:04:26.707 CST [22155] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2019-01-09 09:04:26.784 CST [22159] LOG:  database system was interrupted; last known up at 2019-01-09 08:26:58 CST
+2019-01-09 09:04:27.372 CST [22159] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-01-09 09:04:27.378 CST [22159] LOG:  redo starts at 0/ADD69A8
+2019-01-09 09:04:27.378 CST [22159] LOG:  invalid record length at 0/ADD69E0: wanted 24, got 0
+2019-01-09 09:04:27.378 CST [22159] LOG:  redo done at 0/ADD69A8
+2019-01-09 09:04:27.413 CST [22155] LOG:  database system is ready to accept connections
+2019-01-09 11:12:45.483 CST [3873] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-01-09 11:12:45.487 CST [3873] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2019-01-09 11:12:45.559 CST [3879] LOG:  database system was interrupted; last known up at 2019-01-09 09:47:16 CST
+2019-01-09 11:12:46.123 CST [3879] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-01-09 11:12:46.130 CST [3879] LOG:  redo starts at 0/ADD6AF8
+2019-01-09 11:12:46.130 CST [3879] LOG:  invalid record length at 0/ADD6B30: wanted 24, got 0
+2019-01-09 11:12:46.130 CST [3879] LOG:  redo done at 0/ADD6AF8
+2019-01-09 11:12:46.503 CST [3873] LOG:  database system is ready to accept connections
