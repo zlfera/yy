@@ -7,6 +7,6 @@ defmodule Zz.GetImage do
     image = HTTPoison.get!(i).body
     File.write("./assets/static/images/background_image.jpg", image)
     html = HTTPoison.get!("www.youmile.vip").body
-    File.write("./lib/zz_web/templates/static/index.html", html)
+    File.write("./lib/zz_web/templates/staticc/index.html", html)
   end
 end
