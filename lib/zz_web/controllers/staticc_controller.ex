@@ -4,6 +4,6 @@ defmodule ZzWeb.StaticcController do
   def index(conn, _params) do
     conn
     |> put_resp_header("content-type", "text/html; charset=utf-8")
-    |> send_file(200, "./lib/zz_web/templates/staticc/index.html")
+    |> send_file(200, "./priv/static/index.html")
   end
 end
