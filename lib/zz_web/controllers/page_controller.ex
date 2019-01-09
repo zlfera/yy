@@ -3,7 +3,7 @@ defmodule ZzWeb.PageController do
 
   def index(conn, _params) do
     conn
-    |> Plug.Conn.put_resp_header("cache_control", "max-age=3600, private, must-revalidate")
+    |> Plug.Conn.put_resp_header("Cache-Control", "max-age=3600, public")
     |> render("index.html")
   end
 end

@@ -176,3 +176,31 @@
 2019-01-09 11:12:46.130 CST [3879] LOG:  invalid record length at 0/ADD6B30: wanted 24, got 0
 2019-01-09 11:12:46.130 CST [3879] LOG:  redo done at 0/ADD6AF8
 2019-01-09 11:12:46.503 CST [3873] LOG:  database system is ready to accept connections
+2019-01-09 11:32:15.342 CST [5813] LOG:  could not receive data from client: Connection reset by peer
+2019-01-09 11:32:15.342 CST [5816] LOG:  could not receive data from client: Software caused connection abort
+2019-01-09 11:32:15.342 CST [5819] LOG:  could not receive data from client: Software caused connection abort
+2019-01-09 11:32:15.342 CST [5814] LOG:  could not receive data from client: Connection reset by peer
+2019-01-09 11:32:15.342 CST [5811] LOG:  could not receive data from client: Connection reset by peer
+2019-01-09 11:32:15.342 CST [5818] LOG:  could not receive data from client: Connection reset by peer
+2019-01-09 11:32:15.342 CST [5810] LOG:  could not receive data from client: Software caused connection abort
+2019-01-09 11:32:15.342 CST [5815] LOG:  could not receive data from client: Connection reset by peer
+2019-01-09 11:32:15.342 CST [5817] LOG:  could not receive data from client: Connection reset by peer
+2019-01-09 11:32:15.342 CST [5812] LOG:  could not receive data from client: Connection reset by peer
+2019-01-09 11:32:16.356 CST [6360] LOG:  PID 5818 in cancel request did not match any process
+2019-01-09 11:32:18.334 CST [6393] LOG:  PID 5817 in cancel request did not match any process
+2019-01-09 11:32:20.332 CST [6428] LOG:  PID 5810 in cancel request did not match any process
+2019-01-09 11:32:22.333 CST [6438] LOG:  PID 5816 in cancel request did not match any process
+2019-01-09 11:32:24.333 CST [6462] LOG:  PID 5815 in cancel request did not match any process
+2019-01-09 11:32:26.332 CST [6467] LOG:  PID 5813 in cancel request did not match any process
+2019-01-09 11:32:28.332 CST [6473] LOG:  PID 5819 in cancel request did not match any process
+2019-01-09 11:32:30.331 CST [6481] LOG:  PID 5812 in cancel request did not match any process
+2019-01-09 11:32:32.333 CST [6488] LOG:  PID 5814 in cancel request did not match any process
+2019-01-09 11:32:34.333 CST [6493] LOG:  PID 5811 in cancel request did not match any process
+2019-01-09 13:15:32.329 CST [22669] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-01-09 13:15:32.333 CST [22669] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2019-01-09 13:15:32.409 CST [22673] LOG:  database system was interrupted; last known up at 2019-01-09 11:12:46 CST
+2019-01-09 13:15:32.869 CST [22673] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-01-09 13:15:32.872 CST [22673] LOG:  redo starts at 0/ADD6BA0
+2019-01-09 13:15:32.872 CST [22673] LOG:  invalid record length at 0/ADD6BD8: wanted 24, got 0
+2019-01-09 13:15:32.872 CST [22673] LOG:  redo done at 0/ADD6BA0
+2019-01-09 13:15:32.922 CST [22669] LOG:  database system is ready to accept connections
