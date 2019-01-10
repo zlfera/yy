@@ -11,13 +11,15 @@ use Mix.Config
 # before starting your production server.
 config :zz, ZzWeb.Endpoint,
   http: [:inet6, port: System.get_env("PORT") || 4000],
-  secret_key_base: "${SECRET_KEY_BASE}",
+  # secret_key_base: "${SECRET_KEY_BASE}",
+  secret_key_base: Map.fetch!(System.get_env(), "SECRET_KEYBASE"),
   server: true,
   url: [host: "https://www.youmile.vip", port: 80],
   cache_static_manifest: "priv/static/cache_manifest.json"
 
 config :zz, Zz.Repo,
-  url: "${DATABASE_URL}",
+  # url: "${DATABASE_URL}",
+  url: System.get_env("DATABASE_URL"),
   ssl: true,
   pool_size: 2
 
