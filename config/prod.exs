@@ -12,7 +12,7 @@ use Mix.Config
 config :zz, ZzWeb.Endpoint,
   http: [:inet6, port: System.get_env("PORT") || 4000],
   # secret_key_base: "${SECRET_KEY_BASE}",
-  secret_key_base: Map.fetch!(System.get_env(), "SECRET_KEYBASE"),
+  secret_key_base: System.get_env("SECRET_KEYBASE"),
   server: true,
   url: [host: "https://www.youmile.vip", port: 80],
   cache_static_manifest: "priv/static/cache_manifest.json"
