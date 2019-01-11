@@ -4,7 +4,8 @@ defmodule ZzWeb.PageController do
   def index(conn, _params) do
     conn
     # |> put_resp_header("cache-control", "max-age=3600, public")
-    # |> render("index.html")
-    |> redirect(to: "/index.html")
+    |> render("index.html")
+
+    # |> redirect(to: "index.html")
   end
 end
