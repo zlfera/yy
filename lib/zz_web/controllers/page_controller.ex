@@ -7,8 +7,18 @@ defmodule ZzWeb.PageController do
   end
 
   def root(conn, _params) do
-    conn
-    |> put_status(:moved_permanently)
-    |> redirect(to: "/index.html")
+    e = File.read!("./priv/static/background_image.jpg") |> String.length()
+    etag = ~s[W/"#{e |> :erlang.phash2() |> Integer.to_string(16)}"]
+
+    conn =
+      conn
+      |> put_resp_header("etag", etag)
+      |> put_status(:moved_permanently)
+
+    if etag in get_req_header(conn, "if-none-match") do
+      send_resp(304)
+    else
+      conn |> redirect(to: "/index.html")
+    end
   end
 end
