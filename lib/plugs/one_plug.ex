@@ -4,6 +4,6 @@ defmodule Plugs.OnePlug do
 
   def call(conn, _opts) do
     conn
-    |> put_resp_header("cache-control", "max-age=3600, public")
+    |> put_resp_header("strict-transport-security:", "max-age=31536000; includeSubDomains")
   end
 end
