@@ -3,6 +3,6 @@ defmodule ZzWeb.LayoutView do
 
   def get_text do
     url = "https://www.youmile.vip/index.html" |> HTTPoison.get!()
-    Jason.encode!(url.body)
+    Jason.decode!(url.body)
   end
 end
