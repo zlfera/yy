@@ -1,0 +1,2 @@
+2019-01-12 06:33:03.725 CST [23009] FATAL:  lock file "postmaster.pid" already exists
+2019-01-12 06:33:03.725 CST [23009] HINT:  Is another postmaster (PID 17690) running in data directory "/data/data/com.termux/files/home/data"?
