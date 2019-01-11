@@ -12,7 +12,8 @@ defmodule ZzWeb.PageController do
 
     conn =
       conn
-      |> put_resp_header("etag", etag)
+      |> put_resp_header("Etag", etag)
+      |> put_resp_header("cache-control", "public")
 
     # |> put_status(:moved_permanently)
 
