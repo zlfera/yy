@@ -18,7 +18,9 @@ defmodule ZzWeb.PageController do
     # |> put_status(:moved_permanently)
 
     if etag in get_req_header(conn, "if-none-match") do
-      send_resp(304)
+      conn
+      |> put_status(304)
+      |> render(:index)
     else
       conn |> render("index.html")
     end
