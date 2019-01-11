@@ -98,3 +98,15 @@
 2019-01-11 17:52:19.059 CST [9807] LOG:  invalid record length at 0/ADD7D90: wanted 24, got 0
 2019-01-11 17:52:19.059 CST [9807] LOG:  redo done at 0/ADD7D58
 2019-01-11 17:52:19.147 CST [9803] LOG:  database system is ready to accept connections
+2019-01-11 19:42:44.860 CST [18861] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-01-11 19:42:44.866 CST [18861] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2019-01-11 19:42:44.958 CST [18865] LOG:  database system was interrupted; last known up at 2019-01-11 17:52:19 CST
+2019-01-11 19:42:45.418 CST [18865] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-01-11 19:42:45.421 CST [18865] LOG:  redo starts at 0/ADD7E00
+2019-01-11 19:42:45.421 CST [18865] LOG:  invalid record length at 0/ADD7E38: wanted 24, got 0
+2019-01-11 19:42:45.421 CST [18865] LOG:  redo done at 0/ADD7E00
+2019-01-11 19:42:45.448 CST [18861] LOG:  database system is ready to accept connections
+2019-01-11 20:13:00.564 CST [22173] FATAL:  lock file "postmaster.pid" already exists
+2019-01-11 20:13:00.564 CST [22173] HINT:  Is another postmaster (PID 18861) running in data directory "/data/data/com.termux/files/home/data"?
+2019-01-11 20:17:19.576 CST [22447] FATAL:  lock file "postmaster.pid" already exists
+2019-01-11 20:17:19.576 CST [22447] HINT:  Is another postmaster (PID 18861) running in data directory "/data/data/com.termux/files/home/data"?

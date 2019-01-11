@@ -19,7 +19,6 @@ defmodule ZzWeb.Router do
 
     get "/", PageController, :root
     get "/home", HomeController, :index
-    get "/index", PageController, :index
   end
 
   # Other scopes may use custom stacks.
