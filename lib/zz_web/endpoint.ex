@@ -13,7 +13,7 @@ defmodule ZzWeb.Endpoint do
     at: "/",
     from: :zz,
     gzip: true,
-    only: ~w(css fonts images js favicon.ico robots.txt index.html)
+    only: ~w(css fonts images js favicon.ico robots.txt index.html background_image.jpg)
 
   # Code reloading can be explicitly enabled under the
   # :code_reloader configuration of your endpoint.
