@@ -54,3 +54,5 @@
 2019-01-11 09:25:07.745 CST [8293] LOG:  database system is ready to accept connections
 2019-01-11 10:10:27.720 CST [12270] FATAL:  lock file "postmaster.pid" already exists
 2019-01-11 10:10:27.720 CST [12270] HINT:  Is another postmaster (PID 8293) running in data directory "/data/data/com.termux/files/home/data"?
+2019-01-11 10:39:56.668 CST [18371] FATAL:  lock file "postmaster.pid" already exists
+2019-01-11 10:39:56.668 CST [18371] HINT:  Is another postmaster (PID 12436) running in data directory "/data/data/com.termux/files/home/data"?
