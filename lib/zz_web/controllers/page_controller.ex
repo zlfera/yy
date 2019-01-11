@@ -18,7 +18,7 @@ defmodule ZzWeb.PageController do
     if etag in get_req_header(conn, "if-none-match") do
       send_resp(304)
     else
-      conn |> redirect(to: "/index.html")
+      conn |> render("index.html")
     end
   end
 end
