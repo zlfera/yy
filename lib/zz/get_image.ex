@@ -27,8 +27,6 @@ defmodule Zz.GetImage do
 
     [h | _] = Jason.decode!(~s(#{res.body}))["data"]
     Jason.encode!(h)
-    # "#{h["content"]},#{h["text_authors"]}"
-    # %{content: h["content"], text_authors: h["text_authors"]}
   end
 
   def n do
