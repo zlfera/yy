@@ -8,6 +8,7 @@ defmodule ZzWeb.PageController do
 
   def root(conn, _params) do
     conn
+    |> put_status(:moved_permanently)
     |> redirect(to: "/index.html")
   end
 end
