@@ -17,9 +17,9 @@ defmodule ZzWeb.Router do
   scope "/", ZzWeb do
     pipe_through :browser
 
-    get "/", PageController, :index
-    get "/index", HomeController, :index
-    get "/i", StaticcController, :index
+    get "/", PageController, :root
+    get "/home", HomeController, :index
+    get "/index", PageController, :index
   end
 
   # Other scopes may use custom stacks.
