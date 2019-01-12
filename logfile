@@ -8,3 +8,11 @@
 2019-01-12 08:30:30.165 CST [29050] LOG:  invalid record length at 0/ADD8198: wanted 24, got 0
 2019-01-12 08:30:30.165 CST [29050] LOG:  redo done at 0/ADD8160
 2019-01-12 08:30:30.201 CST [29046] LOG:  database system is ready to accept connections
+2019-01-12 13:06:42.091 CST [27932] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-01-12 13:06:42.107 CST [27932] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2019-01-12 13:06:42.242 CST [27937] LOG:  database system was interrupted; last known up at 2019-01-12 08:30:30 CST
+2019-01-12 13:06:42.703 CST [27937] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-01-12 13:06:42.706 CST [27937] LOG:  redo starts at 0/ADD8208
+2019-01-12 13:06:42.706 CST [27937] LOG:  invalid record length at 0/ADD8240: wanted 24, got 0
+2019-01-12 13:06:42.706 CST [27937] LOG:  redo done at 0/ADD8208
+2019-01-12 13:06:42.731 CST [27932] LOG:  database system is ready to accept connections
