@@ -2,11 +2,6 @@ defmodule ZzWeb.PageController do
   use ZzWeb, :controller
 
   def index(conn, _params) do
-    conn
-    |> render("index.html")
-  end
-
-  def root(conn, _params) do
     e =
       if File.exists?("./priv/static/index.html") do
         File.read!("./priv/static/index.html") |> String.length()
