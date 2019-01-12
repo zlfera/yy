@@ -7,7 +7,13 @@ defmodule ZzWeb.PageController do
   end
 
   def root(conn, _params) do
-    e = File.read!("./priv/static/index.html") |> String.length()
+    e =
+      if File.exists?("./priv/static/index.html") do
+        File.read!("./priv/static/index.html") |> String.length()
+      else
+        ""
+      end
+
     etag = ~s[W/"#{e |> :erlang.phash2() |> Integer.to_string(16)}"]
 
     conn =
