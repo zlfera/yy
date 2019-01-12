@@ -2,6 +2,6 @@ defmodule ZzWeb.HomeController do
   use ZzWeb, :controller
 
   def index(conn, _params) do
-    render(conn, "index.html")
+    redirect(external: "https://youmile.youhaovip.com")
   end
 end
