@@ -12,6 +12,7 @@ config :zz,
 
 # Configures the endpoint
 config :zz, ZzWeb.Endpoint,
+  instrumenters: [NewRelic.Phoenix.Instrumenter],
   url: [host: "localhost"],
   secret_key_base: "J3PfB9f7whrKsDM8Ohitdj2zrdfaqseVW5wPxA24Dx2wJZ6T6sUH68Va5N0MDjSh",
   render_errors: [view: ZzWeb.ErrorView, accepts: ~w(html json)],
@@ -28,4 +29,8 @@ config :phoenix, :json_library, Jason
 config :zz, Zz.Scheduler, jobs: [{"0 0-23/1 * * *", {Zz.GetImage, :n, []}}]
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.
+config :new_relic_agent,
+  app_name: "You",
+  license_key: "ee9c2eabf9a8054364cfc885b768dc549c1ee5c6"
+
 import_config "#{Mix.env()}.exs"
