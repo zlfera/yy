@@ -47,6 +47,7 @@ defmodule Zz.MixProject do
       # {:distillery, "~> 2.0", runtime: false},
       {:floki, "~> 0.20.4"},
       {:quantum, "~> 2.3"},
+      {:timex, "~> 3.5.0"},
       {:new_relic_agent, "~> 1.0"},
       {:new_relic_phoenix, "~> 0.1"}
     ]
