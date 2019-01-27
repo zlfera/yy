@@ -21,7 +21,7 @@ var _hmt = _hmt || [];
    $youziku.draw();
 </script> -->
   </head>
-  <body style="background: url(/background_image.jpg) no-repeat center">
+  <body style="background-image: url(/background_image.jpg)">
     <main role="main" class="container">
       <div id="ali">
         <a href="https://www.youmile.vip/ali.jpg">扫码领红包</a>
