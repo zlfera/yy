@@ -37,4 +37,8 @@ footer {
       text-decoration: none;
     }
   }
+  p#ali img {
+   margin: auto;
+   width: 820px;
+  }
 }

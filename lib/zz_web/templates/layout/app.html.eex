@@ -32,7 +32,7 @@ var _hmt = _hmt || [];
     </main>
     <footer>
       <p>copyright <a href="https://www.youmile.vip/index" target="_blank">长虹米厂</a> <%= DateTime.utc_now.year %></p>
-      <p><img src="https://www.youmile.vip/ali.jpg" alt=""/></p>
+      <p id="ali"><img src="https://www.youmile.vip/ali.jpg" alt=""/></p>
     </footer>
     <script type="text/javascript" src="<%= Routes.static_path(@conn, "/js/app.js") %>"></script>
     <script type="text/javascript" src="//js.users.51.la/19821413.js"></script>
