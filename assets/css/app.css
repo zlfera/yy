@@ -17,7 +17,11 @@ main{
   opacity: 0.8;
   margin: 130px 20px 0 20px;
   #ali {
-    margin: auto;
+    text-align: center;
+    a {
+      font-size: 25px;
+      color: red;
+    }
   }
   section {
     margin: 20px 0 0 0;
