@@ -16,6 +16,9 @@ body{
 main{
   opacity: 0.8;
   margin: 130px 20px 0 20px;
+  #ali {
+    margin: auto;
+  }
   section {
     margin: 20px 0 0 0;
     p {
@@ -36,9 +39,5 @@ footer {
     a {
       text-decoration: none;
     }
-  }
-  p#ali img {
-   margin: auto;
-   width: 820px;
   }
 }
