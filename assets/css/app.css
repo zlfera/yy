@@ -21,6 +21,7 @@ main{
     a {
       font-size: 25px;
       color: red;
+      text-decoration: none;
     }
   }
   section {
