@@ -9,11 +9,11 @@
   box-sizing: border-box;
 }
 @font-face {
-  font-family: myFont;
-  src: url('https://www.youmile.vip/ziti.ttf')
+  font-family: "myFont";
+  src: url("https://www.youmile.vip/ziti.ttf");
 }
 body{
-  font-family: myFont;
+  font-family: "myFont";
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
