@@ -15,7 +15,8 @@ defmodule ZzWeb.Endpoint do
     at: "/",
     from: :zz,
     gzip: true,
-    only: ~w(css fonts images js favicon.ico robots.txt index.html background_image.jpg ali.jpg)
+    only:
+      ~w(css fonts images js favicon.ico robots.txt index.html background_image.jpg ali.jpg ziti.ttf)
   )
 
   # Code reloading can be explicitly enabled under the
