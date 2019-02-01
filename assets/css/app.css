@@ -10,7 +10,7 @@
 }
 @font-face {
   font-family: "myFont";
-  src: url("https://www.youmile.vip/ziti.ttf");
+  src: url("https://www.youmile.vip/ziti.ttf") format("woff2");
 }
 body{
   font-family: "myFont";
