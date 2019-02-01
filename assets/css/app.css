@@ -19,6 +19,7 @@ body{
   min-height: 100vh;
 }
 main{
+  font-family: "myFont";
   opacity: 0.8;
   margin: 130px 20px 0 20px;
   #ali {
