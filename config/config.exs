@@ -26,7 +26,9 @@ config :logger, :console,
 # Use Jason for JSON parsing in Phoenix
 config :phoenix, :json_library, Jason
 
-config :zz, Zz.Scheduler, jobs: [{"0 0-23/1 * * *", {Zz.GetImage, :n, []}}]
+config :zz, Zz.Scheduler,
+  jobs: [{"0 0-23/1 * * *", {Zz.GetImage, :n, []}}, {"0 6 * * *", {Zz.Tasks, :run, []}}]
+
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.
 config :new_relic_agent,
