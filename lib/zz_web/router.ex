@@ -18,6 +18,8 @@ defmodule ZzWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
+    get "/grains", GrainController, :index
+    post "/grains", GrainController, :index
     get "/index", HomeController, :index
   end
 

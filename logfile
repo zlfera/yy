@@ -86,3 +86,141 @@
 2019-02-02 08:13:37.607 CST [21509] LOG:  invalid record length at 0/AE81428: wanted 24, got 0
 2019-02-02 08:13:37.607 CST [21509] LOG:  redo done at 0/AE813F0
 2019-02-02 08:13:37.635 CST [21505] LOG:  database system is ready to accept connections
+2019-02-26 08:23:35.520 CST [12137] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-02-26 08:23:35.531 CST [12137] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2019-02-26 08:23:35.621 CST [12141] LOG:  database system was interrupted; last known up at 2019-02-26 07:04:37 CST
+2019-02-26 08:23:35.884 CST [12141] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-02-26 08:23:35.895 CST [12141] LOG:  redo starts at 0/AED1E48
+2019-02-26 08:23:35.895 CST [12141] LOG:  invalid record length at 0/AED1E80: wanted 24, got 0
+2019-02-26 08:23:35.895 CST [12141] LOG:  redo done at 0/AED1E48
+2019-02-26 08:23:35.962 CST [12137] LOG:  database system is ready to accept connections
+2019-02-26 13:59:20.317 CST [29990] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-02-26 13:59:20.321 CST [29990] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2019-02-26 13:59:20.417 CST [29994] LOG:  database system was interrupted; last known up at 2019-02-26 10:37:56 CST
+2019-02-26 13:59:20.888 CST [29994] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-02-26 13:59:20.902 CST [29994] LOG:  redo starts at 0/AEFD138
+2019-02-26 13:59:20.902 CST [29994] LOG:  invalid record length at 0/AEFD170: wanted 24, got 0
+2019-02-26 13:59:20.902 CST [29994] LOG:  redo done at 0/AEFD138
+2019-02-26 13:59:20.944 CST [29990] LOG:  database system is ready to accept connections
+2019-02-26 14:02:23.244 CST [30514] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-02-26 14:02:23.251 CST [30514] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2019-02-26 14:02:23.288 CST [30518] LOG:  database system was interrupted; last known up at 2019-02-26 13:59:20 CST
+2019-02-26 14:02:23.529 CST [30518] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-02-26 14:02:23.535 CST [30518] LOG:  redo starts at 0/AEFD1E0
+2019-02-26 14:02:23.536 CST [30518] LOG:  invalid record length at 0/AEFE1A8: wanted 24, got 0
+2019-02-26 14:02:23.536 CST [30518] LOG:  redo done at 0/AEFE170
+2019-02-26 14:02:23.536 CST [30518] LOG:  last completed transaction was at log time 2019-02-26 14:01:00.766132+08
+2019-02-26 14:02:23.580 CST [30514] LOG:  database system is ready to accept connections
+2019-02-26 14:09:01.965 CST [31855] ERROR:  duplicate key value violates unique constraint "grains_mark_number_index"
+2019-02-26 14:09:01.965 CST [31855] DETAIL:  Key (mark_number)=(0226xcsx01) already exists.
+2019-02-26 14:09:01.965 CST [31855] STATEMENT:  INSERT INTO "grains" ("address","grade","latest_price","mark_number","market_name","starting_price","status","trade_amount","trantype","variety","year","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13) RETURNING "id"
+2019-02-26 14:09:02.163 CST [31861] ERROR:  duplicate key value violates unique constraint "grains_mark_number_index"
+2019-02-26 14:09:02.163 CST [31861] DETAIL:  Key (mark_number)=(0226xcsx02) already exists.
+2019-02-26 14:09:02.163 CST [31861] STATEMENT:  INSERT INTO "grains" ("address","grade","latest_price","mark_number","market_name","starting_price","status","trade_amount","trantype","variety","year","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13) RETURNING "id"
+2019-02-26 14:09:02.219 CST [31859] ERROR:  duplicate key value violates unique constraint "grains_mark_number_index"
+2019-02-26 14:09:02.219 CST [31859] DETAIL:  Key (mark_number)=(0226xcsx03) already exists.
+2019-02-26 14:09:02.219 CST [31859] STATEMENT:  INSERT INTO "grains" ("address","grade","latest_price","mark_number","market_name","starting_price","status","trade_amount","trantype","variety","year","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13) RETURNING "id"
+2019-02-26 14:09:02.272 CST [31857] ERROR:  duplicate key value violates unique constraint "grains_mark_number_index"
+2019-02-26 14:09:02.272 CST [31857] DETAIL:  Key (mark_number)=(0226xcsx04) already exists.
+2019-02-26 14:09:02.272 CST [31857] STATEMENT:  INSERT INTO "grains" ("address","grade","latest_price","mark_number","market_name","starting_price","status","trade_amount","trantype","variety","year","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13) RETURNING "id"
+2019-02-26 14:09:02.325 CST [31854] ERROR:  duplicate key value violates unique constraint "grains_mark_number_index"
+2019-02-26 14:09:02.325 CST [31854] DETAIL:  Key (mark_number)=(0226xcsx05) already exists.
+2019-02-26 14:09:02.325 CST [31854] STATEMENT:  INSERT INTO "grains" ("address","grade","latest_price","mark_number","market_name","starting_price","status","trade_amount","trantype","variety","year","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13) RETURNING "id"
+2019-02-26 14:09:02.383 CST [31852] ERROR:  duplicate key value violates unique constraint "grains_mark_number_index"
+2019-02-26 14:09:02.383 CST [31852] DETAIL:  Key (mark_number)=(0226xcsx06) already exists.
+2019-02-26 14:09:02.383 CST [31852] STATEMENT:  INSERT INTO "grains" ("address","grade","latest_price","mark_number","market_name","starting_price","status","trade_amount","trantype","variety","year","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13) RETURNING "id"
+2019-02-26 14:09:02.445 CST [31853] ERROR:  duplicate key value violates unique constraint "grains_mark_number_index"
+2019-02-26 14:09:02.445 CST [31853] DETAIL:  Key (mark_number)=(0226xcsx07) already exists.
+2019-02-26 14:09:02.445 CST [31853] STATEMENT:  INSERT INTO "grains" ("address","grade","latest_price","mark_number","market_name","starting_price","status","trade_amount","trantype","variety","year","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13) RETURNING "id"
+2019-02-26 14:09:02.511 CST [31856] ERROR:  duplicate key value violates unique constraint "grains_mark_number_index"
+2019-02-26 14:09:02.511 CST [31856] DETAIL:  Key (mark_number)=(0226xcsx08) already exists.
+2019-02-26 14:09:02.511 CST [31856] STATEMENT:  INSERT INTO "grains" ("address","grade","latest_price","mark_number","market_name","starting_price","status","trade_amount","trantype","variety","year","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13) RETURNING "id"
+2019-02-26 14:09:27.966 CST [31855] ERROR:  duplicate key value violates unique constraint "grains_mark_number_index"
+2019-02-26 14:09:27.966 CST [31855] DETAIL:  Key (mark_number)=(0226xcsx01) already exists.
+2019-02-26 14:09:27.966 CST [31855] STATEMENT:  INSERT INTO "grains" ("address","grade","latest_price","mark_number","market_name","starting_price","status","trade_amount","trantype","variety","year","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13) RETURNING "id"
+2019-02-26 14:09:28.016 CST [31861] ERROR:  duplicate key value violates unique constraint "grains_mark_number_index"
+2019-02-26 14:09:28.016 CST [31861] DETAIL:  Key (mark_number)=(0226xcsx02) already exists.
+2019-02-26 14:09:28.016 CST [31861] STATEMENT:  INSERT INTO "grains" ("address","grade","latest_price","mark_number","market_name","starting_price","status","trade_amount","trantype","variety","year","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13) RETURNING "id"
+2019-02-26 14:09:28.067 CST [31859] ERROR:  duplicate key value violates unique constraint "grains_mark_number_index"
+2019-02-26 14:09:28.067 CST [31859] DETAIL:  Key (mark_number)=(0226xcsx03) already exists.
+2019-02-26 14:09:28.067 CST [31859] STATEMENT:  INSERT INTO "grains" ("address","grade","latest_price","mark_number","market_name","starting_price","status","trade_amount","trantype","variety","year","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13) RETURNING "id"
+2019-02-26 14:09:28.122 CST [31857] ERROR:  duplicate key value violates unique constraint "grains_mark_number_index"
+2019-02-26 14:09:28.122 CST [31857] DETAIL:  Key (mark_number)=(0226xcsx04) already exists.
+2019-02-26 14:09:28.122 CST [31857] STATEMENT:  INSERT INTO "grains" ("address","grade","latest_price","mark_number","market_name","starting_price","status","trade_amount","trantype","variety","year","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13) RETURNING "id"
+2019-02-26 14:09:28.167 CST [31854] ERROR:  duplicate key value violates unique constraint "grains_mark_number_index"
+2019-02-26 14:09:28.167 CST [31854] DETAIL:  Key (mark_number)=(0226xcsx05) already exists.
+2019-02-26 14:09:28.167 CST [31854] STATEMENT:  INSERT INTO "grains" ("address","grade","latest_price","mark_number","market_name","starting_price","status","trade_amount","trantype","variety","year","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13) RETURNING "id"
+2019-02-26 14:09:28.213 CST [31852] ERROR:  duplicate key value violates unique constraint "grains_mark_number_index"
+2019-02-26 14:09:28.213 CST [31852] DETAIL:  Key (mark_number)=(0226xcsx06) already exists.
+2019-02-26 14:09:28.213 CST [31852] STATEMENT:  INSERT INTO "grains" ("address","grade","latest_price","mark_number","market_name","starting_price","status","trade_amount","trantype","variety","year","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13) RETURNING "id"
+2019-02-26 14:09:28.255 CST [31853] ERROR:  duplicate key value violates unique constraint "grains_mark_number_index"
+2019-02-26 14:09:28.255 CST [31853] DETAIL:  Key (mark_number)=(0226xcsx07) already exists.
+2019-02-26 14:09:28.255 CST [31853] STATEMENT:  INSERT INTO "grains" ("address","grade","latest_price","mark_number","market_name","starting_price","status","trade_amount","trantype","variety","year","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13) RETURNING "id"
+2019-02-26 14:09:28.301 CST [31856] ERROR:  duplicate key value violates unique constraint "grains_mark_number_index"
+2019-02-26 14:09:28.301 CST [31856] DETAIL:  Key (mark_number)=(0226xcsx08) already exists.
+2019-02-26 14:09:28.301 CST [31856] STATEMENT:  INSERT INTO "grains" ("address","grade","latest_price","mark_number","market_name","starting_price","status","trade_amount","trantype","variety","year","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13) RETURNING "id"
+2019-02-26 14:09:29.938 CST [31860] ERROR:  duplicate key value violates unique constraint "grains_mark_number_index"
+2019-02-26 14:09:29.938 CST [31860] DETAIL:  Key (mark_number)=(0226xcsx01) already exists.
+2019-02-26 14:09:29.938 CST [31860] STATEMENT:  INSERT INTO "grains" ("address","grade","latest_price","mark_number","market_name","starting_price","status","trade_amount","trantype","variety","year","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13) RETURNING "id"
+2019-02-26 14:09:29.999 CST [31858] ERROR:  duplicate key value violates unique constraint "grains_mark_number_index"
+2019-02-26 14:09:29.999 CST [31858] DETAIL:  Key (mark_number)=(0226xcsx02) already exists.
+2019-02-26 14:09:29.999 CST [31858] STATEMENT:  INSERT INTO "grains" ("address","grade","latest_price","mark_number","market_name","starting_price","status","trade_amount","trantype","variety","year","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13) RETURNING "id"
+2019-02-26 14:09:30.047 CST [31855] ERROR:  duplicate key value violates unique constraint "grains_mark_number_index"
+2019-02-26 14:09:30.047 CST [31855] DETAIL:  Key (mark_number)=(0226xcsx03) already exists.
+2019-02-26 14:09:30.047 CST [31855] STATEMENT:  INSERT INTO "grains" ("address","grade","latest_price","mark_number","market_name","starting_price","status","trade_amount","trantype","variety","year","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13) RETURNING "id"
+2019-02-26 14:09:30.095 CST [31861] ERROR:  duplicate key value violates unique constraint "grains_mark_number_index"
+2019-02-26 14:09:30.095 CST [31861] DETAIL:  Key (mark_number)=(0226xcsx04) already exists.
+2019-02-26 14:09:30.095 CST [31861] STATEMENT:  INSERT INTO "grains" ("address","grade","latest_price","mark_number","market_name","starting_price","status","trade_amount","trantype","variety","year","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13) RETURNING "id"
+2019-02-26 14:09:30.144 CST [31859] ERROR:  duplicate key value violates unique constraint "grains_mark_number_index"
+2019-02-26 14:09:30.144 CST [31859] DETAIL:  Key (mark_number)=(0226xcsx05) already exists.
+2019-02-26 14:09:30.144 CST [31859] STATEMENT:  INSERT INTO "grains" ("address","grade","latest_price","mark_number","market_name","starting_price","status","trade_amount","trantype","variety","year","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13) RETURNING "id"
+2019-02-26 14:09:30.194 CST [31857] ERROR:  duplicate key value violates unique constraint "grains_mark_number_index"
+2019-02-26 14:09:30.194 CST [31857] DETAIL:  Key (mark_number)=(0226xcsx06) already exists.
+2019-02-26 14:09:30.194 CST [31857] STATEMENT:  INSERT INTO "grains" ("address","grade","latest_price","mark_number","market_name","starting_price","status","trade_amount","trantype","variety","year","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13) RETURNING "id"
+2019-02-26 14:09:30.244 CST [31854] ERROR:  duplicate key value violates unique constraint "grains_mark_number_index"
+2019-02-26 14:09:30.244 CST [31854] DETAIL:  Key (mark_number)=(0226xcsx07) already exists.
+2019-02-26 14:09:30.244 CST [31854] STATEMENT:  INSERT INTO "grains" ("address","grade","latest_price","mark_number","market_name","starting_price","status","trade_amount","trantype","variety","year","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13) RETURNING "id"
+2019-02-26 14:09:30.297 CST [31852] ERROR:  duplicate key value violates unique constraint "grains_mark_number_index"
+2019-02-26 14:09:30.297 CST [31852] DETAIL:  Key (mark_number)=(0226xcsx08) already exists.
+2019-02-26 14:09:30.297 CST [31852] STATEMENT:  INSERT INTO "grains" ("address","grade","latest_price","mark_number","market_name","starting_price","status","trade_amount","trantype","variety","year","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13) RETURNING "id"
+2019-02-26 14:09:33.007 CST [31856] ERROR:  duplicate key value violates unique constraint "grains_mark_number_index"
+2019-02-26 14:09:33.007 CST [31856] DETAIL:  Key (mark_number)=(0226xcsx01) already exists.
+2019-02-26 14:09:33.007 CST [31856] STATEMENT:  INSERT INTO "grains" ("address","grade","latest_price","mark_number","market_name","starting_price","status","trade_amount","trantype","variety","year","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13) RETURNING "id"
+2019-02-26 14:09:33.060 CST [31860] ERROR:  duplicate key value violates unique constraint "grains_mark_number_index"
+2019-02-26 14:09:33.060 CST [31860] DETAIL:  Key (mark_number)=(0226xcsx02) already exists.
+2019-02-26 14:09:33.060 CST [31860] STATEMENT:  INSERT INTO "grains" ("address","grade","latest_price","mark_number","market_name","starting_price","status","trade_amount","trantype","variety","year","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13) RETURNING "id"
+2019-02-26 14:09:33.110 CST [31858] ERROR:  duplicate key value violates unique constraint "grains_mark_number_index"
+2019-02-26 14:09:33.110 CST [31858] DETAIL:  Key (mark_number)=(0226xcsx03) already exists.
+2019-02-26 14:09:33.110 CST [31858] STATEMENT:  INSERT INTO "grains" ("address","grade","latest_price","mark_number","market_name","starting_price","status","trade_amount","trantype","variety","year","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13) RETURNING "id"
+2019-02-26 14:09:33.160 CST [31855] ERROR:  duplicate key value violates unique constraint "grains_mark_number_index"
+2019-02-26 14:09:33.160 CST [31855] DETAIL:  Key (mark_number)=(0226xcsx04) already exists.
+2019-02-26 14:09:33.160 CST [31855] STATEMENT:  INSERT INTO "grains" ("address","grade","latest_price","mark_number","market_name","starting_price","status","trade_amount","trantype","variety","year","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13) RETURNING "id"
+2019-02-26 14:09:33.215 CST [31861] ERROR:  duplicate key value violates unique constraint "grains_mark_number_index"
+2019-02-26 14:09:33.215 CST [31861] DETAIL:  Key (mark_number)=(0226xcsx05) already exists.
+2019-02-26 14:09:33.215 CST [31861] STATEMENT:  INSERT INTO "grains" ("address","grade","latest_price","mark_number","market_name","starting_price","status","trade_amount","trantype","variety","year","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13) RETURNING "id"
+2019-02-26 14:09:33.262 CST [31859] ERROR:  duplicate key value violates unique constraint "grains_mark_number_index"
+2019-02-26 14:09:33.262 CST [31859] DETAIL:  Key (mark_number)=(0226xcsx06) already exists.
+2019-02-26 14:09:33.262 CST [31859] STATEMENT:  INSERT INTO "grains" ("address","grade","latest_price","mark_number","market_name","starting_price","status","trade_amount","trantype","variety","year","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13) RETURNING "id"
+2019-02-26 14:09:33.311 CST [31857] ERROR:  duplicate key value violates unique constraint "grains_mark_number_index"
+2019-02-26 14:09:33.311 CST [31857] DETAIL:  Key (mark_number)=(0226xcsx07) already exists.
+2019-02-26 14:09:33.311 CST [31857] STATEMENT:  INSERT INTO "grains" ("address","grade","latest_price","mark_number","market_name","starting_price","status","trade_amount","trantype","variety","year","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13) RETURNING "id"
+2019-02-26 14:09:33.360 CST [31854] ERROR:  duplicate key value violates unique constraint "grains_mark_number_index"
+2019-02-26 14:09:33.360 CST [31854] DETAIL:  Key (mark_number)=(0226xcsx08) already exists.
+2019-02-26 14:09:33.360 CST [31854] STATEMENT:  INSERT INTO "grains" ("address","grade","latest_price","mark_number","market_name","starting_price","status","trade_amount","trantype","variety","year","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13) RETURNING "id"
+2019-02-26 14:10:15.939 CST [32214] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-02-26 14:10:15.946 CST [32214] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2019-02-26 14:10:16.086 CST [32218] LOG:  database system was interrupted; last known up at 2019-02-26 14:09:16 CST
+2019-02-26 14:10:16.382 CST [32218] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-02-26 14:10:16.387 CST [32218] LOG:  redo starts at 0/AEFF260
+2019-02-26 14:10:16.406 CST [32218] LOG:  invalid record length at 0/AF01BA8: wanted 24, got 0
+2019-02-26 14:10:16.406 CST [32218] LOG:  redo done at 0/AF01B70
+2019-02-26 14:10:16.411 CST [32218] LOG:  last completed transaction was at log time 2019-02-26 14:09:33.360766+08
+2019-02-26 14:10:16.482 CST [32214] LOG:  database system is ready to accept connections
+2019-02-26 14:12:37.527 CST [2235] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-02-26 14:12:37.534 CST [2235] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2019-02-26 14:12:37.598 CST [2240] LOG:  database system was interrupted; last known up at 2019-02-26 14:10:16 CST
+2019-02-26 14:12:37.851 CST [2240] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-02-26 14:12:37.867 CST [2240] LOG:  redo starts at 0/AF01C18
+2019-02-26 14:12:37.867 CST [2240] LOG:  invalid record length at 0/AF01C50: wanted 24, got 0
+2019-02-26 14:12:37.867 CST [2240] LOG:  redo done at 0/AF01C18
+2019-02-26 14:12:37.900 CST [2235] LOG:  database system is ready to accept connections
