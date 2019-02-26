@@ -20,21 +20,7 @@
         <td>交易时间</td>
         <td>交货地址</td>
         <td>类型</td>
-        <td>
-          品种
-          <!--
-          <select>
-            <option value="品种">品种</option>
-            <option value ="中晚籼稻">中晚籼稻</option>
-            <option value="晚籼稻">晚籼稻</option>
-            <option value="早籼稻">早籼稻</option>
-            <option value="粳稻">粳稻</option>
-            <option value="玉米">玉米</option>
-            <option value="大豆">大豆</option>
-            <option value="混合麦">混合麦</option>
-          </select>
-          <!-- </form> -->
-        </td>
+        <td>品种</td>
         <td>等级</td>
         <td>年份</td>
         <td>交易数量</td>
@@ -55,7 +41,7 @@
           <td onclick=submitForm(this,"year")><%= redis.year %></td>
           <td><%= redis.trade_amount %></td>
           <td onclick=submitForm(this,"starting_price")><%= redis.starting_price %></td>
-          <td onclick=submitForm(this,"latest_price")><%= redis.latest_price %></td>
+          <td><%= redis.latest_price %></td>
         </tr>
       <% end %>
     </tbody>
