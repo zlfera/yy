@@ -84,3 +84,6 @@ footer {
 .qgg-table tr:nth-child(even){
     background-color: #f8f8f8 !important;
   }
+form div label {
+  margin-bottom: 10px;
+}
