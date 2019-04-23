@@ -454,3 +454,20 @@
 2019-04-23 16:28:42.942 CST [23109] ERROR:  duplicate key value violates unique constraint "grains_mark_number_index"
 2019-04-23 16:28:42.942 CST [23109] DETAIL:  Key (mark_number)=(ja2019042303) already exists.
 2019-04-23 16:28:42.942 CST [23109] STATEMENT:  INSERT INTO "grains" ("address","grade","latest_price","mark_number","market_name","starting_price","status","trade_amount","trantype","variety","year","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13) RETURNING "id"
+2019-04-23 16:40:45.298 CST [26713] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-04-23 16:40:45.305 CST [26713] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2019-04-23 16:40:45.351 CST [26717] LOG:  database system was interrupted; last known up at 2019-04-23 16:27:59 CST
+2019-04-23 16:40:45.463 CST [26717] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-04-23 16:40:45.465 CST [26717] LOG:  redo starts at 0/16B2F08
+2019-04-23 16:40:45.469 CST [26717] LOG:  invalid record length at 0/16B99A0: wanted 24, got 0
+2019-04-23 16:40:45.469 CST [26717] LOG:  redo done at 0/16B9968
+2019-04-23 16:40:45.470 CST [26717] LOG:  last completed transaction was at log time 2019-04-23 16:28:42.943052+08
+2019-04-23 16:40:45.493 CST [26713] LOG:  database system is ready to accept connections
+2019-04-23 16:42:35.196 CST [27283] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-04-23 16:42:35.199 CST [27283] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2019-04-23 16:42:35.227 CST [27287] LOG:  database system was interrupted; last known up at 2019-04-23 16:40:45 CST
+2019-04-23 16:42:35.312 CST [27287] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-04-23 16:42:35.315 CST [27287] LOG:  redo starts at 0/16B9A10
+2019-04-23 16:42:35.316 CST [27287] LOG:  invalid record length at 0/16B9A48: wanted 24, got 0
+2019-04-23 16:42:35.316 CST [27287] LOG:  redo done at 0/16B9A10
+2019-04-23 16:42:35.333 CST [27283] LOG:  database system is ready to accept connections
