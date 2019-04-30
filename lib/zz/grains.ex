@@ -2,7 +2,6 @@ defmodule Zz.Grains do
   @moduledoc """
   The Grains context.
   """
-
   import Ecto.Query, only: [from: 2]
 
   alias Zz.Grains.Grain, as: Ggg
