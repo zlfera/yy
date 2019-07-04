@@ -38,3 +38,43 @@
 2019-06-27 06:10:46.129 CST [26224] LOG:  invalid record length at 0/16BBE68: wanted 24, got 0
 2019-06-27 06:10:46.129 CST [26224] LOG:  redo done at 0/16BBE30
 2019-06-27 06:10:46.182 CST [26220] LOG:  database system is ready to accept connections
+2019-07-04 10:01:23.726 CST [26683] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-07-04 10:01:23.744 CST [26683] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2019-07-04 10:01:23.819 CST [26687] LOG:  database system was interrupted; last known up at 2019-06-27 11:40:36 CST
+2019-07-04 10:01:25.332 CST [26687] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-07-04 10:01:25.341 CST [26687] LOG:  redo starts at 0/16BBF80
+2019-07-04 10:01:25.341 CST [26687] LOG:  invalid record length at 0/16BBFB8: wanted 24, got 0
+2019-07-04 10:01:25.341 CST [26687] LOG:  redo done at 0/16BBF80
+2019-07-04 10:01:25.443 CST [26683] LOG:  database system is ready to accept connections
+2019-07-04 14:18:27.850 CST [20697] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-07-04 14:18:27.858 CST [20697] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2019-07-04 14:18:27.929 CST [20701] LOG:  database system was interrupted; last known up at 2019-07-04 10:05:43 CST
+2019-07-04 14:18:29.454 CST [20701] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-07-04 14:18:29.465 CST [20701] LOG:  redo starts at 0/16BC0E8
+2019-07-04 14:18:29.465 CST [20701] LOG:  invalid record length at 0/16BC120: wanted 24, got 0
+2019-07-04 14:18:29.465 CST [20701] LOG:  redo done at 0/16BC0E8
+2019-07-04 14:18:29.569 CST [20697] LOG:  database system is ready to accept connections
+2019-07-04 14:44:01.973 CST [20705] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2019-07-04 14:44:12.873 CST [22069] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2019-07-04 14:52:09.028 CST [20705] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2019-07-04 14:56:31.714 CST [20705] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2019-07-04 14:56:31.745 CST [22267] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2019-07-04 15:03:56.800 CST [20705] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2019-07-04 15:25:52.636 CST [20705] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2019-07-04 15:31:20.289 CST [20705] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2019-07-04 15:31:20.335 CST [22515] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2019-07-04 15:31:30.593 CST [20705] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2019-07-04 15:36:35.619 CST [20705] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2019-07-04 15:39:57.349 CST [23604] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2019-07-04 15:39:57.885 CST [20705] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2019-07-04 15:40:08.531 CST [20705] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2019-07-04 15:40:08.542 CST [23632] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2019-07-04 15:41:51.055 CST [20705] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2019-07-04 20:02:33.084 CST [16034] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-07-04 20:02:33.113 CST [16034] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2019-07-04 20:02:33.213 CST [16038] LOG:  database system was interrupted; last known up at 2019-07-04 14:18:29 CST
+2019-07-04 20:02:34.409 CST [16038] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-07-04 20:02:34.415 CST [16038] LOG:  redo starts at 0/16BC190
+2019-07-04 20:02:34.415 CST [16038] LOG:  invalid record length at 0/16BC1C8: wanted 24, got 0
+2019-07-04 20:02:34.415 CST [16038] LOG:  redo done at 0/16BC190
+2019-07-04 20:02:34.477 CST [16034] LOG:  database system is ready to accept connections
