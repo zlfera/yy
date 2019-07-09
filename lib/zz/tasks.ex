@@ -7,12 +7,11 @@ defmodule Zz.Tasks do
     url1 = "http://220.248.203.59:8686/rtp/data/race/getAllRaceMarketing.jsp"
     url2 = "http://220.248.203.59:8686/rtp/data/race/getRaceMeeting.jsp?id="
     url3 = "http://220.248.203.59:8686/rtp/data/race/getRaceTacheDetail.jsp?id="
+    url0 = "http://59.55.120.113:8311/trade/open/findSpecialMessageByCondition"
 
-    # headers = [
-    # Referer:
-    #   "http://59.55.120.113:8311/web/bidPriceSpecialWatch?specialNo=1014&specialName=2019%E5%B9%B47%E6%9C%884%E6%97%A5%E5%8D%97%E6%98%8C%E5%9C%B0%E5%8C%BA%E5%B8%82%E5%8E%BF%E7%BA%A7%E5%82%A8%E5%A4%87%E7%B2%AE%E8%BD%AE%E6%8D%A2%E7%AB%9E%E4%BB%B7%E9%94%80%E5%94%AE%E4%BA%A4%E6%98%93%E4%BC%9A"
-    # ]
+    url00 = "http://59.55.120.113:8311/web/bidPriceSpecialWatch?specialNo=1014&specialName=num"
 
+    # headers = [Referer: "http://59.55.120.113:8311/web/bidPrice"]
     # url1 = "http://59.55.120.113:8311/trade/open/watchSpecial"
     url = HTTPoison.get!(url1)
     docs = Jason.decode!(url.body)
