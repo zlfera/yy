@@ -1622,3 +1622,83 @@
 [DEBUG] - 2019-07-11 10:16:18 - Completed Transaction Trace harvest - size: 0
 [DEBUG] - 2019-07-11 10:16:19 - Completed Custom Event harvest - size: 55
 [DEBUG] - 2019-07-11 10:16:19 - Completed Transaction Event harvest - size: 0
+[INFO] - 2019-07-11 13:40:07 - Log File: /data/data/com.termux/files/home/you/tmp/new_relic.log
+[INFO] - 2019-07-11 13:40:35 - Log File: /data/data/com.termux/files/home/you/tmp/new_relic.log
+[ERROR] - 2019-07-11 13:40:51 - connect: {:failed_connect, [{:to_address, {'collector-002.newrelic.com', 443}}, {:inet, [:inet], :closed}]}
+[ERROR] - 2019-07-11 13:41:42 - transaction_sample_data: (400) {}
+[ERROR] - 2019-07-11 13:41:42 - transaction_sample_data: (400) {}
+[DEBUG] - 2019-07-11 13:41:42 - Completed Transaction Trace harvest - size: 1
+[ERROR] - 2019-07-11 13:41:46 - metric_data: (400) {}
+[ERROR] - 2019-07-11 13:41:48 - span_event_data: {:failed_connect, [{:to_address, {'collector-002.newrelic.com', 443}}, {:inet, [:inet], :closed}]}
+[ERROR] - 2019-07-11 13:41:50 - span_event_data: (400) {}
+[DEBUG] - 2019-07-11 13:41:50 - Completed Span Event harvest - size: 10
+[ERROR] - 2019-07-11 13:42:01 - metric_data: (400) {}
+[DEBUG] - 2019-07-11 13:42:01 - Completed Metric harvest - size: 17
+[ERROR] - 2019-07-11 13:42:15 - error_event_data: (400) {}
+[ERROR] - 2019-07-11 13:42:25 - error_event_data: (400) {}
+[DEBUG] - 2019-07-11 13:42:25 - Completed Error Event harvest - size: 0
+[ERROR] - 2019-07-11 13:43:01 - error_event_data: (400) {}
+[ERROR] - 2019-07-11 13:43:02 - custom_event_data: (400) {}
+[ERROR] - 2019-07-11 13:43:04 - custom_event_data: (400) {}
+[DEBUG] - 2019-07-11 13:43:04 - Completed Custom Event harvest - size: 71
+[ERROR] - 2019-07-11 13:43:04 - transaction_sample_data: (400) {}
+[ERROR] - 2019-07-11 13:43:05 - span_event_data: (400) {}
+[ERROR] - 2019-07-11 13:43:06 - transaction_sample_data: (400) {}
+[ERROR] - 2019-07-11 13:43:06 - error_event_data: (400) {}
+[DEBUG] - 2019-07-11 13:43:06 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-11 13:43:06 - Completed Error Event harvest - size: 5
+[ERROR] - 2019-07-11 13:43:07 - span_event_data: (400) {}
+[DEBUG] - 2019-07-11 13:43:07 - Completed Span Event harvest - size: 8
+[ERROR] - 2019-07-11 13:43:17 - metric_data: (400) {}
+[ERROR] - 2019-07-11 13:43:23 - error_data: (400) {}
+[ERROR] - 2019-07-11 13:43:29 - error_data: (400) {}
+[DEBUG] - 2019-07-11 13:43:29 - Completed Error Trace harvest - size: 3
+[ERROR] - 2019-07-11 13:43:39 - analytic_event_data: (400) {}
+[ERROR] - 2019-07-11 13:43:40 - analytic_event_data: (400) {}
+[DEBUG] - 2019-07-11 13:43:40 - Completed Transaction Event harvest - size: 10
+[ERROR] - 2019-07-11 13:43:41 - metric_data: (400) {}
+[DEBUG] - 2019-07-11 13:43:41 - Completed Metric harvest - size: 26
+[ERROR] - 2019-07-11 13:53:26 - span_event_data: (400) {}
+[ERROR] - 2019-07-11 13:53:47 - analytic_event_data: :socket_closed_remotely
+[ERROR] - 2019-07-11 13:53:56 - span_event_data: :socket_closed_remotely
+[DEBUG] - 2019-07-11 13:53:56 - Completed Span Event harvest - size: 0
+[ERROR] - 2019-07-11 13:54:21 - transaction_sample_data: (400) {}
+[ERROR] - 2019-07-11 13:54:27 - error_event_data: (400) {}
+[ERROR] - 2019-07-11 13:54:28 - analytic_event_data: {:failed_connect, [{:to_address, {'collector-002.newrelic.com', 443}}, {:inet, [:inet], :closed}]}
+[ERROR] - 2019-07-11 13:54:29 - transaction_sample_data: (400) {}
+[DEBUG] - 2019-07-11 13:54:29 - Completed Transaction Trace harvest - size: 0
+[ERROR] - 2019-07-11 13:54:31 - custom_event_data: (400) {}
+[ERROR] - 2019-07-11 13:54:49 - span_event_data: {:failed_connect, [{:to_address, {'collector-002.newrelic.com', 443}}, {:inet, [:inet], :closed}]}
+[ERROR] - 2019-07-11 13:54:51 - metric_data: (400) {}
+[ERROR] - 2019-07-11 13:54:54 - custom_event_data: (400) {}
+[DEBUG] - 2019-07-11 13:54:54 - Completed Custom Event harvest - size: 56
+[ERROR] - 2019-07-11 13:55:06 - metric_data: (400) {}
+[DEBUG] - 2019-07-11 13:55:06 - Completed Metric harvest - size: 8
+[ERROR] - 2019-07-11 13:55:09 - metric_data: :socket_closed_remotely
+[ERROR] - 2019-07-11 13:55:21 - span_event_data: {:failed_connect, [{:to_address, {'collector-002.newrelic.com', 443}}, {:inet, [:inet], :closed}]}
+[DEBUG] - 2019-07-11 13:55:21 - Completed Span Event harvest - size: 0
+[ERROR] - 2019-07-11 13:55:26 - transaction_sample_data: :socket_closed_remotely
+[ERROR] - 2019-07-11 13:55:32 - custom_event_data: (400) {}
+[ERROR] - 2019-07-11 13:55:33 - span_event_data: (400) {}
+[ERROR] - 2019-07-11 13:55:33 - transaction_sample_data: (400) {}
+[ERROR] - 2019-07-11 13:55:35 - transaction_sample_data: (400) {}
+[DEBUG] - 2019-07-11 13:55:35 - Completed Transaction Trace harvest - size: 0
+[ERROR] - 2019-07-11 13:55:36 - custom_event_data: (400) {}
+[DEBUG] - 2019-07-11 13:55:36 - Completed Custom Event harvest - size: 56
+[ERROR] - 2019-07-11 13:55:37 - error_data: :socket_closed_remotely
+[ERROR] - 2019-07-11 13:55:38 - analytic_event_data: {:failed_connect, [{:to_address, {'collector-002.newrelic.com', 443}}, {:inet, [:inet], :closed}]}
+[ERROR] - 2019-07-11 13:55:39 - error_data: (400) {}
+[DEBUG] - 2019-07-11 13:55:39 - Completed Error Trace harvest - size: 6
+[ERROR] - 2019-07-11 13:55:39 - analytic_event_data: (400) {}
+[DEBUG] - 2019-07-11 13:55:39 - Completed Transaction Event harvest - size: 0
+[ERROR] - 2019-07-11 13:55:39 - error_event_data: (400) {}
+[ERROR] - 2019-07-11 13:55:41 - span_event_data: (400) {}
+[ERROR] - 2019-07-11 13:55:41 - error_event_data: (400) {}
+[DEBUG] - 2019-07-11 13:55:41 - Completed Error Event harvest - size: 7
+[ERROR] - 2019-07-11 13:55:41 - span_event_data: (400) {}
+[DEBUG] - 2019-07-11 13:55:41 - Completed Span Event harvest - size: 0
+[ERROR] - 2019-07-11 13:55:49 - transaction_sample_data: (400) {}
+[ERROR] - 2019-07-11 13:55:49 - transaction_sample_data: (400) {}
+[DEBUG] - 2019-07-11 13:55:49 - Completed Transaction Trace harvest - size: 0
+[ERROR] - 2019-07-11 13:56:08 - span_event_data: (400) {}
+[DEBUG] - 2019-07-11 13:56:08 - Completed Span Event harvest - size: 0
