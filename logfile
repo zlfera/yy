@@ -110,3 +110,65 @@
 2019-07-11 13:39:38.798 CST [28612] LOG:  invalid record length at 0/16BC468: wanted 24, got 0
 2019-07-11 13:39:38.798 CST [28612] LOG:  redo done at 0/16BC430
 2019-07-11 13:39:38.912 CST [28608] LOG:  database system is ready to accept connections
+2019-07-11 20:54:01.211 CST [17074] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-07-11 20:54:01.222 CST [17074] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2019-07-11 20:54:01.302 CST [17078] LOG:  database system was interrupted; last known up at 2019-07-11 13:39:38 CST
+2019-07-11 20:54:03.279 CST [17078] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-07-11 20:54:03.289 CST [17078] LOG:  redo starts at 0/16BC4D8
+2019-07-11 20:54:03.289 CST [17078] LOG:  invalid record length at 0/16BC510: wanted 24, got 0
+2019-07-11 20:54:03.289 CST [17078] LOG:  redo done at 0/16BC4D8
+2019-07-11 20:54:03.385 CST [17074] LOG:  database system is ready to accept connections
+2019-07-11 21:41:35.214 CST [26104] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-07-11 21:41:35.367 CST [26104] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2019-07-11 21:41:35.525 CST [26108] LOG:  database system was interrupted; last known up at 2019-07-11 20:54:03 CST
+2019-07-11 21:41:37.328 CST [26108] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-07-11 21:41:37.352 CST [26108] LOG:  redo starts at 0/16BC580
+2019-07-11 21:41:37.353 CST [26108] LOG:  invalid record length at 0/16BC5B8: wanted 24, got 0
+2019-07-11 21:41:37.353 CST [26108] LOG:  redo done at 0/16BC580
+2019-07-11 21:41:37.439 CST [26104] LOG:  database system is ready to accept connections
+2019-07-11 21:42:59.729 CST [27229] FATAL:  lock file "postmaster.pid" already exists
+2019-07-11 21:42:59.729 CST [27229] HINT:  Is another postmaster (PID 26104) running in data directory "/data/data/com.termux/files/home/data"?
+2019-07-12 06:52:35.116 CST [1539] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-07-12 06:52:35.126 CST [1539] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2019-07-12 06:52:35.176 CST [1543] LOG:  database system was interrupted; last known up at 2019-07-11 21:41:37 CST
+2019-07-12 06:52:36.393 CST [1543] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-07-12 06:52:36.404 CST [1543] LOG:  redo starts at 0/16BC628
+2019-07-12 06:52:36.405 CST [1543] LOG:  invalid record length at 0/16BC660: wanted 24, got 0
+2019-07-12 06:52:36.405 CST [1543] LOG:  redo done at 0/16BC628
+2019-07-12 06:52:36.457 CST [1539] LOG:  database system is ready to accept connections
+2019-07-12 07:41:26.948 CST [6399] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-07-12 07:41:26.966 CST [6399] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2019-07-12 07:41:27.055 CST [6403] LOG:  database system was interrupted; last known up at 2019-07-12 06:52:36 CST
+2019-07-12 07:41:28.139 CST [6403] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-07-12 07:41:28.166 CST [6403] LOG:  redo starts at 0/16BC6D0
+2019-07-12 07:41:28.166 CST [6403] LOG:  invalid record length at 0/16BC708: wanted 24, got 0
+2019-07-12 07:41:28.166 CST [6403] LOG:  redo done at 0/16BC6D0
+2019-07-12 07:41:28.244 CST [6399] LOG:  database system is ready to accept connections
+2019-07-12 08:36:05.211 CST [18427] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-07-12 08:36:05.227 CST [18427] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2019-07-12 08:36:05.310 CST [18431] LOG:  database system was interrupted; last known up at 2019-07-12 07:41:28 CST
+2019-07-12 08:36:06.299 CST [18431] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-07-12 08:36:06.316 CST [18431] LOG:  redo starts at 0/16BC778
+2019-07-12 08:36:06.317 CST [18431] LOG:  invalid record length at 0/16BC7B0: wanted 24, got 0
+2019-07-12 08:36:06.317 CST [18431] LOG:  redo done at 0/16BC778
+2019-07-12 08:36:06.392 CST [18427] LOG:  database system is ready to accept connections
+2019-07-12 09:27:27.361 CST [31989] LOG:  could not receive data from client: Connection reset by peer
+2019-07-12 09:27:27.361 CST [31987] LOG:  could not receive data from client: Software caused connection abort
+2019-07-12 09:27:27.361 CST [31985] LOG:  could not receive data from client: Software caused connection abort
+2019-07-12 09:27:27.361 CST [31991] LOG:  could not receive data from client: Software caused connection abort
+2019-07-12 09:27:27.361 CST [31986] LOG:  could not receive data from client: Connection reset by peer
+2019-07-12 09:27:27.361 CST [31983] LOG:  could not receive data from client: Connection reset by peer
+2019-07-12 09:27:27.361 CST [31982] LOG:  could not receive data from client: Software caused connection abort
+2019-07-12 09:27:27.361 CST [31988] LOG:  could not receive data from client: Software caused connection abort
+2019-07-12 09:27:27.361 CST [31990] LOG:  could not receive data from client: Software caused connection abort
+2019-07-12 09:27:27.361 CST [31984] LOG:  could not receive data from client: Software caused connection abort
+2019-07-12 09:27:28.995 CST [32748] LOG:  PID 31989 in cancel request did not match any process
+2019-07-12 09:27:30.963 CST [32758] LOG:  PID 31986 in cancel request did not match any process
+2019-07-12 09:27:32.964 CST [491] LOG:  PID 31982 in cancel request did not match any process
+2019-07-12 09:27:34.964 CST [641] LOG:  PID 31988 in cancel request did not match any process
+2019-07-12 09:27:36.965 CST [650] LOG:  PID 31985 in cancel request did not match any process
+2019-07-12 09:27:38.964 CST [718] LOG:  PID 31987 in cancel request did not match any process
+2019-07-12 09:27:40.964 CST [752] LOG:  PID 31990 in cancel request did not match any process
+2019-07-12 09:27:42.964 CST [830] LOG:  PID 31991 in cancel request did not match any process
+2019-07-12 09:27:44.963 CST [857] LOG:  PID 31983 in cancel request did not match any process
+2019-07-12 09:27:46.964 CST [872] LOG:  PID 31984 in cancel request did not match any process
