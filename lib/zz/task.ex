@@ -33,7 +33,7 @@ defmodule Zz.Task do
 
   def u1(c, pid) do
     if c["success"] == "true" do
-      Enum.each(c, fn x ->
+      Enum.each(c["row"], fn x ->
         y = x["specialNo"]
 
         qww = Agent.get(pid, & &1)

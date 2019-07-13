@@ -172,3 +172,19 @@
 2019-07-12 09:27:42.964 CST [830] LOG:  PID 31991 in cancel request did not match any process
 2019-07-12 09:27:44.963 CST [857] LOG:  PID 31983 in cancel request did not match any process
 2019-07-12 09:27:46.964 CST [872] LOG:  PID 31984 in cancel request did not match any process
+2019-07-12 21:59:52.156 CST [28497] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-07-12 21:59:52.164 CST [28497] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2019-07-12 21:59:52.241 CST [28501] LOG:  database system was interrupted; last known up at 2019-07-12 08:36:06 CST
+2019-07-12 21:59:53.996 CST [28501] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-07-12 21:59:54.006 CST [28501] LOG:  redo starts at 0/16BC820
+2019-07-12 21:59:54.007 CST [28501] LOG:  invalid record length at 0/16BC858: wanted 24, got 0
+2019-07-12 21:59:54.007 CST [28501] LOG:  redo done at 0/16BC820
+2019-07-12 21:59:54.120 CST [28497] LOG:  database system is ready to accept connections
+2019-07-13 06:38:20.627 CST [9064] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-07-13 06:38:20.633 CST [9064] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2019-07-13 06:38:20.706 CST [9068] LOG:  database system was interrupted; last known up at 2019-07-12 21:59:54 CST
+2019-07-13 06:38:22.577 CST [9068] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-07-13 06:38:22.588 CST [9068] LOG:  redo starts at 0/16BC8C8
+2019-07-13 06:38:22.588 CST [9068] LOG:  invalid record length at 0/16BC900: wanted 24, got 0
+2019-07-13 06:38:22.588 CST [9068] LOG:  redo done at 0/16BC8C8
+2019-07-13 06:38:22.686 CST [9064] LOG:  database system is ready to accept connections
