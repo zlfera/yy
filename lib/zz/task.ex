@@ -14,7 +14,14 @@ defmodule Zz.Task do
       u1(b(), pid)
     end
   end
-
+#headers = ["content-type": "application/json;charset=UTF-8"]
+#options=[params: ["activityNum": "0635D66BAC634FD382476F54C9959AC6"]]
+#
+#uu = "https://trade.gdgrain.com/sgtcTrade-front/sgtc/targets/STar001"
+#{o, url} = HTTPoison.post(uu, "{\"activityNum\":\"0635D66BAC634FD382476F54C9959AC6\"}", headers, options)
+#
+#
+#
   def b do
     # u = "http://59.55.120.113:8311/web/bidPriceSpecialWatch?specialNo=1018&specialName=num"
     # uu = "http://59.55.120.113:8311/trade/open/watchSpecial"
