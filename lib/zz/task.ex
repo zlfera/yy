@@ -20,7 +20,7 @@ defmodule Zz.Task do
 #headers = ["content-type": "application/json;charset=UTF-8"]
 #参数固定为04
 #options=[params: [channelCode: "04",currentDate: "2019-07-15"]]
-#{o, url} = HTTPoison.post(uu, body, headers, options)
+#{o, url} = HTTPoison.post(u, body, headers, options)
 #2
 #uu = "https://trade.gdgrain.com/sgtcTrade-front/sgtc/targets/STar001"
 #headers = ["content-type": "application/json;charset=UTF-8"]
@@ -32,7 +32,7 @@ defmodule Zz.Task do
 #headers = ["content-type": "application/json;charset=UTF-8"]
 #options=[params: ["activityNum": "0635D66BAC634FD382476F54C9959AC6","channelCode": "04"]]
 #body="{\"channelCode\": \"04\",\"activityNum\": \"8C1CAECE87EF4EAF8986D11BA21E980F\"}"
-#{o, url} = HTTPoison.post(uu, body, headers, options)
+#{o, url} = HTTPoison.post(uuu, body, headers, options)
 #4
 #uuuu="https://trade.gdgrain.com/sgtcTrade-front/sgtc/commonality/SCus001"
 #headers = ["content-type": "application/json;charset=UTF-8"]
