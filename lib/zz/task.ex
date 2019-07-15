@@ -26,13 +26,19 @@ defmodule Zz.Task do
 #headers = ["content-type": "application/json;charset=UTF-8"]
 #body="{\"channelCode\": \"04\",\"activityNum\": \"8C1CAECE87EF4EAF8986D11BA21E980F\"}"
 #options=[params: ["activityNum": "0635D66BAC634FD382476F54C9959AC6","channelCode": "04"]]
-#{o, url} = HTTPoison.post(uu, "{\"activityNum\":\"0635D66BAC634FD382476F54C9959AC6\"}", headers, options)
+#{o, url} = HTTPoison.post(uu, body, headers, options)
 #3
-#uuu="https://trade.gdgrain.com/sgtcTrade-front/sgtc/commonality/SCus001"
+#uuu = "https://trade.gdgrain.com/sgtcTrade-front/sgtc/activity/SAct009"
+#headers = ["content-type": "application/json;charset=UTF-8"]
+#options=[params: ["activityNum": "0635D66BAC634FD382476F54C9959AC6","channelCode": "04"]]
+#body="{\"channelCode\": \"04\",\"activityNum\": \"8C1CAECE87EF4EAF8986D11BA21E980F\"}"
+#{o, url} = HTTPoison.post(uu, body, headers, options)
+#4
+#uuuu="https://trade.gdgrain.com/sgtcTrade-front/sgtc/commonality/SCus001"
 #headers = ["content-type": "application/json;charset=UTF-8"]
 #options=[params: [channelCode: "04",custId: "4402118018"]]
 #body="{\"channelCode\": \"04\",\"custId\": \"4401117026\"}"
-#{o, url} = HTTPoison.post(uuu, body, headers, options)
+#{o, url} = HTTPoison.post(uuuu, body, headers, options)
   def b do
     # u = "http://59.55.120.113:8311/web/bidPriceSpecialWatch?specialNo=1018&specialName=num"
     # uu = "http://59.55.120.113:8311/trade/open/watchSpecial"
