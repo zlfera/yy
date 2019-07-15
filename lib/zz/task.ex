@@ -48,6 +48,7 @@ defmodule Zz.Task do
           {:ok, pid_list} = Agent.start_link(fn -> [] end)
           i = spawn(Zg, :grain, [y, pid_list])
           Agent.update(pid, &Map.put(&1, y, i))
+          p = Agent.get(pid, & &1)
         end
       end)
 
