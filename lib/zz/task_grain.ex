@@ -22,7 +22,7 @@ defmodule Zz.TaskGrain do
       "true" ->
         Enum.each(dd["rows"], fn jj ->
           if !String.match?(jj["varietyName"], ~r/玉米|麦|油|豆/) do
-            j(jj, dd, pid)
+            # j(jj, dd, pid)
           end
         end)
 
