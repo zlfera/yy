@@ -24,6 +24,7 @@ defmodule Zz.Task do
 #2
 #uu = "https://trade.gdgrain.com/sgtcTrade-front/sgtc/targets/STar001"
 #headers = ["content-type": "application/json;charset=UTF-8"]
+#body="{\"channelCode\": \"04\",\"channelCode\": \"04\"}"
 #options=[params: ["activityNum": "0635D66BAC634FD382476F54C9959AC6"]]
 #{o, url} = HTTPoison.post(uu, "{\"activityNum\":\"0635D66BAC634FD382476F54C9959AC6\"}", headers, options)
 #3
