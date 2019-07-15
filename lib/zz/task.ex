@@ -14,14 +14,24 @@ defmodule Zz.Task do
       u1(b(), pid)
     end
   end
+#1
+# u="https://trade.gdgrain.com/sgtcTrade-front/sgtc/activity/SAct006"
+#body="{\"channelCode\": \"04\",\"currentDate\": \"2019-07-15\"}"
+#headers = ["content-type": "application/json;charset=UTF-8"]
+#参数固定为04
+#options=[params: [channelCode: "04"]]
+#{o, url} = HTTPoison.post(uu, body, headers, options)
+#2
+#uu = "https://trade.gdgrain.com/sgtcTrade-front/sgtc/targets/STar001"
 #headers = ["content-type": "application/json;charset=UTF-8"]
 #options=[params: ["activityNum": "0635D66BAC634FD382476F54C9959AC6"]]
-#
-#uu = "https://trade.gdgrain.com/sgtcTrade-front/sgtc/targets/STar001"
 #{o, url} = HTTPoison.post(uu, "{\"activityNum\":\"0635D66BAC634FD382476F54C9959AC6\"}", headers, options)
-#
-#
-#
+#3
+#uuu="https://trade.gdgrain.com/sgtcTrade-front/sgtc/commonality/SCus001"
+#headers = ["content-type": "application/json;charset=UTF-8"]
+#options=[params: [channelCode: "04"]]
+#body="{\"channelCode\": \"04\",\"custId\": \"4401117026\"}"
+#{o, url} = HTTPoison.post(uuu, body, headers, options)
   def b do
     # u = "http://59.55.120.113:8311/web/bidPriceSpecialWatch?specialNo=1018&specialName=num"
     # uu = "http://59.55.120.113:8311/trade/open/watchSpecial"
