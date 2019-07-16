@@ -90,8 +90,9 @@ defmodule Zz.Task do
   end
 
   def u1(c, pid) do
-    if c["success"] == "true" do
-      Enum.each(c["row"], fn x ->
+    # if c["success"] == "true" do
+    Enum.each(c["row"], fn x ->
+      if x["tradeEndDate"] != nil do
         y = x["specialNo"]
 
         qww = Agent.get(pid, & &1)
@@ -107,14 +108,18 @@ defmodule Zz.Task do
           i = spawn(Zg, :grain, [y, pid_list])
           Agent.update(pid, &Map.put(&1, y, i))
         end
-      end)
 
-      Process.sleep(15000)
-      u1(b(), pid)
-    else
-      Process.sleep(10000)
-      IO.puts("交易已经结束")
-      Agent.update(pid, &Map.drop(&1, Map.keys(&1)))
-    end
+        # end)
+
+        Process.sleep(15000)
+        u1(b(), pid)
+      else
+        Process.sleep(10000)
+        IO.puts("交易已经结束")
+      end
+    end)
+
+    Agent.update(pid, &Map.drop(&1, Map.keys(&1)))
+    # end
   end
 end
