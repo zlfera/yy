@@ -4781,3 +4781,10 @@
 [DEBUG] - 2019-07-16 14:18:31 - Completed Transaction Event harvest - size: 0
 [DEBUG] - 2019-07-16 14:18:31 - Completed Custom Event harvest - size: 56
 [DEBUG] - 2019-07-16 14:18:32 - Completed Span Event harvest - size: 0
+[INFO] - 2019-07-16 14:19:37 - Log File: /data/data/com.termux/files/home/your/tmp/new_relic.log
+[ERROR] - 2019-07-16 14:22:55 - preconnect: {:failed_connect, [{:to_address, {'collector.newrelic.com', 443}}, {:inet, [:inet], :closed}]}
+[INFO] - 2019-07-16 14:22:59 - Reporting to: https://rpm.newrelic.com/accounts/362387/applications/185353419
+[INFO] - 2019-07-16 14:24:04 - Log File: /data/data/com.termux/files/home/your/tmp/new_relic.log
+[INFO] - 2019-07-16 14:24:07 - Reporting to: https://rpm.newrelic.com/accounts/362387/applications/185353419
+[INFO] - 2019-07-16 14:24:59 - Log File: /data/data/com.termux/files/home/your/tmp/new_relic.log
+[INFO] - 2019-07-16 14:25:05 - Reporting to: https://rpm.newrelic.com/accounts/362387/applications/185353419

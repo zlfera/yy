@@ -20,7 +20,7 @@ defmodule Zz.Task do
     body = "{\"channelCode\": \"04\",\"currentDate\": \"2019-07-15\"}"
     options = [params: [channelCode: "04", currentDate: "2019-07-15"]]
     headers = ["content-type": "application/json;charset=UTF-8"]
-    {o, url} = HTTPoison.post(u, body, headers, options)
+    {:ok, url} = HTTPoison.post(u, body, headers, options)
     code = url.body |> Jason.decode!()
     code = code["result"]["dateList"]
     [code | _] = code
@@ -32,21 +32,20 @@ defmodule Zz.Task do
 
         options = [params: [activityNum: x["activityNum"], channelCode: "04"]]
         body = "{\"channelCode\": \"04\",\"activityNum\": \"#{x["activityNum"]}\"}"
-        {o, url} = HTTPoison.post(uuu, body, headers, options)
-        code = url.body |> Jason.decode!()
+        {:ok, url} = HTTPoison.post(uuu, body, headers, options)
+        url.body |> Jason.decode!()
       end)
 
-    code =
-      Enum.map(code, fn x ->
-        code = x["result"]["cusId"]
-        uuuu = "https://trade.gdgrain.com/sgtcTrade-front/sgtc/commonality/SCus001"
-        # headers = ["content-type": "application/json;charset=UTF-8"]
-        options = [params: [channelCode: "04", custId: code]]
-        body = "{\"channelCode\": \"04\",\"custId\": \"#{code}\"}"
-        {o, url} = HTTPoison.post(uuuu, body, headers, options)
-        code = url.body |> Jason.decode!()
-        code = code["result"]
-      end)
+    Enum.map(code, fn x ->
+      code = x["result"]["cusId"]
+      uuuu = "https://trade.gdgrain.com/sgtcTrade-front/sgtc/commonality/SCus001"
+      # headers = ["content-type": "application/json;charset=UTF-8"]
+      options = [params: [channelCode: "04", custId: code]]
+      body = "{\"channelCode\": \"04\",\"custId\": \"#{code}\"}"
+      {:ok, url} = HTTPoison.post(uuuu, body, headers, options)
+      code = url.body |> Jason.decode!()
+      code["result"]
+    end)
   end
 
   # 1
@@ -107,7 +106,6 @@ defmodule Zz.Task do
           {:ok, pid_list} = Agent.start_link(fn -> [] end)
           i = spawn(Zg, :grain, [y, pid_list])
           Agent.update(pid, &Map.put(&1, y, i))
-          p = Agent.get(pid, & &1)
         end
       end)
 
