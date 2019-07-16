@@ -4963,3 +4963,10 @@
 [DEBUG] - 2019-07-16 14:50:06 - Completed Error Event harvest - size: 0
 [DEBUG] - 2019-07-16 14:50:06 - Completed Transaction Trace harvest - size: 0
 [DEBUG] - 2019-07-16 14:50:06 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-16 14:51:04 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-16 14:51:04 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-16 14:51:05 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-16 14:51:05 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-16 14:51:05 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-16 14:51:05 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-16 14:51:05 - Completed Transaction Event harvest - size: 0
