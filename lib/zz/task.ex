@@ -92,7 +92,7 @@ defmodule Zz.Task do
   def u1(c, pid) do
     # if c["success"] == "true" do
     Enum.each(c["row"], fn x ->
-      if x["tradeEndDate"] != nil do
+      if x["statusName"] == "已启动" do
         y = x["specialNo"]
 
         qww = Agent.get(pid, & &1)
