@@ -6,6 +6,7 @@
 
 # General application configuration
 use Mix.Config
+{:ok, pid} = Agent.start_link(fn -> %{} end)
 
 config :zz,
   ecto_repos: [Zz.Repo]
@@ -27,7 +28,7 @@ config :logger, :console,
 config :phoenix, :json_library, Jason
 
 config :zz, Zz.Scheduler,
-  jobs: [{"0 0-23/1 * * *", {Zz.GetImage, :n, []}}, {"0 6 * * *", {Zz.Tasks, :run, []}}]
+  jobs: [{"0 0-23/1 * * *", {Zz.GetImage, :n, []}}, {"0 1-3/30 * * *", {Zz.Task, :run, [pid]}}]
 
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.

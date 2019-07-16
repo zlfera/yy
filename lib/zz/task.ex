@@ -2,7 +2,7 @@ defmodule Zz.Task do
   alias Zz.TaskGrain, as: Zg
 
   def run(pid) do
-    {:ok, _} = Application.ensure_all_started(:grain)
+    {:ok, _} = Application.ensure_all_started(:zz)
     p = Agent.get(pid, & &1)
     IO.inspect(p)
 

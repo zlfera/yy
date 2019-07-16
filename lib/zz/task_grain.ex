@@ -2,7 +2,7 @@ defmodule Zz.TaskGrain do
   alias Zz.Grains.Grain, as: G
   alias Zz.Repo
 
-  def a(dqqq \\ 1023) do
+  def a(dqqq) do
     u = "http://59.55.120.113:8311/web/bidPriceSpecialWatch?specialNo=#{dqqq}&specialName=z"
     uu = "http://59.55.120.113:8311/trade/open/watchSpecial"
     headers = [referer: u]
@@ -23,7 +23,7 @@ defmodule Zz.TaskGrain do
       "yes" ->
         Enum.each(dd["rows"], fn jj ->
           if !String.match?(jj["varietyName"], ~r/玉米|麦|油|豆/) do
-            # j(jj, dd, pid)
+            j(jj, dd, pid)
           end
         end)
 

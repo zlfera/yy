@@ -7,12 +7,7 @@ defmodule Zz.Tasks do
     url1 = "http://220.248.203.59:8686/rtp/data/race/getAllRaceMarketing.jsp"
     url2 = "http://220.248.203.59:8686/rtp/data/race/getRaceMeeting.jsp?id="
     url3 = "http://220.248.203.59:8686/rtp/data/race/getRaceTacheDetail.jsp?id="
-    url0 = "http://59.55.120.113:8311/trade/open/findSpecialMessageByCondition"
 
-    url00 = "http://59.55.120.113:8311/web/bidPriceSpecialWatch?specialNo=1014&specialName=num"
-
-    # headers = [Referer: "http://59.55.120.113:8311/web/bidPrice"]
-    # url1 = "http://59.55.120.113:8311/trade/open/watchSpecial"
     url = HTTPoison.get!(url1)
     docs = Jason.decode!(url.body)
 
