@@ -53,7 +53,6 @@ defmodule Zz.Task do
       end
 
     Task.yield_many(tasks)
-    IO.inspect(tasks)
   end
 
   # 1
