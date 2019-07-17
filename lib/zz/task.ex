@@ -16,34 +16,44 @@ defmodule Zz.Task do
     total = code["result"]["total"]
     page_no = ceil(total / 10)
 
-    Enum.map(1..page_no, fn p ->
-      body = "{\"channelCode\": \"04\",\"pageNo\": \"#{p}\",\"pageSize\": \"10\"}"
-      {:ok, url} = HTTPoison.post(u, body, headers)
-      code = url.body |> Jason.decode!()
+    tasks =
+      for p <- 1..page_no do
+        # Enum.map(1..page_no, fn p ->
+        Task.async(fn ->
+          body = "{\"channelCode\": \"04\",\"pageNo\": \"#{p}\",\"pageSize\": \"10\"}"
+          {:ok, url} = HTTPoison.post(u, body, headers)
+          code = url.body |> Jason.decode!()
 
-      code = code["result"]["activityList"]
+          code = code["result"]["activityList"]
 
-      code =
-        Enum.map(code, fn x ->
-          uuu = "https://trade.gdgrain.com/sgtcTrade-front/sgtc/activity/SAct009"
+          code =
+            for x <- code do
+              # Enum.map(code, fn x ->
+              uuu = "https://trade.gdgrain.com/sgtcTrade-front/sgtc/activity/SAct009"
 
-          options = [params: [activityNum: x["activityNum"], channelCode: "04"]]
-          body = "{\"channelCode\": \"04\",\"activityNum\": \"#{x["activityNum"]}\"}"
-          {:ok, url} = HTTPoison.post(uuu, body, headers, options)
-          url.body |> Jason.decode!()
+              options = [params: [activityNum: x["activityNum"], channelCode: "04"]]
+              body = "{\"channelCode\": \"04\",\"activityNum\": \"#{x["activityNum"]}\"}"
+              {:ok, url} = HTTPoison.post(uuu, body, headers, options)
+              code = url.body |> Jason.decode!()
+              code["result"]["cusId"]
+            end
+
+          for code <- code do
+            # Enum.map(code, fn x ->
+            # code = x["result"]["cusId"]
+            uuuu = "https://trade.gdgrain.com/sgtcTrade-front/sgtc/commonality/SCus001"
+            # headers = ["content-type": "application/json;charset=UTF-8"]
+            options = [params: [channelCode: "04", custId: code]]
+            body = "{\"channelCode\": \"04\",\"custId\": \"#{code}\"}"
+            {:ok, url} = HTTPoison.post(uuuu, body, headers, options)
+            code = url.body |> Jason.decode!()
+            code["result"]
+          end
         end)
+      end
 
-      Enum.map(code, fn x ->
-        code = x["result"]["cusId"]
-        uuuu = "https://trade.gdgrain.com/sgtcTrade-front/sgtc/commonality/SCus001"
-        # headers = ["content-type": "application/json;charset=UTF-8"]
-        options = [params: [channelCode: "04", custId: code]]
-        body = "{\"channelCode\": \"04\",\"custId\": \"#{code}\"}"
-        {:ok, url} = HTTPoison.post(uuuu, body, headers, options)
-        code = url.body |> Jason.decode!()
-        code["result"]
-      end)
-    end)
+    Task.yield_many(tasks)
+    IO.inspect(tasks)
   end
 
   # 1
@@ -89,10 +99,14 @@ defmodule Zz.Task do
   end
 
   def u1(c) do
-    Enum.each(c["row"], fn x ->
-      y = x["specialNo"]
-      yy = x["selfBS"]
-      spawn(Zg, :grain, [y, yy])
-    end)
+    tasks =
+      for x <- c["row"] do
+        # Enum.each(c["row"], fn x ->
+        y = x["specialNo"]
+        yy = x["selfBS"]
+        Task.async(Zg, :grain, [y, yy])
+      end
+
+    Task.yield_many(tasks)
   end
 end
