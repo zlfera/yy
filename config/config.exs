@@ -29,7 +29,7 @@ config :phoenix, :json_library, Jason
 config :zz, Zz.Scheduler,
   jobs: [
     {"0 0-23/1 * * *", {Zz.GetImage, :n, []}},
-    {"35 5 * * *", {Zz.Task, :run, []}}
+    {"0 5 * * *", {Zz.Task, :run, []}}
   ]
 
 # Import environment specific config. This must remain at the bottom
