@@ -6723,3 +6723,51 @@
 [DEBUG] - 2019-07-17 12:56:08 - Completed Error Trace harvest - size: 0
 [DEBUG] - 2019-07-17 12:56:08 - Completed Error Event harvest - size: 0
 [DEBUG] - 2019-07-17 12:56:08 - Completed Transaction Event harvest - size: 0
+[INFO] - 2019-07-17 13:01:49 - Log File: /data/data/com.termux/files/home/your/tmp/new_relic.log
+[INFO] - 2019-07-17 13:01:54 - Reporting to: https://rpm.newrelic.com/accounts/362387/applications/185353419
+[DEBUG] - 2019-07-17 13:02:52 - Completed Metric harvest - size: 2
+[DEBUG] - 2019-07-17 13:02:52 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-17 13:02:52 - Completed Custom Event harvest - size: 51
+[DEBUG] - 2019-07-17 13:02:53 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-17 13:02:56 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-17 13:02:57 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-17 13:02:58 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-17 13:03:52 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-17 13:03:52 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-17 13:03:52 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-17 13:03:52 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-17 13:03:52 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-17 13:03:52 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-17 13:03:53 - Completed Transaction Event harvest - size: 0
+[INFO] - 2019-07-17 13:04:34 - Log File: /data/data/com.termux/files/home/your/tmp/new_relic.log
+[INFO] - 2019-07-17 13:04:40 - Reporting to: https://rpm.newrelic.com/accounts/362387/applications/185353419
+[DEBUG] - 2019-07-17 13:05:39 - Completed Metric harvest - size: 2
+[DEBUG] - 2019-07-17 13:05:40 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-17 13:05:40 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-17 13:05:40 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-17 13:05:40 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-17 13:05:41 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-17 13:05:48 - Completed Custom Event harvest - size: 51
+[DEBUG] - 2019-07-17 13:06:39 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-17 13:06:39 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-17 13:06:40 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-17 13:06:40 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-17 13:06:41 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-17 13:06:41 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-17 13:06:56 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-17 13:07:39 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-17 13:07:39 - Completed Error Trace harvest - size: 1
+[DEBUG] - 2019-07-17 13:07:40 - Completed Error Event harvest - size: 1
+[DEBUG] - 2019-07-17 13:07:40 - Completed Metric harvest - size: 14
+[DEBUG] - 2019-07-17 13:07:40 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-17 13:07:43 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-17 13:07:44 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-17 13:08:39 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-17 13:08:40 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-17 13:08:41 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-17 13:08:41 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-17 13:08:43 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-17 13:08:43 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-17 13:08:43 - Completed Span Event harvest - size: 0
+[INFO] - 2019-07-17 13:09:01 - Log File: /data/data/com.termux/files/home/your/tmp/new_relic.log
+[INFO] - 2019-07-17 13:09:11 - Reporting to: https://rpm.newrelic.com/accounts/362387/applications/185353419

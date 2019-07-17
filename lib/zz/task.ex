@@ -90,10 +90,7 @@ defmodule Zz.Task do
     Enum.each(c["row"], fn x ->
       y = x["specialNo"]
       yy = x["selfBS"]
-      i = spawn(Zg, :grain, [y, yy])
+      spawn(Zg, :grain, [y, yy])
     end)
-
-    # Process.sleep(10000)
-    # IO.puts("交易已经结束")
   end
 end
