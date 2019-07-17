@@ -20,7 +20,7 @@ defmodule Zz.TaskGrain do
   def grain(y, yy) do
     dd = a(y)
 
-    tradetype =
+    trantype =
       if yy == "S" do
         "拍卖"
       else
