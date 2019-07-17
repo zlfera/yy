@@ -1,29 +1,23 @@
 defmodule Zz.Task do
   alias Zz.TaskGrain, as: Zg
 
-  def run(pid) do
+  def run() do
     {:ok, _} = Application.ensure_all_started(:zz)
-    p = Agent.get(pid, & &1)
-    IO.inspect(p)
-
-    if p != %{} do
-      Map.keys(p) |> Enum.each(&(Process.alive?(p[&1]) |> IO.puts()))
-      IO.puts("当前任务正在进行中")
-    else
-      "启动新任务" |> IO.puts()
-      u1(b(), pid)
-    end
+    u1(b())
   end
 
   def phone do
-    u = "https://trade.gdgrain.com/sgtcTrade-front/sgtc/activity/SAct006"
-    body = "{\"channelCode\": \"04\",\"currentDate\": \"2019-07-15\"}"
-    options = [params: [channelCode: "04", currentDate: "2019-07-15"]]
+    u = "https://trade.gdgrain.com/sgtcTrade-front/sgtc/activity/SAct007"
+    body = "{\"channelCode\": \"04\",\"pageNo\": \"1\",\"pageSize\": \"10\"}"
+    # options = [params: [channelCode: "04", currentDate: "2019-07-15"]]
     headers = ["content-type": "application/json;charset=UTF-8"]
-    {:ok, url} = HTTPoison.post(u, body, headers, options)
+    {:ok, url} = HTTPoison.post(u, body, headers)
     code = url.body |> Jason.decode!()
+    # total = code["result"]["total"]
+
     code = code["result"]["dateList"]
-    # [code | _] = code
+    [code | _] = code
+
     Enum.map(code, fn code ->
       code = code["timeList"]
 
@@ -79,6 +73,7 @@ defmodule Zz.Task do
     # u = "http://59.55.120.113:8311/web/bidPriceSpecialWatch?specialNo=1018&specialName=num"
     # uu = "http://59.55.120.113:8311/trade/open/watchSpecial"
     u = "http://59.55.120.113:8311/trade/open/findSpecialMessageByCondition"
+    # u = "http://59.55.120.113:8311/trade/biddingAbout/tradeRequestListWatch"
     # uuuu = "http://59.55.120.113:8311/web/bidPrice"
     # headers = [referer: u]
     options = [params: [ckType: "plan", specialType: "7801"]]
@@ -91,37 +86,14 @@ defmodule Zz.Task do
     end
   end
 
-  def u1(c, pid) do
-    # if c["success"] == "true" do
+  def u1(c) do
     Enum.each(c["row"], fn x ->
-      if x["statusName"] == "交易中" do
-        y = x["specialNo"]
-
-        qww = Agent.get(pid, & &1)
-
-        if Map.has_key?(qww, y) do
-          Enum.each(Map.keys(qww), fn k ->
-            if !Process.alive?(qww[k]) do
-              Agent.update(pid, &Map.delete(&1, k))
-            end
-          end)
-        else
-          {:ok, pid_list} = Agent.start_link(fn -> [] end)
-          i = spawn(Zg, :grain, [y, pid_list])
-          Agent.update(pid, &Map.put(&1, y, i))
-        end
-
-        # end)
-
-        Process.sleep(15000)
-        u1(b(), pid)
-      else
-        Process.sleep(10000)
-        IO.puts("交易已经结束")
-      end
+      y = x["specialNo"]
+      yy = x["selfBS"]
+      i = spawn(Zg, :grain, [y, yy])
     end)
 
-    Agent.update(pid, &Map.drop(&1, Map.keys(&1)))
-    # end
+    # Process.sleep(10000)
+    # IO.puts("交易已经结束")
   end
 end
