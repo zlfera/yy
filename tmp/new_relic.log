@@ -7821,3 +7821,10 @@
 [DEBUG] - 2019-07-18 06:45:44 - Completed Span Event harvest - size: 0
 [DEBUG] - 2019-07-18 06:45:44 - Completed Custom Event harvest - size: 56
 [DEBUG] - 2019-07-18 06:45:44 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-18 06:46:44 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-18 06:46:44 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-18 06:46:44 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-18 06:46:44 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-18 06:46:44 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-18 06:46:44 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-18 06:46:45 - Completed Span Event harvest - size: 0
