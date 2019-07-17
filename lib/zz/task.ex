@@ -23,28 +23,30 @@ defmodule Zz.Task do
     {:ok, url} = HTTPoison.post(u, body, headers, options)
     code = url.body |> Jason.decode!()
     code = code["result"]["dateList"]
-    [code | _] = code
-    code = code["timeList"]
+    # [code | _] = code
+    Enum.map(code, fn code ->
+      code = code["timeList"]
 
-    code =
+      code =
+        Enum.map(code, fn x ->
+          uuu = "https://trade.gdgrain.com/sgtcTrade-front/sgtc/activity/SAct009"
+
+          options = [params: [activityNum: x["activityNum"], channelCode: "04"]]
+          body = "{\"channelCode\": \"04\",\"activityNum\": \"#{x["activityNum"]}\"}"
+          {:ok, url} = HTTPoison.post(uuu, body, headers, options)
+          url.body |> Jason.decode!()
+        end)
+
       Enum.map(code, fn x ->
-        uuu = "https://trade.gdgrain.com/sgtcTrade-front/sgtc/activity/SAct009"
-
-        options = [params: [activityNum: x["activityNum"], channelCode: "04"]]
-        body = "{\"channelCode\": \"04\",\"activityNum\": \"#{x["activityNum"]}\"}"
-        {:ok, url} = HTTPoison.post(uuu, body, headers, options)
-        url.body |> Jason.decode!()
+        code = x["result"]["cusId"]
+        uuuu = "https://trade.gdgrain.com/sgtcTrade-front/sgtc/commonality/SCus001"
+        # headers = ["content-type": "application/json;charset=UTF-8"]
+        options = [params: [channelCode: "04", custId: code]]
+        body = "{\"channelCode\": \"04\",\"custId\": \"#{code}\"}"
+        {:ok, url} = HTTPoison.post(uuuu, body, headers, options)
+        code = url.body |> Jason.decode!()
+        code["result"]
       end)
-
-    Enum.map(code, fn x ->
-      code = x["result"]["cusId"]
-      uuuu = "https://trade.gdgrain.com/sgtcTrade-front/sgtc/commonality/SCus001"
-      # headers = ["content-type": "application/json;charset=UTF-8"]
-      options = [params: [channelCode: "04", custId: code]]
-      body = "{\"channelCode\": \"04\",\"custId\": \"#{code}\"}"
-      {:ok, url} = HTTPoison.post(uuuu, body, headers, options)
-      code = url.body |> Jason.decode!()
-      code["result"]
     end)
   end
 
@@ -92,7 +94,7 @@ defmodule Zz.Task do
   def u1(c, pid) do
     # if c["success"] == "true" do
     Enum.each(c["row"], fn x ->
-      if x["statusName"] == "已启动" do
+      if x["statusName"] == "交易中" do
         y = x["specialNo"]
 
         qww = Agent.get(pid, & &1)

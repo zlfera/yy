@@ -228,3 +228,13 @@
 2019-07-17 06:48:04.081 CST [28390] LOG:  invalid record length at 0/16BD188: wanted 24, got 0
 2019-07-17 06:48:04.081 CST [28390] LOG:  redo done at 0/16BD150
 2019-07-17 06:48:04.196 CST [28386] LOG:  database system is ready to accept connections
+2019-07-17 07:08:16.503 CST [30804] FATAL:  lock file "postmaster.pid" already exists
+2019-07-17 07:08:16.503 CST [30804] HINT:  Is another postmaster (PID 28386) running in data directory "/data/data/com.termux/files/home/data"?
+2019-07-17 09:25:26.771 CST [19004] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-07-17 09:25:26.778 CST [19004] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2019-07-17 09:25:26.833 CST [19008] LOG:  database system was interrupted; last known up at 2019-07-17 06:48:04 CST
+2019-07-17 09:25:27.913 CST [19008] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-07-17 09:25:27.919 CST [19008] LOG:  redo starts at 0/16BD1F8
+2019-07-17 09:25:27.919 CST [19008] LOG:  invalid record length at 0/16BD230: wanted 24, got 0
+2019-07-17 09:25:27.919 CST [19008] LOG:  redo done at 0/16BD1F8
+2019-07-17 09:25:27.988 CST [19004] LOG:  database system is ready to accept connections
