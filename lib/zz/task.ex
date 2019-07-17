@@ -92,5 +92,7 @@ defmodule Zz.Task do
       yy = x["selfBS"]
       spawn(Zg, :grain, [y, yy])
     end)
+
+    Process.sleep(10000)
   end
 end
