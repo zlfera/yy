@@ -52,7 +52,7 @@ defmodule Zz.Task do
         end)
       end
 
-    Task.yield_many(tasks)
+    Task.yield_many(tasks, 15000)
   end
 
   # 1
