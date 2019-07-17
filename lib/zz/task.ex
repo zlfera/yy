@@ -13,13 +13,15 @@ defmodule Zz.Task do
     headers = ["content-type": "application/json;charset=UTF-8"]
     {:ok, url} = HTTPoison.post(u, body, headers)
     code = url.body |> Jason.decode!()
-    # total = code["result"]["total"]
+    total = code["result"]["total"]
+    page_no = ceil(total / 10)
 
-    code = code["result"]["dateList"]
-    [code | _] = code
+    Enum.map(1..page_no, fn p ->
+      body = "{\"channelCode\": \"04\",\"pageNo\": \"#{p}\",\"pageSize\": \"10\"}"
+      {:ok, url} = HTTPoison.post(u, body, headers)
+      code = url.body |> Jason.decode!()
 
-    Enum.map(code, fn code ->
-      code = code["timeList"]
+      code = code["result"]["activityList"]
 
       code =
         Enum.map(code, fn x ->

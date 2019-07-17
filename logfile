@@ -278,3 +278,11 @@
 2019-07-17 10:22:23.601 CST [30286] LOG:  PID 28476 in cancel request did not match any process
 2019-07-17 10:22:25.599 CST [30291] LOG:  PID 28532 in cancel request did not match any process
 2019-07-17 10:22:27.600 CST [30298] LOG:  PID 28545 in cancel request did not match any process
+2019-07-17 21:22:20.152 CST [8876] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-07-17 21:22:20.164 CST [8876] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2019-07-17 21:22:20.241 CST [8880] LOG:  database system was interrupted; last known up at 2019-07-17 17:18:17 CST
+2019-07-17 21:22:21.254 CST [8880] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-07-17 21:22:21.258 CST [8880] LOG:  redo starts at 0/16C0498
+2019-07-17 21:22:21.258 CST [8880] LOG:  invalid record length at 0/16C04D0: wanted 24, got 0
+2019-07-17 21:22:21.258 CST [8880] LOG:  redo done at 0/16C0498
+2019-07-17 21:22:21.299 CST [8876] LOG:  database system is ready to accept connections
