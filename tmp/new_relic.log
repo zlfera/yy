@@ -9022,3 +9022,10 @@
 [DEBUG] - 2019-07-18 11:12:26 - Completed Custom Event harvest - size: 57
 [DEBUG] - 2019-07-18 11:12:26 - Completed Transaction Event harvest - size: 29
 [DEBUG] - 2019-07-18 11:12:26 - Completed Error Event harvest - size: 16
+[DEBUG] - 2019-07-18 11:13:24 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-18 11:13:24 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-18 11:13:24 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-18 11:13:24 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-18 11:13:24 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-18 11:13:24 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-18 11:13:25 - Completed Transaction Event harvest - size: 0
