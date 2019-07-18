@@ -32,7 +32,7 @@ defmodule Zz.TaskGrain do
         if d["statusName"] == "流拍" do
           "0"
         else
-          d["matchPrice"]
+          Integer.to_string(d["matchPrice"])
         end
 
       attr = %{
@@ -41,11 +41,11 @@ defmodule Zz.TaskGrain do
         year: "0",
         variety: d["VARIETYNAME"],
         grade: d["GRADENAME"],
-        trade_amount: d["NUM"],
-        starting_price: d["PRICE"],
+        trade_amount: Integer.to_string(d["NUM"]),
+        starting_price: Integer.to_string(d["PRICE"]),
         latest_price: latest_price,
         address: d["BUYDEPOTNAME"],
-        status: d["status_name"],
+        status: d["statusName"],
         trantype: trantype
       }
 

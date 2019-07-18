@@ -113,7 +113,7 @@ defmodule Zz.Task do
   def u1(c) do
     tasks =
       for x <- c["row"] do
-        # Enum.each(c["row"], fn x ->
+        Process.sleep(1000)
         y = x["specialNo"]
         yy = x["selfBS"]
         Task.async(Zg, :grain, [y, yy])

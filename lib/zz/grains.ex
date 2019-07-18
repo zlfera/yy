@@ -31,7 +31,7 @@ defmodule Zz.Grains do
         |> Ecto.Query.where([l], l.latest_price != "0")
         |> Ecto.Query.limit(1000)
         |> Ecto.Query.order_by(desc: :inserted_at)
-        |> Grain.Repo.all()
+        |> Gr.all()
 
       "starting_price" ->
         [f] = Ecto.Query.from(p in Ggg, select: min(p.starting_price)) |> Gr.all()
