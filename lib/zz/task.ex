@@ -57,7 +57,17 @@ defmodule Zz.Task do
         end)
       end
 
-    Task.yield_many(tasks, 15000)
+    tasks = Task.yield_many(tasks)
+
+    results =
+      Enum.map(tasks, fn {task, res} ->
+        res
+      end)
+
+    values =
+      for {:ok, value} <- results do
+        value
+      end
   end
 
   # 1
