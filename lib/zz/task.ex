@@ -6,6 +6,33 @@ defmodule Zz.Task do
     u1(b())
   end
 
+  def year() do
+    url = "www.ex-grain.cn/jrjj.htm?date=2019-07-18"
+    body = HTTPoison.get!(url).body
+    urls = Floki.find(body, "table tr td a.new_jrjy") |> Floki.attribute("href")
+
+    for url <- urls do
+      url = "http://www.ex-grain.cn/#{url}"
+      body = HTTPoison.get!(url, recv_timeout: 1000).body
+      tr = Floki.find(body, "table.MsoNormalTable tbody tr")
+
+      l =
+        for t <- tr do
+          g = Floki.find(t, "tr")
+          Floki.text(g, sep: "?")
+        end
+
+      l = List.delete_at(l, 0)
+      l = List.delete_at(l, 0)
+      l = List.delete_at(l, 0)
+
+      l =
+        for w <- l do
+          String.split(w, ",", trim: true)
+        end
+    end
+  end
+
   def phone do
     u = "https://trade.gdgrain.com/sgtcTrade-front/sgtc/activity/SAct007"
     body = "{\"channelCode\": \"04\",\"pageNo\": \"1\",\"pageSize\": \"10\"}"

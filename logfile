@@ -371,3 +371,43 @@
 2019-07-18 11:54:28.967 CST [5328] ERROR:  duplicate key value violates unique constraint "grains_mark_number_index"
 2019-07-18 11:54:28.967 CST [5328] DETAIL:  Key (mark_number)=(20190718ncdfcbl0001) already exists.
 2019-07-18 11:54:28.967 CST [5328] STATEMENT:  INSERT INTO "grains" ("address","grade","latest_price","mark_number","market_name","starting_price","status","trade_amount","trantype","variety","year","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13) RETURNING "id"
+2019-07-18 12:03:18.617 CST [7142] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-07-18 12:03:18.650 CST [7142] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2019-07-18 12:03:18.944 CST [7146] LOG:  database system was interrupted; last known up at 2019-07-18 11:54:55 CST
+2019-07-18 12:03:22.299 CST [7146] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-07-18 12:03:22.408 CST [7146] LOG:  redo starts at 0/16C9990
+2019-07-18 12:03:22.409 CST [7146] LOG:  invalid record length at 0/16C9A70: wanted 24, got 0
+2019-07-18 12:03:22.409 CST [7146] LOG:  redo done at 0/16C9A38
+2019-07-18 12:03:22.904 CST [7142] LOG:  database system is ready to accept connections
+2019-07-18 12:54:10.391 CST [12061] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-07-18 12:54:10.406 CST [12061] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2019-07-18 12:54:10.457 CST [12065] LOG:  database system was interrupted; last known up at 2019-07-18 12:03:22 CST
+2019-07-18 12:54:11.927 CST [12065] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-07-18 12:54:11.938 CST [12065] LOG:  redo starts at 0/16C9AE0
+2019-07-18 12:54:11.939 CST [12065] LOG:  invalid record length at 0/16C9B18: wanted 24, got 0
+2019-07-18 12:54:11.939 CST [12065] LOG:  redo done at 0/16C9AE0
+2019-07-18 12:54:12.015 CST [12061] LOG:  database system is ready to accept connections
+2019-07-18 19:39:06.863 CST [2770] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-07-18 19:39:06.875 CST [2770] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2019-07-18 19:39:06.961 CST [2774] LOG:  database system was interrupted; last known up at 2019-07-18 12:54:11 CST
+2019-07-18 19:39:08.995 CST [2774] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-07-18 19:39:09.007 CST [2774] LOG:  redo starts at 0/16C9B88
+2019-07-18 19:39:09.007 CST [2774] LOG:  invalid record length at 0/16C9BC0: wanted 24, got 0
+2019-07-18 19:39:09.007 CST [2774] LOG:  redo done at 0/16C9B88
+2019-07-18 19:39:09.121 CST [2770] LOG:  database system is ready to accept connections
+2019-07-19 07:10:10.649 CST [22078] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-07-19 07:10:10.660 CST [22078] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2019-07-19 07:10:10.722 CST [22082] LOG:  database system was interrupted; last known up at 2019-07-18 19:39:09 CST
+2019-07-19 07:10:11.932 CST [22082] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-07-19 07:10:11.944 CST [22082] LOG:  redo starts at 0/16C9C30
+2019-07-19 07:10:11.944 CST [22082] LOG:  invalid record length at 0/16C9C68: wanted 24, got 0
+2019-07-19 07:10:11.944 CST [22082] LOG:  redo done at 0/16C9C30
+2019-07-19 07:10:12.064 CST [22078] LOG:  database system is ready to accept connections
+2019-07-19 11:21:39.920 CST [14750] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-07-19 11:21:39.928 CST [14750] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2019-07-19 11:21:39.990 CST [14754] LOG:  database system was interrupted; last known up at 2019-07-19 07:10:11 CST
+2019-07-19 11:21:41.853 CST [14754] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-07-19 11:21:41.863 CST [14754] LOG:  redo starts at 0/16C9CD8
+2019-07-19 11:21:41.863 CST [14754] LOG:  invalid record length at 0/16C9D10: wanted 24, got 0
+2019-07-19 11:21:41.863 CST [14754] LOG:  redo done at 0/16C9CD8
+2019-07-19 11:21:41.963 CST [14750] LOG:  database system is ready to accept connections
