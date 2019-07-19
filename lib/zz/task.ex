@@ -11,28 +11,31 @@ defmodule Zz.Task do
     body = HTTPoison.get!(url).body
     urls = Floki.find(body, "table tr td a.new_jrjy") |> Floki.attribute("href")
 
-    for url <- urls do
-      url = "http://www.ex-grain.cn/#{url}"
-      body = HTTPoison.get!(url, recv_timeout: 1000).body
-      tr = Floki.find(body, "table.MsoNormalTable tbody tr")
+    l =
+      for url <- urls do
+        url = "http://www.ex-grain.cn/#{url}"
+        body = HTTPoison.get!(url, recv_timeout: 1000).body
+        tr = Floki.find(body, "table.MsoNormalTable tbody tr")
 
-      l =
-        for t <- tr do
-          g = Floki.find(t, "tr")
-          Floki.text(g)
-        end
+        l =
+          for t <- tr do
+            g = Floki.find(t, "tr")
+            Floki.text(g)
+          end
 
-      l = List.delete_at(l, 0)
-      l = List.delete_at(l, 0)
-      l = List.delete_at(l, 0)
+        l = List.delete_at(l, 0)
+        l = List.delete_at(l, 0)
+        l = List.delete_at(l, 0)
 
-      l =
-        for w <- l do
-          String.split(w, ",", trim: true)
-        end
+        # for w <- l do
+        # String.split(w, ",", trim: true)
+        # end
+      end
 
+    l =
       Enum.reject(l, fn x -> length(x) == 0 end)
-    end
+      |> Enum.map_join(fn x -> Enum.join(x, ",") end)
+      |> String.split(",")
   end
 
   def f do
