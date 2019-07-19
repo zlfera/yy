@@ -19,7 +19,7 @@ defmodule Zz.Task do
       l =
         for t <- tr do
           g = Floki.find(t, "tr")
-          Floki.text(g, sep: "?")
+          Floki.text(g)
         end
 
       l = List.delete_at(l, 0)
@@ -30,7 +30,13 @@ defmodule Zz.Task do
         for w <- l do
           String.split(w, ",", trim: true)
         end
+
+      Enum.reject(l, fn x -> length(x) == 0 end)
     end
+  end
+
+  def f do
+    Enum.reject(Zz.Task.year(), fn x -> length(x) == 0 end)
   end
 
   def phone do
