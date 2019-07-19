@@ -8,7 +8,7 @@ defmodule Zz.Task do
   end
 
   def year() do
-    url = "www.ex-grain.cn/jrjj.htm"
+    url = "www.ex-grain.cn/jrjj.htm?date=2019-07-18"
     body = HTTPoison.get!(url).body
     urls = Floki.find(body, "table tr td a.new_jrjy") |> Floki.attribute("href")
 

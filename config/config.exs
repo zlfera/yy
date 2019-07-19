@@ -30,7 +30,7 @@ config :zz, Zz.Scheduler,
   jobs: [
     {"0 0-23/1 * * *", {Zz.GetImage, :n, []}},
     {"0 4 * * *", {Zz.Task, :run, []}},
-    {"0 5 * * *", {Zz.Task, :year, []}}
+    {"52 23 * * *", {Zz.Task, :year, []}}
   ]
 
 # Import environment specific config. This must remain at the bottom
