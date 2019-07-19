@@ -1,5 +1,6 @@
 defmodule Zz.Task do
   alias Zz.TaskGrain, as: Zg
+  import Ecto.Query
 
   def run() do
     {:ok, _} = Application.ensure_all_started(:zz)
@@ -7,35 +8,58 @@ defmodule Zz.Task do
   end
 
   def year() do
-    url = "www.ex-grain.cn/jrjj.htm?date=2019-07-18"
+    url = "www.ex-grain.cn/jrjj.htm"
     body = HTTPoison.get!(url).body
     urls = Floki.find(body, "table tr td a.new_jrjy") |> Floki.attribute("href")
 
-    l =
-      for url <- urls do
-        url = "http://www.ex-grain.cn/#{url}"
-        body = HTTPoison.get!(url, recv_timeout: 1000).body
-        tr = Floki.find(body, "table.MsoNormalTable tbody tr")
+    if !Enum.empty?(urls) do
+      l =
+        for url <- urls do
+          url = "http://www.ex-grain.cn/#{url}"
+          body = HTTPoison.get!(url, recv_timeout: 1000).body
+          tr = Floki.find(body, "table.MsoNormalTable tbody tr")
 
-        l =
-          for t <- tr do
-            g = Floki.find(t, "tr")
-            Floki.text(g)
+          l =
+            for t <- tr do
+              g = Floki.find(t, "tr")
+              Floki.text(g)
+            end
+
+          l = List.delete_at(l, 0)
+          l = List.delete_at(l, 0)
+          List.delete_at(l, 0)
+
+          # for w <- l do
+          # String.split(w, ",", trim: true)
+          # end
+        end
+
+      l =
+        Enum.reject(l, fn x -> length(x) == 0 end)
+        |> Enum.map_join(",", fn x -> Enum.join(x, ",") end)
+        |> String.split(",")
+
+      z =
+        Zz.Grains.Grain
+        |> Ecto.Query.limit(^length(l))
+        |> Ecto.Query.order_by(desc: :inserted_at)
+        |> Zz.Repo.all()
+
+      {:ok, pid} = Agent.start_link(fn -> [] end)
+      Agent.update(pid, fn _ -> l end)
+
+      Enum.each(z, fn x ->
+        Enum.each(Agent.get(pid, & &1), fn xx ->
+          if String.contains?(xx, x.mark_number) do
+            [xx | _] = String.split(xx, x.variety)
+            [i] = ~r/\d+$/ |> Regex.run(xx)
+            post = Ecto.Changeset.change(x, year: i)
+            Zz.Repo.update(post)
+            Agent.update(pid, &List.delete(&1, xx))
           end
-
-        l = List.delete_at(l, 0)
-        l = List.delete_at(l, 0)
-        l = List.delete_at(l, 0)
-
-        # for w <- l do
-        # String.split(w, ",", trim: true)
-        # end
-      end
-
-    l =
-      Enum.reject(l, fn x -> length(x) == 0 end)
-      |> Enum.map_join(fn x -> Enum.join(x, ",") end)
-      |> String.split(",")
+        end)
+      end)
+    end
   end
 
   def f do
