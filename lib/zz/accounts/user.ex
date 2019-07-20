@@ -2,6 +2,18 @@ defmodule Zz.Accounts.User do
   use Ecto.Schema
   import Ecto.Changeset
 
+  @derive {Zz.Accounts.User,
+           except: [
+             :bank_id,
+             :busi_type,
+             :cert_code,
+             :cust_id,
+             :deposit_bank,
+             :email,
+             :fax,
+             :manage_type,
+             :phone
+           ]}
   schema "users" do
     field :address, :string
     field :arti_person, :string
