@@ -23,3 +23,21 @@
 2019-07-20 21:23:33.801 CST [10175] LOG:  invalid record length at 0/1735B40: wanted 24, got 0
 2019-07-20 21:23:33.801 CST [10175] LOG:  redo done at 0/1735B08
 2019-07-20 21:23:33.863 CST [10171] LOG:  database system is ready to accept connections
+2019-07-20 22:09:52.837 CST [20799] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-07-20 22:09:52.851 CST [20799] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2019-07-20 22:09:52.925 CST [20803] LOG:  database system was interrupted; last known up at 2019-07-20 21:33:39 CST
+2019-07-20 22:09:54.944 CST [20803] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-07-20 22:09:54.955 CST [20803] LOG:  redo starts at 0/17ED598
+2019-07-20 22:09:54.955 CST [20803] LOG:  invalid record length at 0/17ED678: wanted 24, got 0
+2019-07-20 22:09:54.955 CST [20803] LOG:  redo done at 0/17ED640
+2019-07-20 22:09:55.061 CST [20799] LOG:  database system is ready to accept connections
+2019-07-20 22:30:10.829 CST [20885] LOG:  could not receive data from client: Connection reset by peer
+2019-07-20 22:30:10.829 CST [20890] LOG:  could not receive data from client: Connection reset by peer
+2019-07-20 22:30:10.829 CST [20892] LOG:  could not receive data from client: Software caused connection abort
+2019-07-20 22:30:10.830 CST [20887] LOG:  could not receive data from client: Software caused connection abort
+2019-07-20 22:30:10.830 CST [20893] LOG:  could not receive data from client: Software caused connection abort
+2019-07-20 22:30:10.831 CST [20891] LOG:  could not receive data from client: Software caused connection abort
+2019-07-20 22:30:10.831 CST [20888] LOG:  could not receive data from client: Connection reset by peer
+2019-07-20 22:30:10.831 CST [20884] LOG:  could not receive data from client: Software caused connection abort
+2019-07-20 22:30:10.831 CST [20889] LOG:  could not receive data from client: Connection reset by peer
+2019-07-20 22:30:10.832 CST [20886] LOG:  could not receive data from client: Software caused connection abort

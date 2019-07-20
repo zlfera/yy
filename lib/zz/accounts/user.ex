@@ -2,7 +2,7 @@ defmodule Zz.Accounts.User do
   use Ecto.Schema
   import Ecto.Changeset
 
-  @derive {Zz.Accounts.User,
+  @derive {Inspect,
            except: [
              :bank_id,
              :busi_type,
