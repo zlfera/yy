@@ -3,7 +3,7 @@
 
 # If you run "mix test --cover", coverage assets end up here.
 /cover/
-/tmp/new_relic.log
+/tmp/
 # The directory Mix downloads your dependencies sources to.
 /deps/
 
@@ -24,7 +24,7 @@ zz-*.tar
 
 # If NPM crashes, it generates a log, let's ignore it too.
 npm-debug.log
-
+logfile
 # The directory NPM downloads your dependencies sources to.
 /assets/node_modules/
 

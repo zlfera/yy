@@ -22,6 +22,7 @@ defmodule ZzWeb.Router do
     post "/grains", GrainController, :index
     get "/index", HomeController, :index
     get "/fengya", FengYaController, :index
+    get "/phone", UserController, :index
   end
 
   # Other scopes may use custom stacks.

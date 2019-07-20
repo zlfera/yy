@@ -1,5 +1,6 @@
 defmodule Zz.Task do
   alias Zz.TaskGrain, as: Zg
+  alias Zz.Accounts.User, as: G
   import Ecto.Query
 
   def run() do
@@ -62,10 +63,6 @@ defmodule Zz.Task do
     end
   end
 
-  def f do
-    Enum.reject(Zz.Task.year(), fn x -> length(x) == 0 end)
-  end
-
   def phone do
     u = "https://trade.gdgrain.com/sgtcTrade-front/sgtc/activity/SAct007"
     body = "{\"channelCode\": \"04\",\"pageNo\": \"1\",\"pageSize\": \"10\"}"
@@ -126,6 +123,32 @@ defmodule Zz.Task do
       for {:ok, value} <- results do
         value
       end
+
+    values = List.flatten(values)
+
+    Enum.each(values, fn x ->
+      attr = %{
+        address: x["address"],
+        arti_person: x["artiPerson"],
+        arti_phone: x["artiPhone"],
+        bank_id: x["bankId"],
+        busi_name: x["busiName"],
+        busi_type: x["busiType"],
+        cert_code: x["certCode"],
+        cust_id: x["custId"],
+        deposit_bank: x["depositBank"],
+        email: x["email"],
+        fax: x["fax"],
+        link_mane: x["linkMane"],
+        link_phone: x["linkPhone"],
+        manage_type: x["manageType"],
+        phone: x["phone"]
+      }
+
+      changeset = G.changeset(%G{}, attr)
+
+      Zz.Repo.insert(changeset)
+    end)
   end
 
   # 1
