@@ -3,7 +3,7 @@
 <table>
   <thead>
     <tr>
-      <th>Address</th>
+      <!--<th>Address</th>-->
       <th>Arti person</th>
       <th>Arti phone</th>
       <!--<th>Bank</th>-->
@@ -25,7 +25,7 @@
   <tbody>
 <%= for user <- @users do %>
     <tr>
-      <td><%= user.address %></td>
+      <!--<td><%= user.address %></td>-->
       <td><%= user.arti_person %></td>
       <td><%= user.arti_phone %></td>
       <!--<td><%= user.bank_id %></td>-->
