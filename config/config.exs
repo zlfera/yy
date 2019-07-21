@@ -31,7 +31,7 @@ config :zz, Zz.Scheduler,
     {"0 0-23/1 * * *", {Zz.GetImage, :n, []}},
     {"0 4 * * *", {Zz.Task, :run, []}},
     {"5 4 * * *", {Zz.Task, :year, []}},
-    {"35 7 * * *", {Zz.Task, :phone, []}}
+    {"51 7 * * *", {Zz.Task, :phone, []}}
   ]
 
 # Import environment specific config. This must remain at the bottom
