@@ -4,6 +4,7 @@ defmodule Zz.Accounts.User do
 
   @derive {Inspect,
            except: [
+             :address,
              :bank_id,
              :busi_type,
              :cert_code,
