@@ -5472,3 +5472,13 @@
 2019-07-21 12:29:58.165 CST [29837] ERROR:  duplicate key value violates unique constraint "users_arti_phone_index"
 2019-07-21 12:29:58.165 CST [29837] DETAIL:  Key (arti_phone)=(15279107895) already exists.
 2019-07-21 12:29:58.165 CST [29837] STATEMENT:  INSERT INTO "users" ("address","arti_person","arti_phone","bank_id","busi_name","busi_type","cert_code","cust_id","deposit_bank","email","fax","link_mane","link_phone","manage_type","phone","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17) RETURNING "id"
+2019-07-21 15:25:58.699 CST [11687] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-07-21 15:25:58.716 CST [11687] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2019-07-21 15:25:58.785 CST [11691] LOG:  database system was interrupted; last known up at 2019-07-21 14:36:19 CST
+2019-07-21 15:26:00.094 CST [11691] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-07-21 15:26:00.105 CST [11691] LOG:  redo starts at 0/196F4D0
+2019-07-21 15:26:00.105 CST [11691] LOG:  invalid record length at 0/196F508: wanted 24, got 0
+2019-07-21 15:26:00.105 CST [11691] LOG:  redo done at 0/196F4D0
+2019-07-21 15:26:00.173 CST [11687] LOG:  database system is ready to accept connections
+2019-07-21 15:26:05.861 CST [11759] ERROR:  relation "users_arti_phone_index" already exists
+2019-07-21 15:26:05.861 CST [11759] STATEMENT:  CREATE UNIQUE INDEX "users_arti_phone_index" ON "users" ("arti_phone")
