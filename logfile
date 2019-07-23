@@ -7041,3 +7041,12 @@
 2019-07-23 08:38:53.674 CST [8479] LOG:  database system is ready to accept connections
 2019-07-23 08:40:12.805 CST [9041] ERROR:  relation "users_arti_phone_index" already exists
 2019-07-23 08:40:12.805 CST [9041] STATEMENT:  CREATE UNIQUE INDEX "users_arti_phone_index" ON "users" ("arti_phone")
+2019-07-23 08:58:24.948 CST [13045] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-07-23 08:58:24.963 CST [13045] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2019-07-23 08:58:25.029 CST [13049] LOG:  database system was interrupted; last known up at 2019-07-23 08:38:53 CST
+2019-07-23 08:58:27.062 CST [13049] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-07-23 08:58:27.073 CST [13049] LOG:  redo starts at 0/19D4510
+2019-07-23 08:58:27.086 CST [13049] LOG:  invalid record length at 0/19E3C60: wanted 24, got 0
+2019-07-23 08:58:27.086 CST [13049] LOG:  redo done at 0/19E3C28
+2019-07-23 08:58:27.086 CST [13049] LOG:  last completed transaction was at log time 2019-07-23 08:40:12.832833+08
+2019-07-23 08:58:27.211 CST [13045] LOG:  database system is ready to accept connections
