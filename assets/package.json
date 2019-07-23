@@ -16,15 +16,15 @@
     "precss": "*"
   },
   "devDependencies": {
-    "@babel/core": "*",
-    "@babel/preset-env": "*",
+    "@babel/core": "7.5.5",
+    "@babel/preset-env": "7.5.5",
     "babel-loader": "*",
     "copy-webpack-plugin": "*",
-    "css-loader": "*",
-    "mini-css-extract-plugin": "*",
+    "css-loader": "3.1.0",
+    "mini-css-extract-plugin": "0.8.0",
     "optimize-css-assets-webpack-plugin": "*",
     "uglifyjs-webpack-plugin": "*",
-    "webpack": "*",
-    "webpack-cli": "*"
+    "webpack": "4.36.1",
+    "webpack-cli": "3.3.6"
   }
 }
