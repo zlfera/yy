@@ -7039,3 +7039,5 @@
 2019-07-23 08:38:53.611 CST [8483] LOG:  invalid record length at 0/19D44A0: wanted 24, got 0
 2019-07-23 08:38:53.611 CST [8483] LOG:  redo done at 0/19D4468
 2019-07-23 08:38:53.674 CST [8479] LOG:  database system is ready to accept connections
+2019-07-23 08:40:12.805 CST [9041] ERROR:  relation "users_arti_phone_index" already exists
+2019-07-23 08:40:12.805 CST [9041] STATEMENT:  CREATE UNIQUE INDEX "users_arti_phone_index" ON "users" ("arti_phone")
