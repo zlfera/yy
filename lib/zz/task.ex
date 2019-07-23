@@ -5,12 +5,6 @@ defmodule Zz.Task do
 
   def run() do
     {:ok, _} = Application.ensure_all_started(:zz)
-    z = Zz.Repo.all(Zz.Accounts.User)
-
-    Enum.each(z, fn x ->
-      List.delete(x)
-    end)
-
     u1(b())
   end
 
