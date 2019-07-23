@@ -971,3 +971,12 @@
 [DEBUG] - 2019-07-22 07:08:20 - Completed Custom Event harvest - size: 51
 [DEBUG] - 2019-07-22 07:08:20 - Completed Span Event harvest - size: 0
 [DEBUG] - 2019-07-22 07:08:21 - Completed Transaction Event harvest - size: 0
+[INFO] - 2019-07-23 08:22:43 - Log File: /data/data/com.termux/files/home/your/tmp/new_relic.log
+[INFO] - 2019-07-23 08:22:47 - Reporting to: https://rpm.newrelic.com/accounts/362387/applications/185353419
+[DEBUG] - 2019-07-23 08:23:46 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 08:23:46 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 08:23:46 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 08:23:47 - Completed Metric harvest - size: 2
+[DEBUG] - 2019-07-23 08:23:47 - Completed Custom Event harvest - size: 51
+[DEBUG] - 2019-07-23 08:23:47 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 08:23:47 - Completed Span Event harvest - size: 0
