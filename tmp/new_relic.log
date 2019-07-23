@@ -1010,3 +1010,17 @@
 [DEBUG] - 2019-07-23 09:02:46 - Completed Span Event harvest - size: 0
 [DEBUG] - 2019-07-23 09:02:46 - Completed Custom Event harvest - size: 56
 [DEBUG] - 2019-07-23 09:02:46 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 09:03:45 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 09:03:45 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 09:03:46 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 09:03:46 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 09:03:46 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 09:03:46 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 09:03:46 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 09:04:45 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 09:04:45 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 09:04:45 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 09:04:45 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 09:04:46 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 09:04:46 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 09:04:46 - Completed Span Event harvest - size: 0
