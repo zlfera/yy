@@ -22,6 +22,6 @@ defmodule Zz.Repo.Migrations.CreateUsers do
       timestamps()
     end
 
-    create unique_index(:users, [:arti_phone])
+    # create unique_index(:users, [:arti_phone])
   end
 end
