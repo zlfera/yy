@@ -113,7 +113,7 @@ defmodule Zz.Task do
         end)
       end
 
-    tasks = Task.yield_many(tasks)
+    tasks = Task.yield_many(tasks, 30000)
 
     results =
       Enum.map(tasks, fn {_, res} ->

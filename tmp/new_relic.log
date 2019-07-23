@@ -1038,3 +1038,834 @@
 [DEBUG] - 2019-07-23 09:06:46 - Completed Span Event harvest - size: 0
 [DEBUG] - 2019-07-23 09:06:46 - Completed Custom Event harvest - size: 56
 [DEBUG] - 2019-07-23 09:06:46 - Completed Transaction Event harvest - size: 0
+[INFO] - 2019-07-23 12:10:59 - Log File: /data/data/com.termux/files/home/your/tmp/new_relic.log
+[INFO] - 2019-07-23 12:11:03 - Reporting to: https://rpm.newrelic.com/accounts/362387/applications/185353419
+[DEBUG] - 2019-07-23 12:12:02 - Completed Metric harvest - size: 2
+[DEBUG] - 2019-07-23 12:12:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:12:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:12:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:12:03 - Completed Custom Event harvest - size: 51
+[DEBUG] - 2019-07-23 12:12:03 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:12:03 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:13:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:13:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:13:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:13:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:13:02 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:13:02 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:13:02 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:14:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:14:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:14:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:14:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:14:02 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:14:02 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:14:02 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:15:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:15:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:15:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:15:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:15:02 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:15:02 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:15:02 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:16:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:16:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:16:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:16:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:16:02 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:16:02 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:16:02 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:17:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:17:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:17:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:17:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:17:02 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:17:02 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:17:02 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:18:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:18:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:18:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:18:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:18:02 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:18:02 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:18:02 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:19:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:19:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:19:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:19:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:19:02 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:19:02 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:19:02 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:20:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:20:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:20:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:20:03 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:20:05 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:20:05 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:20:06 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:21:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:21:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:21:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:21:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:21:02 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:21:02 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:21:02 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:22:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:22:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:22:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:22:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:22:02 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:22:02 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:22:03 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:23:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:23:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:23:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:23:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:23:02 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:23:02 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:23:02 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:24:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:24:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:24:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:24:02 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:24:02 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:24:03 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:24:03 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:25:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:25:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:25:03 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:25:03 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:25:03 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:25:03 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:25:03 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:26:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:26:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:26:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:26:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:26:02 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:26:02 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:26:04 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:27:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:27:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:27:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:27:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:27:02 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:27:02 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:27:03 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:28:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:28:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:28:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:28:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:28:02 - Completed Custom Event harvest - size: 53
+[DEBUG] - 2019-07-23 12:28:02 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:28:02 - Completed Span Event harvest - size: 0
+[INFO] - 2019-07-23 12:28:33 - Log File: /data/data/com.termux/files/home/your/tmp/new_relic.log
+[INFO] - 2019-07-23 12:28:37 - Reporting to: https://rpm.newrelic.com/accounts/362387/applications/185353419
+[DEBUG] - 2019-07-23 12:29:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:29:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:29:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:29:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:29:02 - Completed Custom Event harvest - size: 54
+[DEBUG] - 2019-07-23 12:29:02 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:29:03 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:29:36 - Completed Metric harvest - size: 22
+[DEBUG] - 2019-07-23 12:29:36 - Completed Transaction Trace harvest - size: 6
+[DEBUG] - 2019-07-23 12:29:37 - Completed Error Trace harvest - size: 4
+[DEBUG] - 2019-07-23 12:29:37 - Completed Custom Event harvest - size: 59
+[DEBUG] - 2019-07-23 12:29:37 - Completed Span Event harvest - size: 10
+[DEBUG] - 2019-07-23 12:29:38 - Completed Error Event harvest - size: 4
+[DEBUG] - 2019-07-23 12:29:39 - Completed Transaction Event harvest - size: 11
+[DEBUG] - 2019-07-23 12:30:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:30:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:30:02 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:30:03 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:30:04 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:30:05 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:30:05 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:30:36 - Completed Metric harvest - size: 29
+[DEBUG] - 2019-07-23 12:30:36 - Completed Error Trace harvest - size: 2
+[DEBUG] - 2019-07-23 12:30:37 - Completed Custom Event harvest - size: 60
+[DEBUG] - 2019-07-23 12:30:37 - Completed Transaction Event harvest - size: 10
+[DEBUG] - 2019-07-23 12:30:37 - Completed Transaction Trace harvest - size: 4
+[DEBUG] - 2019-07-23 12:30:37 - Completed Error Event harvest - size: 2
+[DEBUG] - 2019-07-23 12:30:38 - Completed Span Event harvest - size: 9
+[DEBUG] - 2019-07-23 12:31:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:31:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:31:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:31:02 - Completed Custom Event harvest - size: 53
+[DEBUG] - 2019-07-23 12:31:03 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:31:03 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:31:03 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:31:36 - Completed Metric harvest - size: 29
+[DEBUG] - 2019-07-23 12:31:36 - Completed Error Trace harvest - size: 1
+[DEBUG] - 2019-07-23 12:31:36 - Completed Transaction Trace harvest - size: 2
+[DEBUG] - 2019-07-23 12:31:36 - Completed Error Event harvest - size: 1
+[DEBUG] - 2019-07-23 12:31:37 - Completed Custom Event harvest - size: 61
+[DEBUG] - 2019-07-23 12:31:37 - Completed Span Event harvest - size: 4
+[DEBUG] - 2019-07-23 12:31:37 - Completed Transaction Event harvest - size: 5
+[DEBUG] - 2019-07-23 12:32:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:32:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:32:02 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:32:03 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:32:03 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:32:03 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:32:03 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:32:36 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:32:36 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:32:36 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:32:36 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:32:37 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:32:37 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:32:37 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:33:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:33:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:33:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:33:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:33:02 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:33:02 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:33:03 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:33:36 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:33:36 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:33:36 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:33:36 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:33:37 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:33:37 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:33:37 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:34:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:34:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:34:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:34:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:34:02 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:34:02 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:34:03 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:34:36 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:34:36 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:34:36 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:34:36 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:34:37 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:34:37 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:34:37 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:35:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:35:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:35:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:35:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:35:02 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:35:02 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:35:03 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:35:36 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:35:36 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:35:36 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:35:36 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:35:37 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:35:37 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:35:37 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:36:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:36:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:36:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:36:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:36:02 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:36:02 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:36:03 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:36:36 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:36:36 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:36:36 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:36:36 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:36:37 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:36:38 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:36:38 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:37:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:37:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:37:02 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:37:03 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:37:03 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:37:03 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:37:05 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:37:36 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:37:36 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:37:36 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:37:36 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:37:37 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:37:37 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:37:37 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:38:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:38:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:38:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:38:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:38:02 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:38:02 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:38:04 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:38:36 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:38:36 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:38:36 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:38:37 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:38:38 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:38:39 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:38:40 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:39:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:39:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:39:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:39:03 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:39:03 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:39:03 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:39:04 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:39:36 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:39:36 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:39:36 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:39:36 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:39:37 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:39:37 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:39:37 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:40:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:40:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:40:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:40:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:40:02 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:40:02 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:40:03 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:40:36 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:40:36 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:40:36 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:40:36 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:40:37 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:40:37 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:40:37 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:41:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:41:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:41:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:41:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:41:02 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:41:03 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:41:03 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:41:36 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:41:36 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:41:36 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:41:36 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:41:37 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:41:37 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:41:37 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:42:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:42:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:42:02 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:42:05 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:42:05 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:42:05 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:42:06 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:42:36 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:42:36 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:42:37 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:42:37 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:42:37 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:42:38 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:42:39 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:43:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:43:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:43:03 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:43:03 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:43:04 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:43:04 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:43:04 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:43:36 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:43:36 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:43:36 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:43:37 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:43:38 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:43:38 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:43:38 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:44:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:44:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:44:02 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:44:03 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:44:03 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:44:03 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:44:04 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:44:36 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:44:36 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:44:36 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:44:36 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:44:37 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:44:37 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:44:37 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:45:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:45:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:45:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:45:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:45:02 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:45:02 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:45:03 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:45:36 - Completed Metric harvest - size: 22
+[DEBUG] - 2019-07-23 12:45:36 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:45:36 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:45:36 - Completed Transaction Trace harvest - size: 3
+[DEBUG] - 2019-07-23 12:45:37 - Completed Custom Event harvest - size: 59
+[DEBUG] - 2019-07-23 12:45:37 - Completed Transaction Event harvest - size: 4
+[DEBUG] - 2019-07-23 12:45:38 - Completed Span Event harvest - size: 4
+[DEBUG] - 2019-07-23 12:46:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:46:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:46:02 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:46:03 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:46:03 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:46:03 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:46:04 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:46:36 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:46:36 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:46:36 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:46:36 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:46:37 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:46:37 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:46:37 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:47:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:47:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:47:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:47:02 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:47:03 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:47:03 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:47:04 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:47:36 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:47:36 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:47:36 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:47:36 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:47:37 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:47:37 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:47:37 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:48:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:48:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:48:02 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:48:03 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:48:03 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:48:03 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:48:04 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:48:36 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:48:36 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:48:37 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:48:37 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:48:38 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:48:38 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:48:38 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:49:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:49:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:49:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:49:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:49:02 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:49:02 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:49:03 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:49:36 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:49:36 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:49:36 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:49:36 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:49:37 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:49:37 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:49:37 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:50:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:50:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:50:03 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:50:03 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:50:03 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:50:03 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:50:04 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:50:36 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:50:36 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:50:36 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:50:37 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:50:37 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:50:38 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:50:39 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:51:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:51:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:51:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:51:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:51:02 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:51:02 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:51:03 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:51:36 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:51:36 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:51:37 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:51:37 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:51:37 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:51:37 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:51:37 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:52:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:52:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:52:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:52:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:52:02 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:52:02 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:52:03 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:52:36 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:52:36 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:52:36 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:52:36 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:52:37 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:52:37 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:52:37 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:53:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:53:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:53:02 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:53:03 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:53:03 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:53:03 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:53:03 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:53:36 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:53:36 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:53:36 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:53:36 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:53:37 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:53:37 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:53:38 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:54:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:54:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:54:02 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:54:03 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:54:03 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:54:03 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:54:03 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:54:36 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:54:36 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:54:36 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:54:37 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:54:37 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:54:38 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:54:38 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:55:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:55:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:55:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:55:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:55:02 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:55:02 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:55:03 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:55:36 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:55:36 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:55:36 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:55:37 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:55:37 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:55:38 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:55:38 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:56:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:56:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:56:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:56:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:56:02 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:56:03 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:56:04 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:56:36 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:56:36 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:56:36 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:56:36 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:56:38 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:56:38 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:56:38 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:57:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:57:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:57:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:57:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:57:02 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:57:02 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:57:03 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:57:36 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:57:36 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:57:37 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:57:37 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:57:38 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:57:38 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:57:39 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:58:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:58:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:58:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:58:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:58:02 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:58:02 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:58:03 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:58:36 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:58:36 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:58:37 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:58:37 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:58:37 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:58:37 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:58:37 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:59:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:59:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:59:02 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:59:03 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:59:03 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:59:03 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:59:04 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:59:36 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 12:59:36 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:59:37 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:59:37 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 12:59:37 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 12:59:37 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 12:59:37 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:00:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 13:00:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 13:00:02 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:00:03 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 13:00:03 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:00:03 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 13:00:04 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:00:36 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 13:00:36 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 13:00:37 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 13:00:37 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:00:37 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:00:37 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 13:00:37 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:01:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 13:01:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 13:01:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:01:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 13:01:02 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 13:01:02 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:01:03 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:01:36 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 13:01:37 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 13:01:37 - Completed Custom Event harvest - size: 54
+[DEBUG] - 2019-07-23 13:01:37 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:01:37 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 13:01:38 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:01:38 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:02:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 13:02:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 13:02:02 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:02:03 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 13:02:03 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:02:03 - Completed Custom Event harvest - size: 54
+[DEBUG] - 2019-07-23 13:02:04 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:02:36 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 13:02:36 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 13:02:36 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 13:02:37 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:02:37 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 13:02:37 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:02:37 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:03:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 13:03:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 13:03:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 13:03:03 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:03:03 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:03:04 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 13:03:05 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:03:36 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 13:03:36 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 13:03:37 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 13:03:37 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:03:37 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 13:03:37 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:03:37 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:04:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 13:04:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 13:04:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:04:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 13:04:02 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:04:02 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 13:04:03 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:04:36 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 13:04:36 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 13:04:37 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:04:37 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 13:04:37 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:04:37 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 13:04:37 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:05:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 13:05:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 13:05:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:05:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 13:05:02 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:05:04 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 13:05:04 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:05:36 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 13:05:36 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 13:05:38 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 13:05:38 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:05:38 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:05:38 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 13:05:38 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:06:02 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 13:06:02 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 13:06:02 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:06:02 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 13:06:02 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 13:06:02 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:06:03 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:06:36 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 13:06:36 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 13:06:37 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 13:06:37 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:06:37 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 13:06:37 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:06:38 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:07:36 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 13:07:37 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 13:07:37 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 13:07:37 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:07:38 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 13:07:38 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:07:38 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:08:36 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-23 13:08:36 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-23 13:08:37 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-23 13:08:37 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:08:37 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-23 13:08:37 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-23 13:08:37 - Completed Span Event harvest - size: 0
+[INFO] - 2019-07-24 06:45:15 - Log File: /data/data/com.termux/files/home/your/tmp/new_relic.log
+[INFO] - 2019-07-24 06:45:49 - Reporting to: https://rpm.newrelic.com/accounts/362387/applications/185353419
+[DEBUG] - 2019-07-24 06:46:17 - Completed Metric harvest - size: 2
+[DEBUG] - 2019-07-24 06:46:17 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-24 06:46:18 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-24 06:46:18 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-24 06:46:18 - Completed Custom Event harvest - size: 41
+[DEBUG] - 2019-07-24 06:46:18 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-24 06:46:18 - Completed Span Event harvest - size: 0
+[INFO] - 2019-07-24 06:46:33 - Log File: /data/data/com.termux/files/home/your/tmp/new_relic.log
+[INFO] - 2019-07-24 06:46:36 - Reporting to: https://rpm.newrelic.com/accounts/362387/applications/185353419
+[DEBUG] - 2019-07-24 06:47:17 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-24 06:47:17 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-24 06:47:17 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-24 06:47:17 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-24 06:47:18 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-24 06:47:18 - Completed Custom Event harvest - size: 54
+[DEBUG] - 2019-07-24 06:47:18 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-24 06:47:35 - Completed Metric harvest - size: 24
+[DEBUG] - 2019-07-24 06:47:36 - Completed Transaction Trace harvest - size: 3
+[DEBUG] - 2019-07-24 06:47:36 - Completed Error Trace harvest - size: 1
+[DEBUG] - 2019-07-24 06:47:36 - Completed Custom Event harvest - size: 58
+[DEBUG] - 2019-07-24 06:47:36 - Completed Transaction Event harvest - size: 11
+[DEBUG] - 2019-07-24 06:47:36 - Completed Error Event harvest - size: 1
+[DEBUG] - 2019-07-24 06:47:36 - Completed Span Event harvest - size: 10
+[DEBUG] - 2019-07-24 06:48:17 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-24 06:48:17 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-24 06:48:17 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-24 06:48:17 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-24 06:48:18 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-24 06:48:18 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-24 06:48:18 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-24 06:48:35 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-24 06:48:35 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-24 06:48:35 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-24 06:48:35 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-24 06:48:36 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-24 06:48:36 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-24 06:48:36 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-24 06:49:17 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-24 06:49:17 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-24 06:49:17 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-24 06:49:17 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-24 06:49:18 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-24 06:49:18 - Completed Custom Event harvest - size: 52
+[DEBUG] - 2019-07-24 06:49:18 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-24 06:49:35 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-24 06:49:35 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-24 06:49:35 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-24 06:49:35 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-24 06:49:36 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-24 06:49:36 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-24 06:49:36 - Completed Transaction Event harvest - size: 0
+[INFO] - 2019-07-24 07:04:12 - Log File: /data/data/com.termux/files/home/your/tmp/new_relic.log
+[INFO] - 2019-07-24 07:04:16 - Reporting to: https://rpm.newrelic.com/accounts/362387/applications/185353419
+[DEBUG] - 2019-07-24 07:05:15 - Completed Metric harvest - size: 2
+[DEBUG] - 2019-07-24 07:05:15 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-24 07:05:15 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-24 07:05:15 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-24 07:05:16 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-24 07:05:16 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-24 07:05:16 - Completed Custom Event harvest - size: 51
+[DEBUG] - 2019-07-24 07:06:15 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-24 07:06:15 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-24 07:06:15 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-24 07:06:15 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-24 07:06:15 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-24 07:06:15 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-24 07:06:15 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-24 07:07:15 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-24 07:07:15 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-24 07:07:15 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-24 07:07:15 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-24 07:07:15 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-24 07:07:15 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-24 07:07:16 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-24 07:08:15 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-24 07:08:15 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-24 07:08:15 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-24 07:08:15 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-24 07:08:15 - Completed Custom Event harvest - size: 52
+[DEBUG] - 2019-07-24 07:08:15 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-24 07:08:16 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-24 07:09:15 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-24 07:09:15 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-24 07:09:15 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-24 07:09:15 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-24 07:09:15 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-24 07:09:15 - Completed Custom Event harvest - size: 55
+[DEBUG] - 2019-07-24 07:09:15 - Completed Span Event harvest - size: 0
+[INFO] - 2019-07-24 07:10:14 - Log File: /data/data/com.termux/files/home/your/tmp/new_relic.log
+[INFO] - 2019-07-24 07:10:18 - Reporting to: https://rpm.newrelic.com/accounts/362387/applications/185353419
+[DEBUG] - 2019-07-24 07:11:17 - Completed Metric harvest - size: 2
+[DEBUG] - 2019-07-24 07:11:17 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-24 07:11:17 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-24 07:11:17 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-24 07:11:17 - Completed Custom Event harvest - size: 51
+[DEBUG] - 2019-07-24 07:11:17 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-24 07:11:18 - Completed Transaction Event harvest - size: 0
+[INFO] - 2019-07-24 07:12:11 - Log File: /data/data/com.termux/files/home/your/tmp/new_relic.log
+[INFO] - 2019-07-24 07:12:14 - Reporting to: https://rpm.newrelic.com/accounts/362387/applications/185353419
+[DEBUG] - 2019-07-24 07:13:13 - Completed Metric harvest - size: 5
+[DEBUG] - 2019-07-24 07:13:13 - Completed Error Trace harvest - size: 1
+[DEBUG] - 2019-07-24 07:13:13 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-24 07:13:13 - Completed Error Event harvest - size: 1
+[DEBUG] - 2019-07-24 07:13:14 - Completed Custom Event harvest - size: 51
+[DEBUG] - 2019-07-24 07:13:14 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-24 07:13:14 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-24 07:14:13 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-24 07:14:13 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-24 07:14:13 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-24 07:14:13 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-24 07:14:13 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-07-24 07:14:13 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-24 07:14:13 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-24 07:15:13 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-24 07:15:13 - Completed Metric harvest - size: 14
+[DEBUG] - 2019-07-24 07:15:13 - Completed Error Trace harvest - size: 2
+[DEBUG] - 2019-07-24 07:15:13 - Completed Error Event harvest - size: 2
+[DEBUG] - 2019-07-24 07:15:13 - Completed Custom Event harvest - size: 55
+[DEBUG] - 2019-07-24 07:15:13 - Completed Span Event harvest - size: 0
+[INFO] - 2019-07-24 07:15:22 - Log File: /data/data/com.termux/files/home/your/tmp/new_relic.log
+[INFO] - 2019-07-24 07:15:25 - Reporting to: https://rpm.newrelic.com/accounts/362387/applications/185353419
+[INFO] - 2019-07-24 07:17:00 - Log File: /data/data/com.termux/files/home/your/tmp/new_relic.log
+[INFO] - 2019-07-24 07:17:03 - Reporting to: https://rpm.newrelic.com/accounts/362387/applications/185353419
+[DEBUG] - 2019-07-24 07:18:03 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-24 07:18:03 - Completed Metric harvest - size: 2
+[DEBUG] - 2019-07-24 07:18:04 - Completed Custom Event harvest - size: 49
+[DEBUG] - 2019-07-24 07:18:04 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-24 07:18:04 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-24 07:18:04 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-24 07:18:04 - Completed Span Event harvest - size: 0
+[INFO] - 2019-07-24 07:18:52 - Log File: /data/data/com.termux/files/home/your/tmp/new_relic.log
+[INFO] - 2019-07-24 07:18:55 - Reporting to: https://rpm.newrelic.com/accounts/362387/applications/185353419
+[DEBUG] - 2019-07-24 07:19:55 - Completed Metric harvest - size: 2
+[DEBUG] - 2019-07-24 07:19:55 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-24 07:19:55 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-24 07:19:55 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-24 07:19:56 - Completed Custom Event harvest - size: 47
+[DEBUG] - 2019-07-24 07:19:56 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-24 07:19:56 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-24 07:20:55 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-24 07:20:55 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-24 07:20:55 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-24 07:20:55 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-24 07:20:55 - Completed Custom Event harvest - size: 51
+[DEBUG] - 2019-07-24 07:20:55 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-24 07:20:55 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-24 07:21:55 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-24 07:21:55 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-24 07:21:55 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-24 07:21:55 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-24 07:21:55 - Completed Custom Event harvest - size: 49
+[DEBUG] - 2019-07-24 07:21:55 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-24 07:21:55 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-24 07:22:55 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-07-24 07:22:55 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-07-24 07:22:55 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-07-24 07:22:55 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-07-24 07:22:55 - Completed Custom Event harvest - size: 52
+[DEBUG] - 2019-07-24 07:22:55 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-07-24 07:22:55 - Completed Span Event harvest - size: 0
