@@ -5,8 +5,7 @@ defmodule Zz.Task do
 
   def run() do
     {:ok, _} = Application.ensure_all_started(:zz)
-    z = Zz.Repo.all(Zz.Accounts.User)
-    Zz.Repo.delete_all(z)
+
     u1(b())
   end
 
