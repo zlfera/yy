@@ -197,12 +197,11 @@ defmodule Zz.Task do
   def u1(c) do
     tasks =
       for x <- c["row"] do
-        Process.sleep(1000)
         y = x["specialNo"]
         yy = x["selfBS"]
-        Task.async(Zg, :grain, [y, yy])
+        Task.async(Zg, :a, [y, yy])
       end
 
-    Task.yield_many(tasks)
+    Task.yield_many(tasks, 10000)
   end
 end
