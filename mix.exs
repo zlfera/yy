@@ -49,7 +49,8 @@ defmodule Zz.MixProject do
       {:quantum, "~> 2.3"},
       {:timex, "~> 3.5.0"},
       {:new_relic_agent, "~> 1.0"},
-      {:new_relic_phoenix, "~> 0.1"}
+      {:new_relic_phoenix, "~> 0.1"},
+      {:xlsxir, "~> 1.6"}
     ]
   end
 

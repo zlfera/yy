@@ -37,10 +37,10 @@ defmodule Zz.TaskGrain do
 
       Enum.each(dd["row"], fn d ->
         latest_price =
-          if d["statusName"] == "流拍" do
+          if d["statusName"] == "流拍" || d["statusName"] == "等待交易" do
             "0"
           else
-            Integer.to_string(d["matchPrice"])
+            Float.to_string(d["matchPrice"])
           end
 
         attr = %{
@@ -49,8 +49,8 @@ defmodule Zz.TaskGrain do
           year: "0",
           variety: d["VARIETYNAME"],
           grade: d["GRADENAME"],
-          trade_amount: Integer.to_string(d["NUM"]),
-          starting_price: Integer.to_string(d["PRICE"]),
+          trade_amount: Float.to_string(d["NUM"]),
+          starting_price: Float.to_string(d["PRICE"]),
           latest_price: latest_price,
           address: d["BUYDEPOTNAME"],
           status: d["statusName"],
