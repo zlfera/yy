@@ -3242,3 +3242,10 @@
 [DEBUG] - 2019-07-24 14:40:56 - Completed Transaction Event harvest - size: 0
 [DEBUG] - 2019-07-24 14:40:56 - Completed Error Trace harvest - size: 0
 [DEBUG] - 2019-07-24 14:40:56 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-07-24 14:43:22 - Completed Error Event harvest - size: 0
+[ERROR] - 2019-07-24 14:43:35 - Failed to send harvest from NewRelic.Harvest.Collector.Metric.HarvesterSupervisor
+[ERROR] - 2019-07-24 14:43:35 - Failed to send harvest from NewRelic.Harvest.Collector.TransactionTrace.HarvesterSupervisor
+[ERROR] - 2019-07-24 14:43:35 - Failed to send harvest from NewRelic.Harvest.Collector.CustomEvent.HarvesterSupervisor
+[ERROR] - 2019-07-24 14:43:35 - Failed to send harvest from NewRelic.Harvest.Collector.ErrorTrace.HarvesterSupervisor
+[ERROR] - 2019-07-24 14:43:35 - Failed to send harvest from NewRelic.Harvest.Collector.TransactionEvent.HarvesterSupervisor
+[ERROR] - 2019-07-24 14:43:35 - Failed to send harvest from NewRelic.Harvest.Collector.SpanEvent.HarvesterSupervisor
