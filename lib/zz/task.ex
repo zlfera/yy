@@ -76,7 +76,7 @@ defmodule Zz.Task do
 
     tasks =
       for p <- 1..page_no do
-        Process.sleep(1000)
+        Process.sleep(60000)
 
         Task.async(fn ->
           options = [params: [channelCode: "04"], recv_timeout: 15000]
