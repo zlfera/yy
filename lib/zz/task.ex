@@ -43,7 +43,7 @@ defmodule Zz.Task do
 
       z =
         Zz.Grains.Grain
-        |> Ecto.Query.limit(^length(l))
+        |> Ecto.Query.limit(100)
         |> Ecto.Query.order_by(desc: :inserted_at)
         |> Zz.Repo.all()
 
