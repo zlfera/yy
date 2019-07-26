@@ -3,7 +3,7 @@
 <table class="qgg-table">
   <thead>
     <tr>
-      <td>编号</td>
+      <th>编号</th>
       <!--<th>Address</th>-->
       <th>Arti person</th>
       <th>Arti phone</th>
