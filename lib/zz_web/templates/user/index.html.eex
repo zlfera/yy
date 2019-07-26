@@ -1,8 +1,9 @@
 <h1>Listing Users</h1>
 
-<table>
+<table class="qgg-table">
   <thead>
     <tr>
+      <td>编号</td>
       <!--<th>Address</th>-->
       <th>Arti person</th>
       <th>Arti phone</th>
@@ -25,6 +26,7 @@
   <tbody>
 <%= for user <- @users do %>
     <tr>
+      <td><%= dizeng(@pid) %></td>
       <!--<td><%= user.address %></td>-->
       <td><%= user.arti_person %></td>
       <td><%= user.arti_phone %></td>

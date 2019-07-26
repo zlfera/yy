@@ -6,6 +6,7 @@ defmodule ZzWeb.UserController do
 
   def index(conn, _params) do
     users = Accounts.list_users()
-    render(conn, "index.html", users: users)
+    {:ok, pid} = Agent.start_link(fn -> 0 end)
+    render(conn, "index.html", users: users, pid: pid)
   end
 end
