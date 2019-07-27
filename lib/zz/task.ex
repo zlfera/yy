@@ -65,8 +65,11 @@ defmodule Zz.Task do
   end
 
   def phone do
-    u = "https://trade.gdgrain.com/sgtcTrade-front/sgtc/activity/SAct007"
-    body = "{\"channelCode\": \"04\",\"pageNo\": \"1\",\"pageSize\": \"10\"}"
+    u = "https://trade.gdgrain.com/sgtcTrade-front/sgtc/activity/SAct013"
+
+    body =
+      "{\"channelCode\": \"04\",\"pageNo\": \"1\",\"pageSize\": \"10\",\"statusType\": \"WI\"}"
+
     options = [params: [channelCode: "04"]]
     headers = ["content-type": "application/json;charset=UTF-8"]
     {:ok, url} = HTTPoison.post(u, body, headers, options)
@@ -80,7 +83,10 @@ defmodule Zz.Task do
 
         Task.async(fn ->
           options = [params: [channelCode: "04"], recv_timeout: 15000]
-          body = "{\"channelCode\": \"04\",\"pageNo\": \"#{p}\",\"pageSize\": \"10\"}"
+
+          body =
+            "{\"channelCode\": \"04\",\"pageNo\": \"#{p}\",\"pageSize\": \"10\",\"statusType\": \"WI\"}"
+
           {:ok, url} = HTTPoison.post(u, body, headers, options)
           code = url.body |> Jason.decode!()
 
