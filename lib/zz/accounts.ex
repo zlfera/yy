@@ -18,7 +18,7 @@ defmodule Zz.Accounts do
 
   """
   def list_users do
-    Repo.all(User)
+    User |> Repo.all() |> Ecto.Query.order_by(desc: :inserted_at)
   end
 
   @doc """
