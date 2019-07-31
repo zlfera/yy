@@ -9,8 +9,14 @@ defmodule Zz.TaskGrain do
     uuu = "http://59.55.120.113:8311/trade/biddingAbout/tradeRequestListTotalWatch"
     headers = [referer: u]
     options = [params: [specialNo: dqqq]]
-    {:ok, url} = HTTPoison.post(uuu, "", headers, options)
-    page_no = ceil(Jason.decode!(url.body)["total"] / 10)
+    {o, url} = HTTPoison.post(uuu, "", headers, options)
+
+    page_no =
+      if o == :ok do
+        ceil(Jason.decode!(url.body)["total"] / 10)
+      else
+        a(dqqq, yy)
+      end
 
     Enum.each(1..page_no, fn i ->
       options = [params: [specialNo: dqqq, pageNo: i, pageSize: 10]]
