@@ -44,7 +44,7 @@ set expandtab
 set shiftwidth=2
 set cursorline
 set softtabstop=2
-set tabstop=8
+set tabstop=2
 set shortmess=atI
 map <C-l> :NERDTreeToggle<CR>
 inoremap ( ()<ESC>i
@@ -53,4 +53,4 @@ inoremap { {}<ESC>i
 inoremap ' ''<ESC>i
 inoremap " ""<ESC>i
 
-inoremap < <><ESC>i
+"inoremap < <><ESC>i
