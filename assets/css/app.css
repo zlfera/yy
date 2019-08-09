@@ -13,7 +13,7 @@
   src: url("https://www.youmile.vip/ziti.woff2") format("woff2");
 }
 body{
-  font-family: "myFont";
+  /*font-family: "myFont";*/
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
