@@ -21,6 +21,7 @@ defmodule Zz.MixProject do
     [
       mod: {Zz.Application, []},
       extra_applications: [:logger, :runtime_tools]
+      # applications: [:timex]
     ]
   end
 

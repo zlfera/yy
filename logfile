@@ -20160,3 +20160,61 @@
 2019-08-30 16:21:50.582 CST [28358] LOG:  invalid record length at 0/1C4B5D0: wanted 24, got 0
 2019-08-30 16:21:50.583 CST [28358] LOG:  redo done at 0/1C4B598
 2019-08-30 16:21:50.696 CST [28354] LOG:  database system is ready to accept connections
+2019-08-30 17:15:08.581 CST [3785] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-08-30 17:15:08.592 CST [3785] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2019-08-30 17:15:08.644 CST [3789] LOG:  database system was interrupted; last known up at 2019-08-30 16:21:50 CST
+2019-08-30 17:15:10.098 CST [3789] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-08-30 17:15:10.109 CST [3789] LOG:  redo starts at 0/1C4B640
+2019-08-30 17:15:10.109 CST [3789] LOG:  invalid record length at 0/1C4B678: wanted 24, got 0
+2019-08-30 17:15:10.109 CST [3789] LOG:  redo done at 0/1C4B640
+2019-08-30 17:15:10.202 CST [3785] LOG:  database system is ready to accept connections
+2019-08-30 17:20:11.235 CST [6625] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-08-30 17:20:11.245 CST [6625] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2019-08-30 17:20:11.316 CST [6629] LOG:  database system was interrupted; last known up at 2019-08-30 17:15:10 CST
+2019-08-30 17:20:12.620 CST [6629] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-08-30 17:20:12.638 CST [6629] LOG:  redo starts at 0/1C4B6E8
+2019-08-30 17:20:12.639 CST [6629] LOG:  invalid record length at 0/1C4B720: wanted 24, got 0
+2019-08-30 17:20:12.639 CST [6629] LOG:  redo done at 0/1C4B6E8
+2019-08-30 17:20:12.712 CST [6625] LOG:  database system is ready to accept connections
+2019-08-30 17:20:24.173 CST [6717] FATAL:  lock file "postmaster.pid" already exists
+2019-08-30 17:20:24.173 CST [6717] HINT:  Is another postmaster (PID 6625) running in data directory "/data/data/com.termux/files/home/data"?
+2019-08-30 17:20:54.508 CST [6956] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-08-30 17:20:54.517 CST [6956] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2019-08-30 17:20:54.584 CST [6960] LOG:  database system was interrupted; last known up at 2019-08-30 17:20:12 CST
+2019-08-30 17:20:56.343 CST [6960] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-08-30 17:20:56.353 CST [6960] LOG:  redo starts at 0/1C4B790
+2019-08-30 17:20:56.353 CST [6960] LOG:  invalid record length at 0/1C4B7C8: wanted 24, got 0
+2019-08-30 17:20:56.353 CST [6960] LOG:  redo done at 0/1C4B790
+2019-08-30 17:20:56.422 CST [6956] LOG:  database system is ready to accept connections
+2019-08-30 17:24:14.891 CST [8079] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-08-30 17:24:14.899 CST [8079] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2019-08-30 17:24:14.959 CST [8083] LOG:  database system was interrupted; last known up at 2019-08-30 17:20:56 CST
+2019-08-30 17:24:16.179 CST [8083] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-08-30 17:24:16.188 CST [8083] LOG:  redo starts at 0/1C4B838
+2019-08-30 17:24:16.189 CST [8083] LOG:  invalid record length at 0/1C4B870: wanted 24, got 0
+2019-08-30 17:24:16.189 CST [8083] LOG:  redo done at 0/1C4B838
+2019-08-30 17:24:16.257 CST [8079] LOG:  database system is ready to accept connections
+2019-08-30 17:25:04.732 CST [8387] FATAL:  lock file "postmaster.pid" already exists
+2019-08-30 17:25:04.732 CST [8387] HINT:  Is another postmaster (PID 8079) running in data directory "/data/data/com.termux/files/home/data"?
+2019-08-30 17:26:26.062 CST [9441] FATAL:  lock file "postmaster.pid" already exists
+2019-08-30 17:26:26.062 CST [9441] HINT:  Is another postmaster (PID 8079) running in data directory "/data/data/com.termux/files/home/data"?
+2019-08-30 17:27:51.816 CST [9523] LOG:  could not receive data from client: Connection reset by peer
+2019-08-30 17:27:51.816 CST [9522] LOG:  could not receive data from client: Software caused connection abort
+2019-08-30 17:27:51.816 CST [9521] LOG:  could not receive data from client: Software caused connection abort
+2019-08-30 17:27:51.817 CST [9515] LOG:  could not receive data from client: Connection reset by peer
+2019-08-30 17:27:51.817 CST [9518] LOG:  could not receive data from client: Software caused connection abort
+2019-08-30 17:27:51.816 CST [9517] LOG:  could not receive data from client: Software caused connection abort
+2019-08-30 17:27:51.818 CST [9520] LOG:  could not receive data from client: Software caused connection abort
+2019-08-30 17:27:51.816 CST [9516] LOG:  could not receive data from client: Software caused connection abort
+2019-08-30 17:27:51.818 CST [9524] LOG:  could not receive data from client: Software caused connection abort
+2019-08-30 17:27:51.816 CST [9519] LOG:  could not receive data from client: Software caused connection abort
+2019-08-30 17:27:52.190 CST [10316] LOG:  PID 9522 in cancel request did not match any process
+2019-08-30 17:27:54.164 CST [10451] LOG:  PID 9515 in cancel request did not match any process
+2019-08-30 17:27:56.163 CST [10473] LOG:  PID 9518 in cancel request did not match any process
+2019-08-30 17:27:58.165 CST [10530] LOG:  PID 9523 in cancel request did not match any process
+2019-08-30 17:28:00.165 CST [10537] LOG:  PID 9521 in cancel request did not match any process
+2019-08-30 17:28:02.164 CST [10557] LOG:  PID 9516 in cancel request did not match any process
+2019-08-30 17:28:04.165 CST [10562] LOG:  PID 9524 in cancel request did not match any process
+2019-08-30 17:28:06.165 CST [10570] LOG:  PID 9519 in cancel request did not match any process
+2019-08-30 17:28:08.165 CST [10577] LOG:  PID 9517 in cancel request did not match any process
+2019-08-30 17:28:10.165 CST [10580] LOG:  PID 9520 in cancel request did not match any process
