@@ -20218,3 +20218,5 @@
 2019-08-30 17:28:06.165 CST [10570] LOG:  PID 9519 in cancel request did not match any process
 2019-08-30 17:28:08.165 CST [10577] LOG:  PID 9517 in cancel request did not match any process
 2019-08-30 17:28:10.165 CST [10580] LOG:  PID 9520 in cancel request did not match any process
+2019-08-30 18:08:01.709 CST [14442] FATAL:  lock file "postmaster.pid" already exists
+2019-08-30 18:08:01.709 CST [14442] HINT:  Is another postmaster (PID 8079) running in data directory "/data/data/com.termux/files/home/data"?
