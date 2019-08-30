@@ -4033,3 +4033,10 @@
 [DEBUG] - 2019-08-30 18:34:13 - Completed Error Event harvest - size: 0
 [DEBUG] - 2019-08-30 18:34:13 - Completed Transaction Trace harvest - size: 0
 [DEBUG] - 2019-08-30 18:34:14 - Completed Custom Event harvest - size: 56
+[DEBUG] - 2019-08-30 18:35:13 - Completed Metric harvest - size: 11
+[DEBUG] - 2019-08-30 18:35:13 - Completed Transaction Event harvest - size: 0
+[DEBUG] - 2019-08-30 18:35:13 - Completed Error Trace harvest - size: 0
+[DEBUG] - 2019-08-30 18:35:13 - Completed Error Event harvest - size: 0
+[DEBUG] - 2019-08-30 18:35:14 - Completed Transaction Trace harvest - size: 0
+[DEBUG] - 2019-08-30 18:35:14 - Completed Span Event harvest - size: 0
+[DEBUG] - 2019-08-30 18:35:14 - Completed Custom Event harvest - size: 56
