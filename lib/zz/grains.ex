@@ -18,7 +18,7 @@ defmodule Zz.Grains do
 
   def list_grains do
     Ggg
-    |> Ecto.Query.limit(1000)
+    |> Ecto.Query.limit(3000)
     |> Ecto.Query.where([l], l.latest_price != "0")
     |> Ecto.Query.order_by(desc: :inserted_at)
     |> Gr.all()
@@ -29,7 +29,7 @@ defmodule Zz.Grains do
       "latest_price" ->
         Ggg
         |> Ecto.Query.where([l], l.latest_price != "0")
-        |> Ecto.Query.limit(1000)
+        |> Ecto.Query.limit(3000)
         |> Ecto.Query.order_by(desc: :inserted_at)
         |> Gr.all()
 
@@ -45,7 +45,7 @@ defmodule Zz.Grains do
       "year" ->
         Ggg
         |> Ecto.Query.where(year: ^x)
-        |> Ecto.Query.limit(1000)
+        |> Ecto.Query.limit(3000)
         # |> Ecto.Query.where([g], g.latest_price != "0")
         |> Ecto.Query.order_by(desc: :inserted_at)
         |> Gr.all()
@@ -55,7 +55,7 @@ defmodule Zz.Grains do
 
         Ggg
         |> Ecto.Query.where(address: ^xx)
-        |> Ecto.Query.limit(1000)
+        |> Ecto.Query.limit(3000)
         # |> Ecto.Query.where([g], g.latest_price != "0")
         |> Ecto.Query.order_by(desc: :inserted_at)
         |> Gr.all()
@@ -63,7 +63,7 @@ defmodule Zz.Grains do
       "variety" ->
         Ggg
         |> Ecto.Query.where(variety: ^x)
-        |> Ecto.Query.limit(1000)
+        |> Ecto.Query.limit(3000)
         # |> Ecto.Query.where([g], g.latest_price != "0")
         |> Ecto.Query.order_by(desc: :inserted_at)
         |> Gr.all()
