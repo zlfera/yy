@@ -23,9 +23,9 @@ var _hmt = _hmt || [];
   </head>
   <body style="background-image: url(/background_image.jpg)">
     <main role="main" class="container">
-      <div id="ali">
+      <!--<div id="ali">
         <a href="https://www.youmile.vip/index">点击进入长虹米厂官网</a>
-      </div>
+      </div>-->
       <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
       <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
       <%= render @view_module, @view_template, assigns %>
