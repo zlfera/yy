@@ -29,6 +29,7 @@ let g:NERDTreeIndicatorMapCustom = {
     \ 'Ignored'   : '☒',
     \ "Unknown"   : "?"
     \ }
+""Plug 'zxqfl/tabnine-vim'
 call plug#end()
 filetype plugin indent on
 colorscheme desert
