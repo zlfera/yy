@@ -1,5 +1,5 @@
 <div id='page'>
-<form action="https://www.dogedoge.com/results?q=" target="_blank">
+<form action="https://www.dogedoge.com/results" target="_blank">
     <table><tr><td>
         <input name="tn" type="hidden" value="baidu">
         <a href="http://www.baidu.com/"><img src="http://img.baidu.com/img/logo-80px.gif" alt="Baidu" align="bottom" border="0"></a>
