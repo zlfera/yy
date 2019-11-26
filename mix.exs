@@ -51,7 +51,8 @@ defmodule Zz.MixProject do
       {:timex, "~> 3.5.0"},
       {:new_relic_agent, "~> 1.0"},
       {:new_relic_phoenix, "~> 0.1"},
-      {:xlsxir, "~> 1.6"}
+      {:xlsxir, "~> 1.6"},
+      {:sentry, "~> 7.0"}
     ]
   end
 
