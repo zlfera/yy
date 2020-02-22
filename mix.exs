@@ -53,6 +53,7 @@ defmodule Zz.MixProject do
       {:new_relic_phoenix, "~> 0.1"},
       {:xlsxir, "~> 1.6"},
       {:sentry, "~> 7.0"}
+      # {:credo, "~> 1.2", only: [:dev, :test], runtime: false}
     ]
   end
 
