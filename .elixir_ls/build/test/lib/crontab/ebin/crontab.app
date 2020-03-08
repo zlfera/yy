@@ -10,4 +10,4 @@
                         'Elixir.Crontab.Scheduler',
                         'Elixir.Inspect.Crontab.CronExpression']},
               {registered,[]},
-              {vsn,"1.1.9"}]}.
+              {vsn,"1.1.10"}]}.

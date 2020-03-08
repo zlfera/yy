@@ -11,5 +11,5 @@
                         'Elixir.Sentry.Phoenix.Endpoint','Elixir.Sentry.Plug',
                         'Elixir.Sentry.Sources','Elixir.Sentry.Util']},
               {registered,[]},
-              {vsn,"7.2.2"},
+              {vsn,"7.2.3"},
               {mod,{'Elixir.Sentry',[]}}]}.
