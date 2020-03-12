@@ -53,7 +53,7 @@ defmodule Zz.TaskGrain do
         attr = %{
           market_name: "guojia",
           mark_number: d["REQUESTALIAS"],
-          year: "0",
+          year: d["prodDate"],
           variety: d["VARIETYNAME"],
           grade: d["GRADENAME"],
           trade_amount: to_string(d["NUM"]),
