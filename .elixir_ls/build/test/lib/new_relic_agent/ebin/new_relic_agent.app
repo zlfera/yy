@@ -82,5 +82,5 @@
                         'Elixir.NewRelic.Util.RequestStart',
                         'Elixir.NewRelic.Util.Vendor']},
               {registered,[]},
-              {vsn,"1.17.0"},
+              {vsn,"1.17.1"},
               {mod,{'Elixir.NewRelic.Application',[]}}]}.
