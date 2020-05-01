@@ -8,17 +8,17 @@
 * {
   box-sizing: border-box;
 }
-@font-face {
+/*@font-face {
   font-family: "myFont";
   src: url("https://www.youmile.vip/ziti.woff2") format("woff2");
-}
-body{
+}*/
+body {
   /*font-family: "myFont";*/
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
 }
-main{
+main {
   font-family: "myFont";
   opacity: 0.8;
   margin: 130px 20px 0 20px;
@@ -52,38 +52,38 @@ footer {
     }
   }
 }
-.qgg-table{
-    border-collapse: collapse;
-    width:100%;
-    border:1px solid #c6c6c6 !important;
-    margin-bottom:20px;
+.qgg-table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #c6c6c6 !important;
+  margin-bottom: 20px;
 }
-.qgg-table th{
-    border-collapse: collapse;
-    border-right:1px solid #c6c6c6 !important;
-    border-bottom:1px solid #c6c6c6 !important;
-    background-color:#ddeeff !important; 
-    padding:5px 9px;
-    font-size:14px;
-    font-weight:normal;
-    text-align:center;
+.qgg-table th {
+  border-collapse: collapse;
+  border-right: 1px solid #c6c6c6 !important;
+  border-bottom: 1px solid #c6c6c6 !important;
+  background-color: #ddeeff !important;
+  padding: 5px 9px;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
 }
-.qgg-table td{
-    border-collapse: collapse;
-    border-right:1px solid #c6c6c6 !important;
-    border-bottom:1px solid #c6c6c6 !important; 
-    padding:5px 9px;
-    font-size:12px;
-    font-weight:normal;
-    text-align:center;
-    word-break: break-all;
+.qgg-table td {
+  border-collapse: collapse;
+  border-right: 1px solid #c6c6c6 !important;
+  border-bottom: 1px solid #c6c6c6 !important;
+  padding: 5px 9px;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: center;
+  word-break: break-all;
 }
-.qgg-table tr:nth-child(odd){
-    background-color:#fff !important; 
+.qgg-table tr:nth-child(odd) {
+  background-color: #fff !important;
 }
-.qgg-table tr:nth-child(even){
-    background-color: #f8f8f8 !important;
-  }
+.qgg-table tr:nth-child(even) {
+  background-color: #f8f8f8 !important;
+}
 div form div {
   margin-bottom: 10px;
 }
