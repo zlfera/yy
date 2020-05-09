@@ -5,7 +5,7 @@
                              phoenix_html,plug_cowboy,phoenix,new_relic_agent,
                              new_relic_phoenix,sentry,phoenix_ecto]},
               {description,"zz"},
-              {modules,['Elixir.Inspect.Zz.Accounts.User',
+              {modules,['Elixir.E','Elixir.Inspect.Zz.Accounts.User',
                         'Elixir.Jason.Encoder.Zz.Grains.Grain',
                         'Elixir.Plugs.OnePlug','Elixir.Zz',
                         'Elixir.Zz.Accounts','Elixir.Zz.Accounts.User',

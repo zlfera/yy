@@ -70,6 +70,6 @@ config :phoenix, :plug_init_mode, :runtime
 config :zz, Zz.Repo,
   username: "postgres",
   password: "postgres",
-  database: "zz_dev",
+  database: "grain_dev",
   hostname: "localhost",
   pool_size: 10
