@@ -46,6 +46,6 @@
                         'Elixir.Plug.Upload','Elixir.Plug.UploadError',
                         plug_multipart]},
               {registered,[]},
-              {vsn,"1.10.0"},
+              {vsn,"1.10.1"},
               {mod,{'Elixir.Plug',[]}},
               {env,[{validate_header_keys_during_test,true}]}]}.

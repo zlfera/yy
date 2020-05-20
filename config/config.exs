@@ -29,8 +29,8 @@ config :phoenix, :json_library, Jason
 config :zz, Zz.Scheduler,
   jobs: [
     {"0 0-23/1 * * *", {Zz.GetImage, :n, []}},
-    {"0 4 * * *", {Zz.Task, :run, []}},
-    {"5 4 * * *", {Zz.Task, :year, []}},
+    {"0 11 * * *", {Zz.Task, :run, []}},
+    # {"5 4 * * *", {Zz.Task, :year, []}},
     {"0 1 * * *", {Zz.Task, :phone, []}}
   ]
 

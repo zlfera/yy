@@ -4,7 +4,7 @@ defmodule Zz.Task do
   import Ecto.Query
 
   def run() do
-    {:ok, _} = Application.ensure_all_started(:zz)
+    # {:ok, _} = Application.ensure_all_started(:zz)
 
     u1(b())
   end
@@ -13,12 +13,14 @@ defmodule Zz.Task do
     url = "www.ex-grain.cn/jrjj.htm"
     body = HTTPoison.get!(url).body
     urls = Floki.find(body, "table tr td a.new_jrjy") |> Floki.attribute("href")
+    IO.inspect(urls)
 
     if !Enum.empty?(urls) do
       l =
         for url <- urls do
           url = "http://www.ex-grain.cn/#{url}"
           body = HTTPoison.get!(url, recv_timeout: 1000).body
+
           tr = Floki.find(body, "table.MsoNormalTable tbody tr")
 
           l =
@@ -43,8 +45,8 @@ defmodule Zz.Task do
 
       z =
         Zz.Grains.Grain
-        |> Ecto.Query.limit(100)
-        |> Ecto.Query.order_by(desc: :inserted_at)
+        |> limit(100)
+        |> order_by(desc: :inserted_at)
         |> Zz.Repo.all()
 
       {:ok, pid} = Agent.start_link(fn -> [] end)
