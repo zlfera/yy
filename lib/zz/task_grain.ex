@@ -11,26 +11,28 @@ defmodule Zz.TaskGrain do
     options = [params: [specialNo: dqqq]]
     {o, url} = HTTPoison.post(uuu, "", headers, options)
 
-    page_no =
-      if o == :ok do
-        ceil(Jason.decode!(url.body)["total"] / 10)
-      else
-        a(dqqq, yy)
-      end
-
-    Enum.each(1..page_no, fn i ->
-      options = [params: [specialNo: dqqq, pageNo: i, pageSize: 10]]
-      {o, url} = HTTPoison.post(uu, "", headers, options)
-
-      dd =
+    if Jason.decode!(url.body)["total"] != nil do
+      page_no =
         if o == :ok do
-          url.body |> Jason.decode!()
+          ceil(Jason.decode!(url.body)["total"] / 10)
         else
           a(dqqq, yy)
         end
 
-      grain(dd, yy)
-    end)
+      Enum.each(1..page_no, fn i ->
+        options = [params: [specialNo: dqqq, pageNo: i, pageSize: 10]]
+        {o, url} = HTTPoison.post(uu, "", headers, options)
+
+        dd =
+          if o == :ok do
+            url.body |> Jason.decode!()
+          else
+            a(dqqq, yy)
+          end
+
+        grain(dd, yy)
+      end)
+    end
   end
 
   def grain(dd, yy) do
