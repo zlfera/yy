@@ -8,15 +8,6 @@ defmodule Zz.Accounts do
 
   alias Zz.Accounts.User
 
-  @doc """
-  Returns the list of users.
-
-  ## Examples
-
-      iex> list_users()
-      [%User{}, ...]
-
-  """
   def list_users do
     User |> Ecto.Query.order_by(desc: :inserted_at) |> Repo.all()
   end
