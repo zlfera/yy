@@ -34,8 +34,8 @@ defmodule Zz.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
-      {:phoenix, "~> 1.4.1"},
-      {:phoenix_pubsub, "~> 1.1"},
+      {:phoenix, "~> 1.5.1"},
+      {:phoenix_pubsub, "~> 2.0"},
       {:phoenix_ecto, "~> 4.0"},
       {:ecto_sql, "~> 3.3"},
       {:postgrex, ">= 0.0.0"},
