@@ -49,8 +49,8 @@ defmodule Zz.MixProject do
       {:floki, "~> 0.20.4"},
       {:quantum, "~> 2.3"},
       {:timex, "~> 3.5.0"},
-      {:new_relic_agent, "~> 1.0"},
-      {:new_relic_phoenix, "~> 0.1"},
+      # {:new_relic_agent, "~> 1.0"},
+      # {:new_relic_phoenix, "~> 0.1"},
       {:xlsxir, "~> 1.6"},
       {:sentry, "~> 7.0"}
       # {:credo, "~> 1.2", only: [:dev, :test], runtime: false}
