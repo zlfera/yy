@@ -1,6 +1,6 @@
 defmodule ZzWeb.Endpoint do
   use Phoenix.Endpoint, otp_app: :zz
-  use NewRelic.Phoenix.Transaction
+  # use NewRelic.Phoenix.Transaction
 
   socket("/socket", ZzWeb.UserSocket,
     websocket: true,
