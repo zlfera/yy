@@ -16,7 +16,9 @@ config :zz, ZzWeb.Endpoint,
   url: [host: "localhost"],
   secret_key_base: "J3PfB9f7whrKsDM8Ohitdj2zrdfaqseVW5wPxA24Dx2wJZ6T6sUH68Va5N0MDjSh",
   render_errors: [view: ZzWeb.ErrorView, accepts: ~w(html json)],
-  pubsub: [name: Zz.PubSub, adapter: Phoenix.PubSub.PG2]
+  # pubsub_server: [name: Zz.PubSub, adapter: Phoenix.PubSub.PG2]
+  pubsub_server: Zz.PubSub,
+  live_view: [signing_salt: "wTpJJ7JP"]
 
 # Configures Elixir's Logger
 config :logger, :console,
