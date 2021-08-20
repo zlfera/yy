@@ -10,6 +10,7 @@ defmodule Zz.Application do
     children = [
       # Start the Ecto repository
       Zz.Repo,
+      {Phoenix.PubSub, name: Zz.PubSub},
       # Start the endpoint when the application starts
       ZzWeb.Endpoint,
       Zz.Scheduler
