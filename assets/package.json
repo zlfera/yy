@@ -16,12 +16,12 @@
     "precss": "*"
   },
   "devDependencies": {
-    "@babel/core": "7.15.0",
-    "@babel/preset-env": "7.15.0",
+    "@babel/core": "*",
+    "@babel/preset-env": "*",
     "babel-loader": "*",
     "copy-webpack-plugin": "*",
-    "css-loader": "6.2.0",
-    "mini-css-extract-plugin": "2.2.0",
+    "css-loader": "*",
+    "mini-css-extract-plugin": "*",
     "optimize-css-assets-webpack-plugin": "*",
     "uglifyjs-webpack-plugin": "*",
     "webpack": "5.51.1",
