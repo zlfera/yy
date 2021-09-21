@@ -10,10 +10,10 @@
     "normalize.css": "*",
     "phoenix": "file:../deps/phoenix",
     "phoenix_html": "file:../deps/phoenix_html",
-    "postcss-import": "*",
-    "postcss-loader": "*",
-    "postcss-plugin": "*",
-    "precss": "*"
+    "postcss-import": "12.0.1",
+    "postcss-loader": "5.2.0",
+    "postcss-plugin": "1.0.0",
+    "precss": "4.0.0"
   },
   "devDependencies": {
     "@babel/core": "7.5.4",
