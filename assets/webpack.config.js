@@ -44,6 +44,7 @@ module.exports = (env, options) => ({
       patterns: 
       [
         { from: 'static/', to: '../' },
-      ],}),
-  ]
+      ],
+    }),
+  ],
 });
