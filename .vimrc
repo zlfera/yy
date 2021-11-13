@@ -16,9 +16,10 @@ function! s:check_back_space() abort
   let col = col('.') - 1
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
-let g:coc_snippet_next = '<TAB>'
+"let g:coc_snippet_next = '<TAB>'
 "autocmd BufWritePre *.go :call CocAction('runCommand', 'editor.action.organizeImport')
 Plug 'mattn/emmet-vim'
+command! -nargs=0 Prettier :CocCommand prettier.formatFile
 let g:user_emmet_leader_key='<space>'
 Plug 'scrooloose/nerdtree'
 Plug 'vim-airline/vim-airline'
@@ -27,11 +28,12 @@ Plug 'elixir-editors/vim-elixir'
 Plug 'mhinz/vim-mix-format'
 let g:mix_format_silent_errors = 1
 "Plug 'fatih/vim-go'
-Plug 'honza/vim-snippets'
+"Plug 'honza/vim-snippets'
+"Plug 'codota/tabnine-vim'
 set autowrite
 let g:mix_format_on_save = 1
 Plug 'Xuyuanp/nerdtree-git-plugin'
-let g:NERDTreeIndicatorMapCustom = {
+let g:NERDTreeGitStatusIndicatorMapCustom = {
     \ "Modified"  : "✹",
     \ "Staged"    : "✚",
     \ "Untracked" : "✭",
@@ -44,6 +46,7 @@ let g:NERDTreeIndicatorMapCustom = {
     \ "Unknown"   : "?"
     \ }
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'elixir-lsp/coc-elixir', {'do': 'yarn install && yarn prepack'}
 call plug#end()
 filetype plugin indent on
 colorscheme dracula
@@ -70,5 +73,4 @@ inoremap [ []<ESC>i
 inoremap { {}<ESC>i
 inoremap ' ''<ESC>i
 inoremap " ""<ESC>i
-
-"inoremap < <><ESC>i
+inoremap / /<ESC>i
